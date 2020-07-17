@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * hello_learning_view
+ *
+ * @copyright Copyright © 2020 MAGETOP. All rights reserved.
+ * @author    info@magetop.com
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="SecommTraining_Secomm::css/styleTable.css"/>
+        <css src="SecommTraining_Secomm::css/bootstrap.css"/>
+        <css src="SecommTraining_Secomm::css/bootstrap-grid.css"/>
+        <css src="SecommTraining_Secomm::css/bootstrap-reboot.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="SecommTraining\Secomm\Block\Contentlist" name="secomm_posts_content" template="SecommTraining_Secomm::contents.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

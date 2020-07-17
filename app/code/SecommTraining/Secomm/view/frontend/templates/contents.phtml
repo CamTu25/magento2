@@ -1,0 +1,28 @@
+<?php
+/** @var  \SecommTraining\Secomm\Block\Contentlist $block */
+$posts = $block->GetContent();
+?>
+
+<div class="container">
+    <div class="row">
+        <?php
+        foreach ($posts as $data): ?>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div>
+                    <h1><?= $data->getTitle()?></h1>
+                </div>
+                <div>
+                    <img class="img-fluid img-thumbnail" width="300px" src="<?= $block->getImagePath() . $data->getFeatureImage() ?>"/>
+                </div>
+                <div>
+                    <h2><?= $data->getContent() ?></h2>
+                </div>
+                <div>
+                    <?= $data->getUpdate_at() ?>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
+
+
