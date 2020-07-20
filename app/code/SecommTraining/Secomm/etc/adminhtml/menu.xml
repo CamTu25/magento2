@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="SecommTraining_Secomm::menu_title" title="Secomm" module="SecommTraining_Secomm" sortOrder="20" resource="SecommTraining_Secomm::title_menu" />
+        <add id="SecommTraining_Secomm::checkout_newsletter" title="Checkout Newsletter" module="SecommTraining_Secomm" sortOrder="1" parent="SecommTraining_Secomm::menu_title" action="hellomenu/posts/index" resource="SecommTraining_Secomm::checkout_newsletter" />
+        <add id="SecommTraining_Secomm::config" title="Configuration" module="SecommTraining_Secomm" sortOrder="2" parent="SecommTraining_Secomm::menu_title" action="adminhtml/system_config/edit/section/helloworld" resource="SecommTraining_Secomm::configuration"/>
+        <add id="SecommTraining_Secomm::module_blog" title="Blog Post" module="SecommTraining_Secomm" sortOrder="3" parent="SecommTraining_Secomm::menu_title" action="secommmenu/secommblog/index" resource="SecommTraining_Secomm::blog_post"/>
+    </menu>
+</config>
