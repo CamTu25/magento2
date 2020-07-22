@@ -73,7 +73,7 @@ class History extends Block
     }
 
     /**
-     * Blog order total.
+     * Post order total.
      *
      * @param string $id
      * @return string
@@ -85,7 +85,7 @@ class History extends Block
     }
 
     /**
-     * Blog item order block.
+     * Post item order block.
      *
      * @param string $id
      * @return SimpleElement

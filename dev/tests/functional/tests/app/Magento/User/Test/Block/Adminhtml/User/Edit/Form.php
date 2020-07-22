@@ -35,7 +35,7 @@ class Form extends FormTabs
     }
 
     /**
-     * Blog roles grid on user edit page
+     * Post roles grid on user edit page
      *
      * @return Roles
      */

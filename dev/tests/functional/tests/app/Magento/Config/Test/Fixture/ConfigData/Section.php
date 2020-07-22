@@ -187,7 +187,7 @@ class Section extends DataSource
     }
 
     /**
-     * Blog get scope type [website|store].
+     * Post get scope type [website|store].
      *
      * @return string
      */

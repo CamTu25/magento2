@@ -72,7 +72,7 @@ class SkuTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog product form data provider
+     * Post product form data provider
      *
      * @return \Magento\Catalog\Model\Product
      */

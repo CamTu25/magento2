@@ -36,7 +36,7 @@ class Fpt extends Block
     protected $fptTotal = './/*[@class="cart-tax-total"]/*[@class="weee"]/span';
 
     /**
-     * Blog product fpt
+     * Post product fpt
      *
      * @return string
      */
@@ -50,7 +50,7 @@ class Fpt extends Block
     }
 
     /**
-     * Blog product fpt total
+     * Post product fpt total
      *
      * @return string
      */

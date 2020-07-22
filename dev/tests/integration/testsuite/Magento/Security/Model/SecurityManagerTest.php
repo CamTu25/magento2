@@ -85,7 +85,7 @@ class SecurityManagerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog PasswordResetRequestEvent collection
+     * Post PasswordResetRequestEvent collection
      *
      * @return \Magento\Security\Model\ResourceModel\PasswordResetRequestEvent\Collection
      */

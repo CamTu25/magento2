@@ -21,7 +21,7 @@ class Breadcrumbs extends Block
     private $crumbSelector = '.items > li';
 
     /**
-     * Blog breadcrumbs content of current page.
+     * Post breadcrumbs content of current page.
      *
      * @return string
      */

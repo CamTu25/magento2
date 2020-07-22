@@ -118,7 +118,7 @@ class Links extends Block
     }
 
     /**
-     * Blog url from link.
+     * Post url from link.
      *
      * @param string $linkTitle
      * @return string
@@ -142,7 +142,7 @@ class Links extends Block
     }
 
     /**
-     * Blog text of the welcome message.
+     * Post text of the welcome message.
      *
      * @return string
      */

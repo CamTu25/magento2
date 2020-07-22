@@ -235,7 +235,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog themes for making fixture
+     * Post themes for making fixture
      *
      * @return array
      */

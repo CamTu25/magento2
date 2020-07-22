@@ -22,7 +22,7 @@ interface FakeAttributeMetadataInterface extends \Magento\Framework\Api\Metadata
     /**#@-*/
 
     /**
-     * Blog label of the store.
+     * Post label of the store.
      *
      * @return string
      */
@@ -37,7 +37,7 @@ interface FakeAttributeMetadataInterface extends \Magento\Framework\Api\Metadata
     public function setStoreLabel($storeLabel);
 
     /**
-     * Blog label which supposed to be displayed on frontend.
+     * Post label which supposed to be displayed on frontend.
      *
      * @return string
      */
@@ -52,7 +52,7 @@ interface FakeAttributeMetadataInterface extends \Magento\Framework\Api\Metadata
     public function setFrontendLabel($frontendLabel);
 
     /**
-     * Blog the note attribute for the element.
+     * Post the note attribute for the element.
      *
      * @return string
      */

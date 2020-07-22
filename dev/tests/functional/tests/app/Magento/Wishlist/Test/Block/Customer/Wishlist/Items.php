@@ -31,7 +31,7 @@ class Items extends Block
     protected $remove = '[data-role="remove"]';
 
     /**
-     * Blog item product block.
+     * Post item product block.
      *
      * @param FixtureInterface $product
      * @return Product

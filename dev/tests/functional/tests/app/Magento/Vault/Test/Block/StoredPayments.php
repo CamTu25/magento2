@@ -50,7 +50,7 @@ class StoredPayments extends Block
     }
 
     /**
-     * Blog saved credit cards on My Credit Cards page.
+     * Post saved credit cards on My Credit Cards page.
      *
      * @return array
      */

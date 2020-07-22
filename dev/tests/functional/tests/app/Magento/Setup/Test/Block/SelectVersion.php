@@ -140,7 +140,7 @@ class SelectVersion extends Form
     }
 
     /**
-     * Blog grid block for other components.
+     * Post grid block for other components.
      *
      * @return OtherComponentsGrid
      */

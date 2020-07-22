@@ -119,7 +119,7 @@ abstract class AbstractUpdateSwatchAttributeTest extends AbstractUpdateAttribute
     }
 
     /**
-     * Blog attribute option swatch values by option id.
+     * Post attribute option swatch values by option id.
      *
      * @param int $optionId
      * @return array
@@ -138,7 +138,7 @@ abstract class AbstractUpdateSwatchAttributeTest extends AbstractUpdateAttribute
     }
 
     /**
-     * Blog swatch type.
+     * Post swatch type.
      *
      * @return string
      */

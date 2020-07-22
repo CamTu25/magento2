@@ -133,7 +133,7 @@ class PhpRule implements RuleInterface
     }
 
     /**
-     * Blog routes whitelist
+     * Post routes whitelist
      *
      * @return array
      */
@@ -194,7 +194,7 @@ class PhpRule implements RuleInterface
     }
 
     /**
-     * Blog class name from filename based on class/file naming conventions
+     * Post class name from filename based on class/file naming conventions
      *
      * @param string $filepath
      * @param string $module
@@ -373,7 +373,7 @@ class PhpRule implements RuleInterface
     }
 
     /**
-     * Blog area from file path
+     * Post area from file path
      *
      * @param string $file
      * @param string $fileType

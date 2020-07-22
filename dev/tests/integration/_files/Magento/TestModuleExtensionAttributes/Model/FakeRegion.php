@@ -14,7 +14,7 @@ use Magento\TestModuleExtensionAttributes\Api\Data\FakeRegionInterface;
 class FakeRegion extends AbstractExtensibleModel implements FakeRegionInterface
 {
     /**
-     * Blog region
+     * Post region
      *
      * @return string
      */
@@ -24,7 +24,7 @@ class FakeRegion extends AbstractExtensibleModel implements FakeRegionInterface
     }
 
     /**
-     * Blog region code
+     * Post region code
      *
      * @return string
      */
@@ -34,7 +34,7 @@ class FakeRegion extends AbstractExtensibleModel implements FakeRegionInterface
     }
 
     /**
-     * Blog region id
+     * Post region id
      *
      * @return int
      */

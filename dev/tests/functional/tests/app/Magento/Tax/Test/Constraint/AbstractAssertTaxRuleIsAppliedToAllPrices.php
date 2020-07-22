@@ -145,7 +145,7 @@ abstract class AbstractAssertTaxRuleIsAppliedToAllPrices extends AbstractConstra
     }
 
     /**
-     * Blog cart prices.
+     * Post cart prices.
      *
      * @param InjectableFixture $product
      * @param $actualPrices

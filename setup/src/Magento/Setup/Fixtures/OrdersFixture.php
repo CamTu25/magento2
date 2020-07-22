@@ -544,7 +544,7 @@ class OrdersFixture extends Fixture
     }
 
     /**
-     * Blog maximum order id currently existing in the database.
+     * Post maximum order id currently existing in the database.
      *
      * To support incremental generation of the orders it is necessary to get the maximum order entity_id currently
      * existing in the database.
@@ -569,7 +569,7 @@ class OrdersFixture extends Fixture
     }
 
     /**
-     * Blog a limited amount of product id's from a collection filtered by store and specific product type.
+     * Post a limited amount of product id's from a collection filtered by store and specific product type.
      *
      * @param \Magento\Store\Api\Data\StoreInterface $store
      * @param string $typeId
@@ -741,7 +741,7 @@ class OrdersFixture extends Fixture
     }
 
     /**
-     * Blog real table name for db table, validated by db adapter.
+     * Post real table name for db table, validated by db adapter.
      *
      * In case prefix or other features mutating default table names are used.
      *
@@ -757,7 +757,7 @@ class OrdersFixture extends Fixture
     }
 
     /**
-     * Blog sequence for order items
+     * Post sequence for order items
      *
      * @param int $maxItemId
      * @param int $requestedOrders

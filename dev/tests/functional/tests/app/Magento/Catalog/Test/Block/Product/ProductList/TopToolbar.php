@@ -29,7 +29,7 @@ class TopToolbar extends Block
     private $direction = '[data-role="direction-switcher"]';
 
     /**
-     * Blog method of sorting product.
+     * Post method of sorting product.
      *
      * @return array|string
      */
@@ -41,7 +41,7 @@ class TopToolbar extends Block
     }
 
     /**
-     * Blog all available method of sorting product.
+     * Post all available method of sorting product.
      *
      * @return array
      */

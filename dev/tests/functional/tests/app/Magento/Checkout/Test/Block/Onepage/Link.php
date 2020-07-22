@@ -26,7 +26,7 @@ class Link extends Block
     }
 
     /**
-     * Blog title of Proceed to Checkout link
+     * Post title of Proceed to Checkout link
      *
      * @return string
      */

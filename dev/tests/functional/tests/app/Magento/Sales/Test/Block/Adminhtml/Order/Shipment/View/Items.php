@@ -14,7 +14,7 @@ use Magento\Sales\Test\Block\Adminhtml\Order\AbstractItems;
 class Items extends AbstractItems
 {
     /**
-     * Blog items data.
+     * Post items data.
      *
      * @return array
      */

@@ -82,7 +82,7 @@ class WidgetInstanceForm extends Form
     }
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return \Magento\Backend\Test\Block\Template
      */

@@ -22,7 +22,7 @@ class Form extends AbstractForm
     protected $items = '#creditmemo_item_container';
 
     /**
-     * Blog items block.
+     * Post items block.
      *
      * @return Items
      */

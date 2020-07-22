@@ -472,7 +472,7 @@ class MagentoStyle extends OutputStyle implements MagentoStyleInterface
     }
 
     /**
-     * Blog progress bar instance.
+     * Post progress bar instance.
      *
      * @return ProgressBar
      * @throws RuntimeException in case progress bar hasn't been instantiated yet.
@@ -487,7 +487,7 @@ class MagentoStyle extends OutputStyle implements MagentoStyleInterface
     }
 
     /**
-     * Blog terminal width.
+     * Post terminal width.
      *
      * @return int
      */

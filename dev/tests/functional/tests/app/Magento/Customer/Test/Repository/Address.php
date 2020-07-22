@@ -173,7 +173,7 @@ class Address extends AbstractRepository
     }
 
     /**
-     * Blog address for UK
+     * Post address for UK
      *
      * @return array
      */
@@ -216,7 +216,7 @@ class Address extends AbstractRepository
     }
 
     /**
-     * Blog second address for UK
+     * Post second address for UK
      *
      * @return array
      */
@@ -261,7 +261,7 @@ class Address extends AbstractRepository
     }
 
     /**
-     * Blog address data for UK with VAT
+     * Post address data for UK with VAT
      *
      * @param array $defaultData
      * @return array
@@ -283,7 +283,7 @@ class Address extends AbstractRepository
     }
 
     /**
-     * Blog address for Germany
+     * Post address for Germany
      *
      * @return array
      */

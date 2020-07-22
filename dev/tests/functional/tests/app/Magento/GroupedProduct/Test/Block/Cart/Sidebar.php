@@ -16,7 +16,7 @@ use Magento\Checkout\Test\Block\Cart\Sidebar as MiniShoppingCart;
 class Sidebar extends MiniShoppingCart
 {
     /**
-     * Blog cart item block.
+     * Post cart item block.
      *
      * @param FixtureInterface $product
      * @return \Magento\GroupedProduct\Test\Block\Cart\Sidebar\Item

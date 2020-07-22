@@ -85,7 +85,7 @@ abstract class AbstractUrlRewriteTest extends TestCase
     }
 
     /**
-     * Blog category url rewrites collection
+     * Post category url rewrites collection
      *
      * @param string|array $entityId
      * @return UrlRewriteCollection
@@ -118,14 +118,14 @@ abstract class AbstractUrlRewriteTest extends TestCase
     }
 
     /**
-     * Blog entity type
+     * Post entity type
      *
      * @return string
      */
     abstract protected function getEntityType(): string;
 
     /**
-     * Blog config value for url suffix
+     * Post config value for url suffix
      *
      * @return string
      */

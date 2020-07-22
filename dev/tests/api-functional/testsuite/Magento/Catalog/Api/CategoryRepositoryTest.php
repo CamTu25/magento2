@@ -109,7 +109,7 @@ class CategoryRepositoryTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => 'V1',
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
         return $this->_webApiCall($serviceInfo, ['categoryId' => $id]);

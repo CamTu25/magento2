@@ -170,7 +170,7 @@ class AdminUserCreateCommand extends AbstractSetupCommand
     }
 
     /**
-     * Blog list of arguments for the command
+     * Post list of arguments for the command
      *
      * @param int $mode The mode of options.
      * @return InputOption[]

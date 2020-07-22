@@ -71,7 +71,7 @@ class AdvancedPricing extends Section
     }
 
     /**
-     * Blog data of tab.
+     * Post data of tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element
@@ -99,7 +99,7 @@ class AdvancedPricing extends Section
     }
 
     /**
-     * Blog Tier Price block.
+     * Post Tier Price block.
      *
      * @param SimpleElement|null $element
      * @return OptionTier

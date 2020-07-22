@@ -386,7 +386,7 @@ class CategoryUrlRewriteTest extends AbstractUrlRewriteTest
     }
 
     /**
-     * Blog products url rewrites collection referred to categories
+     * Post products url rewrites collection referred to categories
      *
      * @param string|array $categoryId
      * @return UrlRewriteCollection

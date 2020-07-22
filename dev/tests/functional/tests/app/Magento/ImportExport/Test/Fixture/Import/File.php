@@ -155,7 +155,7 @@ class File extends DataSource
     }
 
     /**
-     * Blog entities fixtures.
+     * Post entities fixtures.
      *
      * @return FixtureInterface[]
      */
@@ -165,7 +165,7 @@ class File extends DataSource
     }
 
     /**
-     * Blog fixture data.
+     * Post fixture data.
      *
      * @return array|null
      */

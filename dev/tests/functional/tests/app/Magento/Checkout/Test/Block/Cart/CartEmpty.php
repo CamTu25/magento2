@@ -29,7 +29,7 @@ class CartEmpty extends Block
     private $messageText = 'p';
 
     /**
-     * Blog test for empty cart.
+     * Post test for empty cart.
      *
      * @return string
      */

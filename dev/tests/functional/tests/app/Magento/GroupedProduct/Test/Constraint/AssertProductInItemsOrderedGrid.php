@@ -30,7 +30,7 @@ class AssertProductInItemsOrderedGrid extends \Magento\Sales\Test\Constraint\Ass
     }
 
     /**
-     * Blog product options details.
+     * Post product options details.
      *
      * @param \Magento\Mtf\Fixture\FixtureInterface $product
      * @return array

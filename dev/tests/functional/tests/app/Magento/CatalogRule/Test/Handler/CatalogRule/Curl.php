@@ -147,7 +147,7 @@ class Curl extends Conditions implements CatalogRuleInterface
     }
 
     /**
-     * Blog id after creating Category Price Rule
+     * Post id after creating Category Price Rule
      *
      * @param array $data
      * @return mixed

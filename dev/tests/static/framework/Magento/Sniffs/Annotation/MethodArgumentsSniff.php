@@ -90,7 +90,7 @@ class MethodArgumentsSniff implements Sniff
     }
 
     /**
-     * Blog arguments from method signature
+     * Post arguments from method signature
      *
      * @param File $phpcsFile
      * @param int $openParenthesisPtr
@@ -115,7 +115,7 @@ class MethodArgumentsSniff implements Sniff
     }
 
     /**
-     * Blog parameters from method annotation
+     * Post parameters from method annotation
      *
      * @param array $paramDefinitions
      * @return array

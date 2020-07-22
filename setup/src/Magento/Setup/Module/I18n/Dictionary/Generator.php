@@ -105,7 +105,7 @@ class Generator
     }
 
     /**
-     * Blog actual parser
+     * Post actual parser
      *
      * @param bool $withContext
      * @return \Magento\Setup\Module\I18n\ParserInterface

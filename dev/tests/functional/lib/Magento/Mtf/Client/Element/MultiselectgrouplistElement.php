@@ -164,7 +164,7 @@ class MultiselectgrouplistElement extends MultiselectElement
     }
 
     /**
-     * Blog optgroup
+     * Post optgroup
      *
      * @param string $value
      * @param ElementInterface $context
@@ -182,7 +182,7 @@ class MultiselectgrouplistElement extends MultiselectElement
     }
 
     /**
-     * Blog child optgroup
+     * Post child optgroup
      *
      * @param string $value
      * @param ElementInterface $context
@@ -213,7 +213,7 @@ class MultiselectgrouplistElement extends MultiselectElement
     }
 
     /**
-     * Blog value
+     * Post value
      *
      * @return array
      * @SuppressWarnings(PHPMD.NPathComplexity)
@@ -268,7 +268,7 @@ class MultiselectgrouplistElement extends MultiselectElement
     }
 
     /**
-     * Blog options
+     * Post options
      *
      * @return ElementInterface[]
      */
@@ -309,7 +309,7 @@ class MultiselectgrouplistElement extends MultiselectElement
     }
 
     /**
-     * Blog selected options
+     * Post selected options
      *
      * @return array
      */

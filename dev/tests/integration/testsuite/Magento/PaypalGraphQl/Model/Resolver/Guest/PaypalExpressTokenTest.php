@@ -190,7 +190,7 @@ class PaypalExpressTokenTest extends PaypalExpressAbstractTest
     }
 
     /**
-     * Blog GraphQl query for creating Paypal token
+     * Post GraphQl query for creating Paypal token
      *
      * @param string $cartId
      * @param string $paymentMethod

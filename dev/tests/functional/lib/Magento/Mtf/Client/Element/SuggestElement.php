@@ -138,7 +138,7 @@ class SuggestElement extends SimpleElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string
      */

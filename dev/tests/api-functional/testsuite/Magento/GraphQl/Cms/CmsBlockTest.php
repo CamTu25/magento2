@@ -14,7 +14,7 @@ use Magento\TestFramework\TestCase\GraphQlAbstract;
 use Magento\Widget\Model\Template\FilterEmulate;
 
 /**
- * Blog CMS Block test
+ * Post CMS Block test
  */
 class CmsBlockTest extends GraphQlAbstract
 {

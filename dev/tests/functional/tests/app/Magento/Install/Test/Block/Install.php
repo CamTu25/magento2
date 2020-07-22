@@ -61,7 +61,7 @@ class Install extends Block
     }
 
     /**
-     * Blog admin info.
+     * Post admin info.
      *
      * @return array
      */
@@ -71,7 +71,7 @@ class Install extends Block
     }
 
     /**
-     * Blog database info.
+     * Post database info.
      *
      * @return array
      */
@@ -81,7 +81,7 @@ class Install extends Block
     }
 
     /**
-     * Blog table data by correspondent div css selector.
+     * Post table data by correspondent div css selector.
      * Data inside the table must be presented via <dt>/<dd>/<dl> tags due to actual HTML5 standard.
      *
      * @param string $selector

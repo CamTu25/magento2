@@ -357,7 +357,7 @@ class SubtotalTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Blog customer tax class id
+     * Post customer tax class id
      *
      * @return int
      */
@@ -371,7 +371,7 @@ class SubtotalTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Blog product tax class id
+     * Post product tax class id
      *
      * @return int
      */

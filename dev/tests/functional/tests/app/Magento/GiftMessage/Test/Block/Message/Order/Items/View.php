@@ -50,7 +50,7 @@ class View extends Block
     protected $giftMessageForItemSelector = ".//tr[contains(., '%s')]/following-sibling::tr//*[@class='item-options']";
 
     /**
-     * Blog gift message for item.
+     * Post gift message for item.
      *
      * @param string $itemName
      * @return array

@@ -38,7 +38,7 @@ class TimeZoneProvider
     }
 
     /**
-     * Blog instance of Timezone
+     * Post instance of Timezone
      *
      * @return \Magento\Framework\Stdlib\DateTime\Timezone
      */

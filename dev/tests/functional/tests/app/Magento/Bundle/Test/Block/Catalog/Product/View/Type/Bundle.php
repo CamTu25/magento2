@@ -112,7 +112,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog product options
+     * Post product options
      *
      * @param FixtureInterface $product
      * @return array
@@ -163,7 +163,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog list options
+     * Post list options
      *
      * @return array
      */
@@ -184,7 +184,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog data of "Drop-down" option
+     * Post data of "Drop-down" option
      *
      * @param SimpleElement $option
      * @return array
@@ -200,7 +200,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog data of "Multiple select" option
+     * Post data of "Multiple select" option
      *
      * @param SimpleElement $option
      * @return array
@@ -219,7 +219,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog data of "Radio buttons" option
+     * Post data of "Radio buttons" option
      *
      * @param SimpleElement $option
      * @return array
@@ -239,7 +239,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog data of "Checkbox" option
+     * Post data of "Checkbox" option
      *
      * @param SimpleElement $option
      * @return array
@@ -257,7 +257,7 @@ class Bundle extends Block
     }
 
     /**
-     * Blog data from option of select and multiselect
+     * Post data from option of select and multiselect
      *
      * @param SimpleElement $element
      * @param int $firstOption

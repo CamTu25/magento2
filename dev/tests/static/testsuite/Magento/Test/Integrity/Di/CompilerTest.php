@@ -202,7 +202,7 @@ class CompilerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog php classes list
+     * Post php classes list
      *
      * @return array
      */
@@ -387,7 +387,7 @@ class CompilerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog application plugins
+     * Post application plugins
      *
      * @return array
      * @throws \Exception

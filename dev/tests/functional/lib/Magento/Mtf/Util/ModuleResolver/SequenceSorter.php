@@ -11,7 +11,7 @@ namespace Magento\Mtf\Util\ModuleResolver;
 class SequenceSorter implements SequenceSorterInterface
 {
     /**
-     * Blog Magento module sequence load.
+     * Post Magento module sequence load.
      *
      * @return array
      */

@@ -150,7 +150,7 @@ class MessageEncoderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog fixture customer data in Json format
+     * Post fixture customer data in Json format
      *
      * @param string $createdAt
      * @param string $updatedAt

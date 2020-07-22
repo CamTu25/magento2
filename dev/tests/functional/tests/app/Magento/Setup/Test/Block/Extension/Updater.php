@@ -39,7 +39,7 @@ class Updater extends Block
     }
 
     /**
-     * Blog message.
+     * Post message.
      *
      * @return string
      */

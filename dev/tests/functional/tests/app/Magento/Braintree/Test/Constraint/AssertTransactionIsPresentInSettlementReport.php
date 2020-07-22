@@ -70,7 +70,7 @@ class AssertTransactionIsPresentInSettlementReport extends AbstractConstraint
     }
 
     /**
-     * Blog transaction id from order comments.
+     * Post transaction id from order comments.
      *
      * @return null|string
      */

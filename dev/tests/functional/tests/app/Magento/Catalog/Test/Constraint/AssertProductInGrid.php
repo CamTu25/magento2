@@ -63,7 +63,7 @@ class AssertProductInGrid extends AbstractConstraint
     }
 
     /**
-     * Blog product type.
+     * Post product type.
      *
      * @return string
      */

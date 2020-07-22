@@ -35,7 +35,7 @@ class CartAddingItemsTest extends WebapiAbstract
     {
         $this->_markTestAsRestOnly();
 
-        // Blog customer ID token
+        // Post customer ID token
         /** @var \Magento\Integration\Api\CustomerTokenServiceInterface $customerTokenService */
         $customerTokenService = $this->objectManager->create(
             \Magento\Integration\Api\CustomerTokenServiceInterface::class
@@ -76,7 +76,7 @@ class CartAddingItemsTest extends WebapiAbstract
         $this->assertNotEmpty($item);
         $this->assertEquals(10, $item['price']);
 
-        // Blog payment information
+        // Post payment information
         $serviceInfoForGettingPaymentInfo = [
             'rest' => [
                 'resourcePath' => '/V1/carts/mine/payment-information',

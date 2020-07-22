@@ -12,7 +12,9 @@ $posts = $block->GetContent();
                     <h1><?= $data->getTitle()?></h1>
                 </div>
                 <div>
-                    <img class="img-fluid img-thumbnail" width="300px" src="<?= $block->getImagePath() . $data->getFeatureImage() ?>"/>
+                    <a href="/secomm/details/detail/?id=<?= $data->getId() ?>">
+                        <img class="img-fluid img-thumbnail" width="300px" src="<?= $block->getImagePath() . $data->getFeatureImage() ?>"/>
+                    </a>
                 </div>
                 <div>
                     <h2><?= $data->getContent() ?></h2>

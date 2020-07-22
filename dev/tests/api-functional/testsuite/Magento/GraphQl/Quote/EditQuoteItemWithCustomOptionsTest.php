@@ -141,7 +141,7 @@ QUERY;
         $sku = 'simple_product';
         $quoteItemId = $this->getQuoteItemIdBySku($sku);
 
-        /* Blog only the first option */
+        /* Post only the first option */
         $customOptionsValues = array_slice($this->getCustomOptionsValuesForQuery($sku), 0, 1);
 
         $maskedQuoteId = $this->getMaskedQuoteIdByReservedOrderId->execute('test_quote');

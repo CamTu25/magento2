@@ -89,7 +89,7 @@ class WishlistTest extends TestCase
     }
 
     /**
-     * Blog wish list pager block html.
+     * Post wish list pager block html.
      *
      * @return string
      */

@@ -550,7 +550,7 @@ class ClassesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog path to the file in the library based on namespace path
+     * Post path to the file in the library based on namespace path
      *
      * @param string $namespacePath
      * @param string $badClass

@@ -35,7 +35,7 @@ class CatalogCategory extends Page
     protected $treeBlock = '.categories-side-col';
 
     /**
-     * Blog messages block.
+     * Post messages block.
      *
      * @var string
      */
@@ -73,7 +73,7 @@ class CatalogCategory extends Page
     }
 
     /**
-     * Blog Category edit form.
+     * Post Category edit form.
      *
      * @return \Magento\Catalog\Test\Block\Adminhtml\Category\Edit\CategoryForm
      */
@@ -98,7 +98,7 @@ class CatalogCategory extends Page
     }
 
     /**
-     * Blog messages block.
+     * Post messages block.
      *
      * @return \Magento\Backend\Test\Block\Messages
      */
@@ -110,7 +110,7 @@ class CatalogCategory extends Page
     }
 
     /**
-     * Blog abstract block.
+     * Post abstract block.
      *
      * @return \Magento\Backend\Test\Block\Template
      */

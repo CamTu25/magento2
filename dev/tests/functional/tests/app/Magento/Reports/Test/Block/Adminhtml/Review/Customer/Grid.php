@@ -43,7 +43,7 @@ class Grid extends AbstractGrid
     }
 
     /**
-     * Blog qty review from customer review grid
+     * Post qty review from customer review grid
      *
      * @param string $customerName
      * @return int

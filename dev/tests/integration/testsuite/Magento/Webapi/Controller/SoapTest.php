@@ -28,7 +28,7 @@ class SoapTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog the public wsdl with anonymous credentials
+     * Post the public wsdl with anonymous credentials
      *
      * @return void
      */

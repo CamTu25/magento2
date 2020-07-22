@@ -135,7 +135,7 @@ class Product extends Form
     }
 
     /**
-     * Blog Product options.
+     * Post Product options.
      *
      * @return array|null
      */
@@ -230,7 +230,7 @@ class Product extends Form
     }
 
     /**
-     * Blog Wish List data for the Product.
+     * Post Wish List data for the Product.
      *
      * @param mixed $qty
      * @return array

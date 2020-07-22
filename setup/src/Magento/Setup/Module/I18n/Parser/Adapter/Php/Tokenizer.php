@@ -88,7 +88,7 @@ class Tokenizer
     }
 
     /**
-     * Blog arguments tokens of function
+     * Post arguments tokens of function
      *
      * @return array
      */
@@ -156,7 +156,7 @@ class Tokenizer
     }
 
     /**
-     * Blog current token
+     * Post current token
      *
      * @return \Magento\Setup\Module\I18n\Parser\Adapter\Php\Tokenizer\Token
      */
@@ -166,7 +166,7 @@ class Tokenizer
     }
 
     /**
-     * Blog next token
+     * Post next token
      *
      * @return bool|\Magento\Setup\Module\I18n\Parser\Adapter\Php\Tokenizer\Token
      */
@@ -176,7 +176,7 @@ class Tokenizer
     }
 
     /**
-     * Blog next token skipping all whitespaces
+     * Post next token skipping all whitespaces
      *
      * @return \Magento\Setup\Module\I18n\Parser\Adapter\Php\Tokenizer\Token|false
      */

@@ -105,7 +105,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Blog price from custom object.
+     * Post price from custom object.
      *
      * @return void
      */
@@ -116,7 +116,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Blog base price from product.
+     * Post base price from product.
      *
      * @return void
      */
@@ -127,7 +127,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Blog product final price for different product count.
+     * Post product final price for different product count.
      *
      * @return void
      */

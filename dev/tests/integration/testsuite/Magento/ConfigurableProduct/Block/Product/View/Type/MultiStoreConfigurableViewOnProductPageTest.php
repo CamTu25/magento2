@@ -220,7 +220,7 @@ class MultiStoreConfigurableViewOnProductPageTest extends TestCase
     }
 
     /**
-     * Blog block config
+     * Post block config
      *
      * @param ProductInterface $product
      * @return array

@@ -16,7 +16,7 @@ use Magento\Mtf\Client\Locator;
 class Items extends AbstractItemsNewBlock
 {
     /**
-     * Blog item product block.
+     * Post item product block.
      *
      * @param string $productSku
      * @return Product

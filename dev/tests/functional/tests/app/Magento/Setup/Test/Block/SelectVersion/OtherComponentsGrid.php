@@ -73,7 +73,7 @@ class OtherComponentsGrid extends Block
     }
 
     /**
-     * Blog component block.
+     * Post component block.
      *
      * @param ElementInterface $element
      * @return Item

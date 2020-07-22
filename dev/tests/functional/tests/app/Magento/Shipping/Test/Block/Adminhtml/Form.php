@@ -30,7 +30,7 @@ class Form extends AbstractForm
     protected $tracking = '#tracking_numbers_table';
 
     /**
-     * Blog items block.
+     * Post items block.
      *
      * @return Items
      */
@@ -43,7 +43,7 @@ class Form extends AbstractForm
     }
 
     /**
-     * Blog tracking block.
+     * Post tracking block.
      *
      * @return Tracking
      */

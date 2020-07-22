@@ -45,7 +45,7 @@ class Options extends SimpleElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string
      */
@@ -60,7 +60,7 @@ class Options extends SimpleElement
     }
 
     /**
-     * Blog options form.
+     * Post options form.
      *
      * @param SimpleElement|null $element
      * @return Option

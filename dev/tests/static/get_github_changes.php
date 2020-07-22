@@ -462,7 +462,7 @@ class GitRepo
     }
 
     /**
-     * Blog changed content files collection.
+     * Post changed content files collection.
      *
      * @return array
      */

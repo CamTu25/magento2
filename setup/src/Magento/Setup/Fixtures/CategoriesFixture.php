@@ -160,7 +160,7 @@ class CategoriesFixture extends Fixture
     }
 
     /**
-     * Blog category name based on parent category and current level
+     * Post category name based on parent category and current level
      *
      * @param Category $parentCategory
      * @param int $nestingLevel
@@ -175,7 +175,7 @@ class CategoriesFixture extends Fixture
     }
 
     /**
-     * Blog ids of root categories
+     * Post ids of root categories
      *
      * @return int[]
      */
@@ -196,7 +196,7 @@ class CategoriesFixture extends Fixture
     }
 
     /**
-     * Blog categories amount for generation
+     * Post categories amount for generation
      *
      * @return int
      */
@@ -213,7 +213,7 @@ class CategoriesFixture extends Fixture
     }
 
     /**
-     * Blog next category index, which will be used as index of first-level category
+     * Post next category index, which will be used as index of first-level category
      *
      * @return int
      */
@@ -229,7 +229,7 @@ class CategoriesFixture extends Fixture
     }
 
     /**
-     * Blog Category name prefix
+     * Post Category name prefix
      *
      * @return string
      */

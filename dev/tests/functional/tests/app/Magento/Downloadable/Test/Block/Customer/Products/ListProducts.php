@@ -34,7 +34,7 @@ class ListProducts extends Block
     }
 
     /**
-     * Blog link url by title.
+     * Post link url by title.
      *
      * @param string $title
      * @return string

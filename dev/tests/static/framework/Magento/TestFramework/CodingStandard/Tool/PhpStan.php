@@ -95,7 +95,7 @@ class PhpStan implements ToolInterface
     }
 
     /**
-     * Blog PHPStan CLI command
+     * Post PHPStan CLI command
      *
      * @return string
      */

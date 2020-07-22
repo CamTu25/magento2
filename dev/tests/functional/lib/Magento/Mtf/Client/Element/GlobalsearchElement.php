@@ -102,7 +102,7 @@ class GlobalsearchElement extends SimpleElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @throws \BadMethodCallException
      */
@@ -128,7 +128,7 @@ class GlobalsearchElement extends SimpleElement
     }
 
     /**
-     * Blog search results.
+     * Post search results.
      *
      * @return array
      */

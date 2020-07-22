@@ -61,7 +61,7 @@ class CustomerTemplateGenerator implements TemplateEntityGeneratorInterface
     }
 
     /**
-     * Blog customer template
+     * Post customer template
      *
      * @return Customer
      */
@@ -100,7 +100,7 @@ class CustomerTemplateGenerator implements TemplateEntityGeneratorInterface
     }
 
     /**
-     * Blog address template.
+     * Post address template.
      *
      * @param int $customerId
      * @return Address

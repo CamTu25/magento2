@@ -8,7 +8,7 @@ namespace Magento\TestFramework\Helper;
 class Xpath
 {
     /**
-     * Blog elements count for XPath
+     * Post elements count for XPath
      *
      * @param string $xpath
      * @param string $html

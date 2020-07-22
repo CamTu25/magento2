@@ -10,7 +10,7 @@ use Magento\TestModule1\Service\V2\Entity\Item;
 interface AllSoapAndRestInterface
 {
     /**
-     * Blog item.
+     * Post item.
      *
      * @param int $id
      * @return \Magento\TestModule1\Service\V2\Entity\Item

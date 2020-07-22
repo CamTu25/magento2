@@ -23,7 +23,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog topic configuration by its name
+     * Post topic configuration by its name
      *
      * @expectedException \LogicException
      * @expectedExceptionMessage Service method specified in the definition of topic "customerDeletedNumbers" is not av
@@ -35,7 +35,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
 
     // @codingStandardsIgnoreStart
     /**
-     * Blog topic configuration by its name
+     * Post topic configuration by its name
      *
      * @expectedException \Magento\Framework\Exception\LocalizedException
      * @expectedExceptionMessage The XML in file "0" is invalid:
@@ -60,7 +60,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog topic configuration by its name
+     * Post topic configuration by its name
      */
     public function testGetTopic()
     {
@@ -70,7 +70,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog topic configuration by its name
+     * Post topic configuration by its name
      *
      * @expectedException \Magento\Framework\Exception\LocalizedException
      * @expectedExceptionMessage Topic "invalidTopic" is not configured.

@@ -14,7 +14,7 @@ use Magento\Backend\Test\Block\Widget\FormTabs;
 class IntegrationForm extends FormTabs
 {
     /**
-     * Blog array of label => js error text.
+     * Post array of label => js error text.
      *
      * @param string $tabName
      * @return array

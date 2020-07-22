@@ -75,7 +75,7 @@ class AssertProductQtyDecreased extends AbstractConstraint
     }
 
     /**
-     * Blog product's fixture.
+     * Post product's fixture.
      *
      * @param OrderInjectable $order
      * @param int $index [optional]

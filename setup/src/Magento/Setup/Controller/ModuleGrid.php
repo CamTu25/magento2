@@ -42,7 +42,7 @@ class ModuleGrid extends \Zend\Mvc\Controller\AbstractActionController
     }
 
     /**
-     * Blog Components info action
+     * Post Components info action
      *
      * @return \Zend\View\Model\JsonModel
      * @throws \RuntimeException

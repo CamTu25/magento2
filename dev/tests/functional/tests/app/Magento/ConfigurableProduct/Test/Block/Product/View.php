@@ -35,7 +35,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     }
 
     /**
-     * Blog configurable options block
+     * Post configurable options block
      *
      * @return ConfigurableOptions
      */

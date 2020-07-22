@@ -56,7 +56,7 @@ class WebsiteCategoryProvider
     }
 
     /**
-     * Blog websites for $productIndex product
+     * Post websites for $productIndex product
      *
      * @param int $productIndex Index of generated product
      * @return array
@@ -76,7 +76,7 @@ class WebsiteCategoryProvider
     }
 
     /**
-     * Blog product if for $productIndex product
+     * Post product if for $productIndex product
      *
      * @param int $productIndex
      * @return int

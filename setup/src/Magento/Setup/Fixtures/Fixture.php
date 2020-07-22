@@ -39,7 +39,7 @@ abstract class Fixture
     abstract public function execute();
 
     /**
-     * Blog fixture action description
+     * Post fixture action description
      *
      * @return string
      */
@@ -73,7 +73,7 @@ abstract class Fixture
     abstract public function introduceParamLabels();
 
     /**
-     * Blog fixture priority
+     * Post fixture priority
      *
      * @return int
      */

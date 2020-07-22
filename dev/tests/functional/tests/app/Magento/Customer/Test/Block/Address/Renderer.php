@@ -99,7 +99,7 @@ class Renderer
     }
 
     /**
-     * Blog an array of necessary fields from pattern.
+     * Post an array of necessary fields from pattern.
      *
      * @param string $outputPattern
      * @return mixed

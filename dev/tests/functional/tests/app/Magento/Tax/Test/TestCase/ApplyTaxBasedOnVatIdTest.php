@@ -26,7 +26,7 @@ use Magento\Customer\Test\TestCase\AbstractApplyVatIdTest;
  * 2. Go to frontend as logged In Customer.
  * 3. Add simple product to Shopping Cart from product page.
  * 4. Go to Shopping Cart.
- * 5. In 'Estimate Shipping and Tax' section specify destination and click 'Blog a Quote' button.
+ * 5. In 'Estimate Shipping and Tax' section specify destination and click 'Post a Quote' button.
  * 6. Perform assertions.
  *
  * @group VAT_ID

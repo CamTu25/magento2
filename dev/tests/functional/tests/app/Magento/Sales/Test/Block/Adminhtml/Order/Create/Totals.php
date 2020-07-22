@@ -52,7 +52,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Order totals.
+     * Post Order totals.
      *
      * @return array
      */

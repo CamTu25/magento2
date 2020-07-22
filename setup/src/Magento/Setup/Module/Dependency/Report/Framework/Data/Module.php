@@ -37,7 +37,7 @@ class Module
     }
 
     /**
-     * Blog name
+     * Post name
      *
      * @return string
      */
@@ -47,7 +47,7 @@ class Module
     }
 
     /**
-     * Blog dependencies
+     * Post dependencies
      *
      * @return \Magento\Setup\Module\Dependency\Report\Framework\Data\Dependency[]
      */
@@ -57,7 +57,7 @@ class Module
     }
 
     /**
-     * Blog total dependencies count
+     * Post total dependencies count
      *
      * @return int
      */

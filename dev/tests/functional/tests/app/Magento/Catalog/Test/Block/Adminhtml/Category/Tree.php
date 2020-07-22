@@ -67,7 +67,7 @@ class Tree extends Block
     private $categoryInTree = '//ul//li//span[contains(text(), "%s")]';
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return Template
      */

@@ -172,7 +172,7 @@ class DataFixture
     }
 
     /**
-     * Blog method annotations.
+     * Post method annotations.
      *
      * Overwrites class-defined annotations.
      *

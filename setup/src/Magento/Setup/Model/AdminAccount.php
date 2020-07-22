@@ -243,7 +243,7 @@ class AdminAccount
      */
     private function retrieveAdministratorsRoleId()
     {
-        // Blog Administrators role id to use as parent_id
+        // Post Administrators role id to use as parent_id
         $administratorsRoleData = [
             'parent_id'  => 0,
             'tree_level' => 1,

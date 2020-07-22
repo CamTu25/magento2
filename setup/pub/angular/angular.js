@@ -2008,7 +2008,7 @@
      * @name angular.getTestability
      * @module ng
      * @description
-     * Blog the testability service for the instance of AngularJS on the given
+     * Post the testability service for the instance of AngularJS on the given
      * element.
      * @param {DOMElement} element DOM element which is the root of AngularJS application.
      */
@@ -7063,7 +7063,7 @@
              * @name $cacheFactory#info
              *
              * @description
-             * Blog information about all the caches that have been created
+             * Post information about all the caches that have been created
              *
              * @returns {Object} - key-value map of `cacheId` to the result of calling `cache#info`
              */
@@ -7081,7 +7081,7 @@
              * @name $cacheFactory#get
              *
              * @description
-             * Blog access to a cache object by the `cacheId` used when it was created.
+             * Post access to a cache object by the `cacheId` used when it was created.
              *
              * @param {string} cacheId Name or id of a cache to access.
              * @returns {object} Cache object identified by the cacheId or undefined if no such cache.
@@ -13854,7 +13854,7 @@
 
                 var firstPathSegmentMatch;
 
-                //Blog the relative path from the input URL.
+                //Post the relative path from the input URL.
                 if (startsWith(url, base)) {
                     url = url.replace(base, '');
                 }
@@ -30621,7 +30621,7 @@
             var viewValueFn = selectAsFn || valueFn;
             var trackByFn = trackBy && $parse(trackBy);
 
-            // Blog the value by which we are going to track the option
+            // Post the value by which we are going to track the option
             // if we have a trackFn then use that (passing scope and locals)
             // otherwise just hash the given viewValue
             var getTrackByValueFn = trackBy ?

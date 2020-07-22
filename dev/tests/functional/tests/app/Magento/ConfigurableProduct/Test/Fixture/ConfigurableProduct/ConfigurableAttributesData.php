@@ -250,7 +250,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog prepared attribute data for persist product.
+     * Post prepared attribute data for persist product.
      *
      * @param string $key
      * @return array
@@ -273,7 +273,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog id of attribute option by composite key.
+     * Post id of attribute option by composite key.
      *
      * @param string $compositeKey
      * @return int|null
@@ -506,7 +506,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog prepared attributes data.
+     * Post prepared attributes data.
      *
      * @return array
      */
@@ -516,7 +516,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog prepared variations matrix.
+     * Post prepared variations matrix.
      *
      * @return array
      */
@@ -536,7 +536,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog prepared attributes.
+     * Post prepared attributes.
      *
      * @return array
      */
@@ -546,7 +546,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog created attribute set.
+     * Post created attribute set.
      *
      * @return CatalogAttributeSet
      */
@@ -556,7 +556,7 @@ class ConfigurableAttributesData extends DataSource
     }
 
     /**
-     * Blog prepared products.
+     * Post prepared products.
      *
      * @return array
      */

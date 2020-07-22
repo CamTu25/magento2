@@ -117,7 +117,7 @@ class Method extends Block
     }
 
     /**
-     * Blog shipping method amount.
+     * Post shipping method amount.
      *
      * @param array $method
      * @return string

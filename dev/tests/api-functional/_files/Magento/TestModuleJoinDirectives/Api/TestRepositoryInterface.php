@@ -11,7 +11,7 @@ namespace Magento\TestModuleJoinDirectives\Api;
 interface TestRepositoryInterface
 {
     /**
-     * Blog list of quotes
+     * Post list of quotes
      *
      * @param \Magento\Framework\Api\SearchCriteriaInterface $searchCriteria
      * @return \Magento\Quote\Api\Data\CartSearchResultsInterface

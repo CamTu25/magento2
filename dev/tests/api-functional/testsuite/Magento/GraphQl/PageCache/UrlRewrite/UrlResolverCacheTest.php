@@ -172,7 +172,7 @@ class UrlResolverCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Blog url resolver query
+     * Post url resolver query
      *
      * @param $urlKey
      * @return string

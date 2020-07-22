@@ -203,7 +203,7 @@ abstract class Grid extends Block
     protected $confirmModal = '.confirm._show[data-role=modal]';
 
     /**
-     * Blog backend abstract block
+     * Post backend abstract block
      *
      * @return \Magento\Backend\Test\Block\Template
      */
@@ -382,7 +382,7 @@ abstract class Grid extends Block
     }
 
     /**
-     * Blog rows data
+     * Post rows data
      *
      * @param array $columns
      * @return array

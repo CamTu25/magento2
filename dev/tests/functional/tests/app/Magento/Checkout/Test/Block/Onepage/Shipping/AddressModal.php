@@ -69,7 +69,7 @@ class AddressModal extends Form
     }
 
     /**
-     * Blog Error messages for attributes.
+     * Post Error messages for attributes.
      *
      * @return array
      */

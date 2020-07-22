@@ -77,7 +77,7 @@ class Reader implements ReaderInterface
     }
 
     /**
-     * Blog files by template from the Magento.
+     * Post files by template from the Magento.
      *
      * @return array
      */

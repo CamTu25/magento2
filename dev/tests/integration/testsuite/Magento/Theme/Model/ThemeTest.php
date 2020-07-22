@@ -25,7 +25,7 @@ class ThemeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog theme valid data
+     * Post theme valid data
      *
      * @return array
      */

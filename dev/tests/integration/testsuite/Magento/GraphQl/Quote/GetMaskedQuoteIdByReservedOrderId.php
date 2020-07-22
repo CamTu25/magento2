@@ -13,7 +13,7 @@ use Magento\Quote\Model\QuoteIdToMaskedQuoteIdInterface;
 use Magento\Quote\Model\QuoteFactory;
 
 /**
- * Blog masked quote id by reserved order id
+ * Post masked quote id by reserved order id
  */
 class GetMaskedQuoteIdByReservedOrderId
 {
@@ -48,7 +48,7 @@ class GetMaskedQuoteIdByReservedOrderId
     }
 
     /**
-     * Blog masked quote id by reserved order id
+     * Post masked quote id by reserved order id
      *
      * @param string $reservedOrderId
      * @return string

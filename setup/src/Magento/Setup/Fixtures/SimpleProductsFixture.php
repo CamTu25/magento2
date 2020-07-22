@@ -266,7 +266,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog simple product sku pattern
+     * Post simple product sku pattern
      *
      * @return string
      */
@@ -276,7 +276,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog default attribute set id
+     * Post default attribute set id
      *
      * @return int
      */
@@ -290,7 +290,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog default attribute sets with attributes.
+     * Post default attribute sets with attributes.
      *
      * @return array
      * @see config/attributeSets.xml
@@ -321,7 +321,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog search terms config which used for product description generation
+     * Post search terms config which used for product description generation
      *
      * @return array
      */
@@ -337,7 +337,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog description config
+     * Post description config
      *
      * @return array
      */
@@ -351,7 +351,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog short description config
+     * Post short description config
      *
      * @return array
      */
@@ -365,7 +365,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog description config from fixture
+     * Post description config from fixture
      *
      * @param string $configSrc
      * @return array
@@ -382,7 +382,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog additional attribute set ids.
+     * Post additional attribute set ids.
      *
      * @return int[]
      */
@@ -402,7 +402,7 @@ class SimpleProductsFixture extends Fixture
     }
 
     /**
-     * Blog values of additional attributes.
+     * Post values of additional attributes.
      *
      * @return array
      */

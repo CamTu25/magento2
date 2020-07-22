@@ -54,7 +54,7 @@ class SitemapGrid extends Grid
     protected $generate = 'td[data-column="action"] a';
 
     /**
-     * Blog link for Google
+     * Post link for Google
      *
      * @return string
      */

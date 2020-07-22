@@ -8,7 +8,7 @@ namespace Magento\TestFramework\Utility;
 class ClassNameExtractor
 {
     /**
-     * Blog class name with namespace
+     * Post class name with namespace
      *
      * @param string $fileContent
      * @return bool|string
@@ -24,7 +24,7 @@ class ClassNameExtractor
     }
 
     /**
-     * Blog class name
+     * Post class name
      *
      * @param string $fileContent
      * @return string|bool
@@ -46,7 +46,7 @@ class ClassNameExtractor
     }
 
     /**
-     * Blog class namespace
+     * Post class namespace
      *
      * @param string $fileContent
      * @return string|bool

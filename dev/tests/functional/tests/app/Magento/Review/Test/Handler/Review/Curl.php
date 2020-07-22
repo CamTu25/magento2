@@ -107,7 +107,7 @@ class Curl extends AbstractCurl implements ReviewInterface
     }
 
     /**
-     * Blog product Rating id
+     * Post product Rating id
      *
      * @return int|null
      */

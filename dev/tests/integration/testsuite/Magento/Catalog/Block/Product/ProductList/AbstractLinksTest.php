@@ -186,7 +186,7 @@ abstract class AbstractLinksTest extends TestCase
     }
 
     /**
-     * Blog test data to check position of related, up-sells and cross-sells products
+     * Post test data to check position of related, up-sells and cross-sells products
      *
      * @return array
      */
@@ -262,7 +262,7 @@ abstract class AbstractLinksTest extends TestCase
     }
 
     /**
-     * Blog an array of received linked products
+     * Post an array of received linked products
      *
      * @param array $items
      * @return array

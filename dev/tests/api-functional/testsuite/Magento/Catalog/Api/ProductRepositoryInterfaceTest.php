@@ -122,7 +122,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog product
+     * Post product
      *
      * @param string $sku
      * @param string|null $storeCode
@@ -138,7 +138,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
         $response = $this->_webApiCall($serviceInfo, ['sku' => $sku], null, $storeCode);
@@ -160,7 +160,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
 
@@ -575,7 +575,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog options data
+     * Post options data
      *
      * @param string $productSku
      * @return array
@@ -1228,7 +1228,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog Simple Product Data
+     * Post Simple Product Data
      *
      * @param array $productData
      * @return array
@@ -1399,7 +1399,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog stock item data
+     * Post stock item data
      *
      * @return array
      */
@@ -1513,7 +1513,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog media gallery data
+     * Post media gallery data
      *
      * @param $filename1
      * @param $encodedImage
@@ -1676,7 +1676,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog attribute options
+     * Post attribute options
      *
      * @param string $attributeCode
      * @return array|bool|float|int|string

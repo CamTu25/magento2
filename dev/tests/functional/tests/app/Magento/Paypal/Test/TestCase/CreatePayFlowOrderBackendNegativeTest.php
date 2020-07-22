@@ -21,7 +21,7 @@ use Magento\Mtf\TestCase\Scenario;
  * 6. Fill data according dataset.
  * 7. Click Update Product qty.
  * 8. Fill data according dataset.
- * 9. Click Blog Shipping Method and rates.
+ * 9. Click Post Shipping Method and rates.
  * 10. Fill data according dataset.
  * 11. Select payment method Credit Card (PayFlow Pro)
  * 12. Leave empty required fields for credit card

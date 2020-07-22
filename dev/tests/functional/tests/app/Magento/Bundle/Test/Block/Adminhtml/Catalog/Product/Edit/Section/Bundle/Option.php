@@ -44,7 +44,7 @@ class Option extends Form
     protected $removeSelection = 'button[data-action="remove_row"]';
 
     /**
-     * Blog grid for assigning products for bundle option.
+     * Post grid for assigning products for bundle option.
      *
      * @return Grid
      */
@@ -57,7 +57,7 @@ class Option extends Form
     }
 
     /**
-     * Blog product row assigned to bundle option.
+     * Post product row assigned to bundle option.
      *
      * @param int $rowIndex
      * @return Selection
@@ -96,7 +96,7 @@ class Option extends Form
     }
 
     /**
-     * Blog data bundle option.
+     * Post data bundle option.
      *
      * @param array $fields
      * @return array

@@ -48,7 +48,7 @@ class SamplesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog Samples Title for simple/virtual/downloadable product
+     * Post Samples Title for simple/virtual/downloadable product
      *
      * @magentoConfigFixture current_store catalog/downloadable/samples_title Samples Title Test
      * @magentoAppIsolation enabled

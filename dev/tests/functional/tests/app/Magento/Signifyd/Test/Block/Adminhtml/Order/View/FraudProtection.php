@@ -20,7 +20,7 @@ class FraudProtection extends Block
     private $caseGuaranteeDisposition = 'td.col-guarantee-disposition';
 
     /**
-     * Blog Case Guarantee Disposition status.
+     * Post Case Guarantee Disposition status.
      *
      * @return string
      */

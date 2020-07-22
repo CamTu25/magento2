@@ -60,7 +60,7 @@ class AssertFilterProductList extends AbstractConstraint
     }
 
     /**
-     * Blog product names list by keys.
+     * Post product names list by keys.
      *
      * @param string $productKeys
      * @return array

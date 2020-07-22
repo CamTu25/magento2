@@ -55,7 +55,7 @@ class Grouped extends Block
     protected $qty = '[name^="super_group"]';
 
     /**
-     * Blog qty for subProduct
+     * Post qty for subProduct
      *
      * @param int $subProductId
      * @return string

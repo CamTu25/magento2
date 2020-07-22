@@ -44,7 +44,7 @@ class ViewWithSwatches extends View
     private $selectedSwatchAttributeSelector = '.swatch-attribute.%s .swatch-attribute-selected-option';
 
     /**
-     * Blog swatch attributes data from the product page. Key is attribute code
+     * Post swatch attributes data from the product page. Key is attribute code
      *
      * @return array
      */
@@ -67,7 +67,7 @@ class ViewWithSwatches extends View
     }
 
     /**
-     * Blog swatch attribute options data. Key is option id
+     * Post swatch attribute options data. Key is option id
      *
      * @param ElementInterface $swatchAttribute
      * @return array
@@ -87,7 +87,7 @@ class ViewWithSwatches extends View
     }
 
     /**
-     * Blog chosen options from the product page
+     * Post chosen options from the product page
      *
      * @param InjectableFixture $product
      * @return array

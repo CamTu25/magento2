@@ -23,7 +23,7 @@ class NewAttribute extends FormSections
     private $newAttributeBlock = '//*[@data-role="modal"][.//input[@name="frontend_label[0]"]]';
 
     /**
-     * Blog form page actions block.
+     * Post form page actions block.
      *
      * @return FormPageActions
      */

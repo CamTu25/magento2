@@ -90,7 +90,7 @@ class Grid extends DataGrid
     }
 
     /**
-     * Blog base image source link.
+     * Post base image source link.
      *
      * @return string
      * @deprecated for general get attribute method
@@ -102,7 +102,7 @@ class Grid extends DataGrid
     }
 
     /**
-     * Blog attribute from base image component
+     * Post attribute from base image component
      *
      * @param string $attributeName
      * @return string

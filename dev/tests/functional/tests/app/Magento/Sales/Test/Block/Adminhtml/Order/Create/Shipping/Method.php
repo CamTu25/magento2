@@ -15,7 +15,7 @@ use Magento\Mtf\Client\Locator;
 class Method extends Block
 {
     /**
-     * 'Blog shipping methods and rates' link.
+     * 'Post shipping methods and rates' link.
      *
      * @var string
      */

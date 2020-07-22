@@ -74,7 +74,7 @@ class Bundle extends Section
     private $optionTitle = ' [name="bundle_options[bundle_options][%s][title]"]';
 
     /**
-     * Blog bundle options block.
+     * Post bundle options block.
      *
      * @param int $rowNumber
      * @param ElementInterface $element
@@ -151,7 +151,7 @@ class Bundle extends Section
     }
 
     /**
-     * Blog data to fields on downloadable tab.
+     * Post data to fields on downloadable tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element
@@ -182,7 +182,7 @@ class Bundle extends Section
     }
 
     /**
-     * Blog attribute sku.
+     * Post attribute sku.
      *
      * @return string
      */

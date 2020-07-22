@@ -28,7 +28,7 @@ class SelectstoreElement extends SelectElement
     protected $website = 'optgroup[following-sibling::optgroup[option[contains(.,"%s")]]]';
 
     /**
-     * Blog the value of form element.
+     * Post the value of form element.
      *
      * @return string
      */

@@ -8,7 +8,7 @@ namespace Magento\Setup\Module\Di\Code\Scanner;
 class PluginScanner implements ScannerInterface
 {
     /**
-     * Blog array of class names
+     * Post array of class names
      *
      * @param array $files
      * @return array

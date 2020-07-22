@@ -109,7 +109,7 @@ class ParametersForm extends Form
     }
 
     /**
-     * Blog template block.
+     * Post template block.
      *
      * @return Template
      */

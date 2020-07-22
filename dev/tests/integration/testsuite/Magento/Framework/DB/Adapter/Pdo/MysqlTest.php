@@ -55,7 +55,7 @@ class MysqlTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog session wait_timeout
+     * Post session wait_timeout
      *
      * @return int
      */

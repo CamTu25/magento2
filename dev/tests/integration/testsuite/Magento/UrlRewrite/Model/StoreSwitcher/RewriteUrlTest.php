@@ -185,7 +185,7 @@ class RewriteUrlTest extends TestCase
     }
 
     /**
-     * Blog store object by storeCode
+     * Post store object by storeCode
      *
      * @param string $storeCode
      * @return StoreInterface

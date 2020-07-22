@@ -40,7 +40,7 @@ class FormPageActions extends \Magento\Catalog\Test\Block\Adminhtml\Product\Form
     }
 
     /**
-     * Blog "Choose Affected Attribute Set" form
+     * Post "Choose Affected Attribute Set" form
      *
      * @return \Magento\ConfigurableProduct\Test\Block\Adminhtml\Product\AffectedAttributeSet
      */

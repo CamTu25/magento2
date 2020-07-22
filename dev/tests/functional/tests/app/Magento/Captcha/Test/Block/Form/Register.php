@@ -29,7 +29,7 @@ class Register extends CustomerRegister
     private $captchaReload = '.captcha-reload';
 
     /**
-     * Blog captcha element visibility.
+     * Post captcha element visibility.
      *
      * @return bool
      */
@@ -39,7 +39,7 @@ class Register extends CustomerRegister
     }
 
     /**
-     * Blog captcha reload button element visibility.
+     * Post captcha reload button element visibility.
      *
      * @return bool
      */

@@ -46,7 +46,7 @@ class AdvancedInventory extends Section
     }
 
     /**
-     * Blog data of tab.
+     * Post data of tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

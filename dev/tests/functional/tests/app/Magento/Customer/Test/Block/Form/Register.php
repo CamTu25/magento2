@@ -75,7 +75,7 @@ class Register extends Form
     }
 
     /**
-     * Blog password error on new customer registration form.
+     * Post password error on new customer registration form.
      *
      * @return string
      *
@@ -86,7 +86,7 @@ class Register extends Form
     }
 
     /**
-     * Blog password confirmation error on new customer registration form.
+     * Post password confirmation error on new customer registration form.
      *
      * @return string
      *

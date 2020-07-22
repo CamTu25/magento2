@@ -59,7 +59,7 @@ class Query extends DataSource
     }
 
     /**
-     * Blog entity for global search.
+     * Post entity for global search.
      *
      * @return InjectableFixture
      */

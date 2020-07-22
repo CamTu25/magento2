@@ -83,7 +83,7 @@ class Main extends Block
     }
 
     /**
-     * Blog AttributeSet name from product_set edit page
+     * Post AttributeSet name from product_set edit page
      *
      * @return string
      */

@@ -43,7 +43,7 @@ class ProductPriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog price
+     * Post price
      */
     public function testGetPrice()
     {
@@ -53,7 +53,7 @@ class ProductPriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog price model
+     * Post price model
      */
     public function testGetPriceModel()
     {

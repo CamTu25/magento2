@@ -262,7 +262,7 @@ QUERY;
     }
 
     /**
-     * Blog the enum values deprecated reasons from the schema
+     * Post the enum values deprecated reasons from the schema
      *
      * @param array $schemaResponseFields
      * @return array
@@ -283,7 +283,7 @@ QUERY;
     }
 
     /**
-     * Blog the fields values deprecated reasons from the schema
+     * Post the fields values deprecated reasons from the schema
      *
      * @param array $schemaResponseFields
      * @return array

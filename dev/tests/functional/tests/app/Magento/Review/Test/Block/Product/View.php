@@ -44,7 +44,7 @@ class View extends Block
     }
 
     /**
-     * Blog field value for review on product view page
+     * Post field value for review on product view page
      *
      * @param string $field
      * @return string|null

@@ -15,7 +15,7 @@ class FakeCustomer extends \Magento\Framework\Api\AbstractExtensibleObject imple
     \Magento\TestModuleExtensionAttributes\Api\Data\FakeCustomerInterface
 {
     /**
-     * Blog email address
+     * Post email address
      *
      * @return string
      */
@@ -25,7 +25,7 @@ class FakeCustomer extends \Magento\Framework\Api\AbstractExtensibleObject imple
     }
 
     /**
-     * Blog first name
+     * Post first name
      *
      * @return string
      */
@@ -35,7 +35,7 @@ class FakeCustomer extends \Magento\Framework\Api\AbstractExtensibleObject imple
     }
 
     /**
-     * Blog customer id
+     * Post customer id
      *
      * @return int|null
      */
@@ -45,7 +45,7 @@ class FakeCustomer extends \Magento\Framework\Api\AbstractExtensibleObject imple
     }
 
     /**
-     * Blog last name
+     * Post last name
      *
      * @return string
      */
@@ -99,7 +99,7 @@ class FakeCustomer extends \Magento\Framework\Api\AbstractExtensibleObject imple
     }
 
     /**
-     * Blog prefix
+     * Post prefix
      *
      * @return string|null
      */

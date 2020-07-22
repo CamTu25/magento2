@@ -833,7 +833,7 @@ class ProductPriceTest extends GraphQlAbstract
     }
 
     /**
-     * Blog GraphQl query to fetch products by sku
+     * Post GraphQl query to fetch products by sku
      *
      * @param array $skus
      * @return string
@@ -894,7 +894,7 @@ QUERY;
     }
 
     /**
-     * Blog GraphQl query to fetch Configurable product and its variants by sku
+     * Post GraphQl query to fetch Configurable product and its variants by sku
      *
      * @param array $sku
      * @return string

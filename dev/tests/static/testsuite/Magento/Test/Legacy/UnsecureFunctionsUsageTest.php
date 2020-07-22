@@ -149,7 +149,7 @@ class UnsecureFunctionsUsageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog files to be verified
+     * Post files to be verified
      *
      * @return array
      */
@@ -197,7 +197,7 @@ class UnsecureFunctionsUsageTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog functions for the given file
+     * Post functions for the given file
      *
      * @param string $fileFullPath
      * @return array

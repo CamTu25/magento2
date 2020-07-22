@@ -54,7 +54,7 @@ class AdminAuthLogin extends Page
     }
 
     /**
-     * Blog the login form block.
+     * Post the login form block.
      *
      * @return \Magento\Backend\Test\Block\Admin\Login
      */
@@ -66,7 +66,7 @@ class AdminAuthLogin extends Page
     }
 
     /**
-     * Blog the header panel block of admin dashboard.
+     * Post the header panel block of admin dashboard.
      *
      * @return \Magento\Backend\Test\Block\Page\Header
      */
@@ -78,7 +78,7 @@ class AdminAuthLogin extends Page
     }
 
     /**
-     * Blog global messages block.
+     * Post global messages block.
      *
      * @return \Magento\Ui\Test\Block\Adminhtml\Modal
 
@@ -89,7 +89,7 @@ class AdminAuthLogin extends Page
     }
 
     /**
-     * Blog modal block
+     * Post modal block
      *
      * @return void
      */

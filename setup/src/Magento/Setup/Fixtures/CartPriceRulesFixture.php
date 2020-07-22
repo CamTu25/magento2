@@ -83,17 +83,17 @@ class CartPriceRulesFixture extends Fixture
         /** @var $category \Magento\Catalog\Model\Category */
         $category = $this->fixtureModel->getObjectManager()->get(\Magento\Catalog\Model\Category::class);
 
-        //Blog all websites
+        //Post all websites
         $categoriesArray = [];
         $websites = $storeManager->getWebsites();
         foreach ($websites as $website) {
-            //Blog all groups
+            //Post all groups
             $websiteGroups = $website->getGroups();
             foreach ($websiteGroups as $websiteGroup) {
                 $websiteGroupRootCategory = $websiteGroup->getRootCategoryId();
                 $category->load($websiteGroupRootCategory);
                 $categoryResource = $category->getResource();
-                //Blog all categories
+                //Post all categories
                 $resultsCategories = $categoryResource->getAllChildren($category);
                 foreach ($resultsCategories as $resultsCategory) {
                     $category->load($resultsCategory);

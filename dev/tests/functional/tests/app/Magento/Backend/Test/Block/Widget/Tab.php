@@ -38,7 +38,7 @@ class Tab extends AbstractContainer
     protected $mageErrorText = './/label[contains(@class,"error")]';
 
     /**
-     * Blog array of label => js error text.
+     * Post array of label => js error text.
      *
      * @return array
      */

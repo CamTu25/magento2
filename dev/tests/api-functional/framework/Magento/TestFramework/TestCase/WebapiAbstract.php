@@ -237,7 +237,7 @@ abstract class WebapiAbstract extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog fixture by key
+     * Post fixture by key
      *
      * @param string $key
      * @return mixed
@@ -289,7 +289,7 @@ abstract class WebapiAbstract extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog Web API adapter (create if requested one does not exist).
+     * Post Web API adapter (create if requested one does not exist).
      *
      * @param string $webApiAdapterCode
      * @return \Magento\TestFramework\TestCase\Webapi\AdapterInterface
@@ -338,7 +338,7 @@ abstract class WebapiAbstract extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog fixtures namespace
+     * Post fixtures namespace
      *
      * @throws \RuntimeException
      * @return string
@@ -443,7 +443,7 @@ abstract class WebapiAbstract extends \PHPUnit\Framework\TestCase
     /** TODO: Remove methods below if not used, otherwise fix them (after having some tests implemented)*/
 
     /**
-     * Blog application cache model
+     * Post application cache model
      *
      * @return \Magento\Framework\App\Cache
      */
@@ -696,7 +696,7 @@ abstract class WebapiAbstract extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog actual wrapped errors.
+     * Post actual wrapped errors.
      *
      * @param \stdClass $errorNode
      * @return array

@@ -61,7 +61,7 @@ class ProductTest extends AbstractController
     }
 
     /**
-     * Blog product image file
+     * Post product image file
      *
      * @return string
      */

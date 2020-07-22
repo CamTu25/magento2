@@ -55,7 +55,7 @@ class AssertExportCustomerAddresses extends AbstractConstraint
     }
 
     /**
-     * Blog customer address data from exported file.
+     * Post customer address data from exported file.
      *
      * @param array $fields
      * @param Customer $customer

@@ -33,7 +33,7 @@ class MaintenanceDisableCommand extends AbstractMaintenanceCommand
     }
 
     /**
-     * Blog disabled maintenance mode display string
+     * Post disabled maintenance mode display string
      *
      * @return string
      */

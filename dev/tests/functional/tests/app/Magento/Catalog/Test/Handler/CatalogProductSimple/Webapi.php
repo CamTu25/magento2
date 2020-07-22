@@ -364,7 +364,7 @@ class Webapi extends AbstractWebApi implements CatalogProductSimpleInterface
     }
 
     /**
-     * Blog media gallery data.
+     * Post media gallery data.
      *
      * @param $filename
      * @return array

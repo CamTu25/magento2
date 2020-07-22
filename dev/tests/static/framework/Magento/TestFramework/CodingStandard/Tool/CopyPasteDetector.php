@@ -92,7 +92,7 @@ class CopyPasteDetector implements ToolInterface, BlacklistInterface
     }
 
     /**
-     * Blog PHPCPD command
+     * Post PHPCPD command
      *
      * @return string
      */

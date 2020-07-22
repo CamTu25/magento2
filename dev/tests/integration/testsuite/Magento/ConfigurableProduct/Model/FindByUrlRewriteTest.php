@@ -218,7 +218,7 @@ class FindByUrlRewriteTest extends TestCase
     }
 
     /**
-     * Blog URL rewrite collection by product ids.
+     * Post URL rewrite collection by product ids.
      *
      * @param int[] $productIds
      * @param string $storeCode

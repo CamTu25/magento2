@@ -54,7 +54,7 @@ class Related extends Section
     }
 
     /**
-     * Blog data of section.
+     * Post data of section.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

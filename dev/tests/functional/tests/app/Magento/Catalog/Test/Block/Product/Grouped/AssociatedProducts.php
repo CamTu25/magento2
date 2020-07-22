@@ -40,7 +40,7 @@ class AssociatedProducts extends Tab
     protected $associatedProductsBlock = '[data-role=grouped-product-grid]';
 
     /**
-     * Blog search grid
+     * Post search grid
      *
      * @return AssociatedProducts\Search\Grid
      */
@@ -52,7 +52,7 @@ class AssociatedProducts extends Tab
     }
 
     /**
-     * Blog associated products list block
+     * Post associated products list block
      *
      * @param SimpleElement $context
      * @return \Magento\Catalog\Test\Block\Product\Grouped\AssociatedProducts\ListAssociatedProducts

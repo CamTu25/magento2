@@ -35,7 +35,7 @@ class Tabs extends Block
     private $subTabName = 'li a span';
 
     /**
-     * Blog list of sub tabs names of tab.
+     * Post list of sub tabs names of tab.
      *
      * @param string $tab
      * @return array

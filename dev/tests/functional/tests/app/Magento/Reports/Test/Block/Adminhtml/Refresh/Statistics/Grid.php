@@ -39,7 +39,7 @@ class Grid extends AbstractGrid
     }
 
     /**
-     * Blog rows data.
+     * Post rows data.
      *
      * @param array $columns
      * @return array

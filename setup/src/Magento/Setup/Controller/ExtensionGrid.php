@@ -60,7 +60,7 @@ class ExtensionGrid extends AbstractActionController
     }
 
     /**
-     * Blog extensions info action
+     * Post extensions info action
      *
      * @return JsonModel
      * @throws \RuntimeException

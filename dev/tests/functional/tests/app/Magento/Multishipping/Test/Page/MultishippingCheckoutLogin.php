@@ -38,7 +38,7 @@ class MultishippingCheckoutLogin extends Page
     }
 
     /**
-     * Blog form for customer login.
+     * Post form for customer login.
      *
      * @return \Magento\Customer\Test\Block\Form\Login
      */

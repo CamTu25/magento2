@@ -19,7 +19,7 @@ class AssertOrderTaxOnBackendExcludingIncludingTax extends AbstractAssertOrderTa
     protected $severeness = 'high';
 
     /**
-     * Blog order totals.
+     * Post order totals.
      *
      * @param array $actualPrices
      * @return array
@@ -42,7 +42,7 @@ class AssertOrderTaxOnBackendExcludingIncludingTax extends AbstractAssertOrderTa
     }
 
     /**
-     * Blog invoice new totals.
+     * Post invoice new totals.
      *
      * @param array $actualPrices
      * @return array
@@ -66,7 +66,7 @@ class AssertOrderTaxOnBackendExcludingIncludingTax extends AbstractAssertOrderTa
     }
 
     /**
-     * Blog Credit Memo new totals.
+     * Post Credit Memo new totals.
      *
      * @param array $actualPrices
      * @return array

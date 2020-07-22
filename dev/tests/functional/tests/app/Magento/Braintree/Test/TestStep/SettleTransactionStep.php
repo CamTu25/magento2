@@ -77,7 +77,7 @@ class SettleTransactionStep implements TestStepInterface
     }
 
     /**
-     * Blog transaction id.
+     * Post transaction id.
      *
      * @return string
      */

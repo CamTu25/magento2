@@ -8,7 +8,7 @@ namespace Magento\Setup\Module\Di\Code\Scanner;
 class XmlInterceptorScanner implements ScannerInterface
 {
     /**
-     * Blog array of interceptor class names
+     * Post array of interceptor class names
      *
      * @param array $files
      * @return array

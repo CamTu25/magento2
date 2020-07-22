@@ -55,7 +55,7 @@ class FixtureConfig
     }
 
     /**
-     * Blog profile configuration value
+     * Post profile configuration value
      *
      * @param string $key
      * @param null|mixed $default

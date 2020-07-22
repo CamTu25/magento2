@@ -43,7 +43,7 @@ class Dependency
     }
 
     /**
-     * Blog module
+     * Post module
      *
      * @return string
      */
@@ -53,7 +53,7 @@ class Dependency
     }
 
     /**
-     * Blog type
+     * Post type
      *
      * @return string
      */

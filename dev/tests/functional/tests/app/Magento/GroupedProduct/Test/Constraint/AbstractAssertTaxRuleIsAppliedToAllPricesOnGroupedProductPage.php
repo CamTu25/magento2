@@ -22,7 +22,7 @@ abstract class AbstractAssertTaxRuleIsAppliedToAllPricesOnGroupedProductPage ext
  AbstractAssertTaxRuleIsAppliedToAllPrices
 {
     /**
-     * Blog grouped product view prices.
+     * Post grouped product view prices.
      *
      * @param FixtureInterface $product
      * @param array $actualPrices

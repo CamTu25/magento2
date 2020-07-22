@@ -339,7 +339,7 @@ class CategoryUrlRewriteGeneratorTest extends TestCase
     }
 
     /**
-     * Blog count of records in table
+     * Post count of records in table
      *
      * @param $productId
      * @param $categoryId

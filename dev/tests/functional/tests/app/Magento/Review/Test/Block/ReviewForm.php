@@ -57,7 +57,7 @@ class ReviewForm extends AbstractForm
     }
 
     /**
-     * Blog legend.
+     * Post legend.
      *
      * @return SimpleElement
      */
@@ -78,7 +78,7 @@ class ReviewForm extends AbstractForm
     }
 
     /**
-     * Blog single product rating.
+     * Post single product rating.
      *
      * @param Rating $rating
      * @return SimpleElement

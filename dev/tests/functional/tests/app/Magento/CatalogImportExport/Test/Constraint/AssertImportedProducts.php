@@ -114,7 +114,7 @@ class AssertImportedProducts extends AbstractConstraint
     }
 
     /**
-     * Blog product data that is displayed on product edit page in Admin.
+     * Post product data that is displayed on product edit page in Admin.
      *
      * @param FixtureInterface $product
      * @return array

@@ -28,7 +28,7 @@ class Summary extends \Magento\Catalog\Test\Block\Product\View
     private $summaryItemsSelector = '.bundle li div div';
 
     /**
-     * Blog configured price block.
+     * Post configured price block.
      *
      * @return ConfiguredPrice
      */
@@ -41,7 +41,7 @@ class Summary extends \Magento\Catalog\Test\Block\Product\View
     }
 
     /**
-     * Blog Bundle Summary row items.
+     * Post Bundle Summary row items.
      *
      * @return \Magento\Mtf\Client\ElementInterface[]
      */

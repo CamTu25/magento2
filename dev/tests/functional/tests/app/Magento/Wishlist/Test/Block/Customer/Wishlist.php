@@ -67,7 +67,7 @@ class Wishlist extends Block
     }
 
     /**
-     * Blog items product block.
+     * Post items product block.
      *
      * @return \Magento\Wishlist\Test\Block\Customer\Wishlist\Items
      */

@@ -11,7 +11,7 @@ use Magento\Checkout\Test\Page\CheckoutOnepageSuccess;
 use Magento\Mtf\Util\Protocol\CurlTransport\WebapiDecorator;
 
 /**
- * Blog successfully placed order id.
+ * Post successfully placed order id.
  */
 class GetPlacedOrderIdStep implements TestStepInterface
 {
@@ -42,7 +42,7 @@ class GetPlacedOrderIdStep implements TestStepInterface
     }
 
     /**
-     * Blog success placed order id.
+     * Post success placed order id.
      *
      * @return array
      */
@@ -56,7 +56,7 @@ class GetPlacedOrderIdStep implements TestStepInterface
     }
 
     /**
-     * Blog order entity id by increment id.
+     * Post order entity id by increment id.
      *
      * @param string $incrementId
      * @return string

@@ -35,7 +35,7 @@ class Addresses extends Block
     private $shippingAddress = '.order-shipping-address address';
 
     /**
-     * Blog customer's billing address from the data inside block.
+     * Post customer's billing address from the data inside block.
      *
      * @return string
      */
@@ -45,7 +45,7 @@ class Addresses extends Block
     }
 
     /**
-     * Blog customer's shipping address from the data inside block.
+     * Post customer's shipping address from the data inside block.
      *
      * @return string
      */

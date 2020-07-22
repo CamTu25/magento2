@@ -39,7 +39,7 @@ class License extends Block
     }
 
     /**
-     * Blog license text.
+     * Post license text.
      *
      * @return string
      */

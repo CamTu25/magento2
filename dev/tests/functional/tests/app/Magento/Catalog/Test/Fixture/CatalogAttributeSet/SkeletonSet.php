@@ -46,7 +46,7 @@ class SkeletonSet extends DataSource
     }
 
     /**
-     * Blog Attribute Set
+     * Post Attribute Set
      *
      * @return array
      */

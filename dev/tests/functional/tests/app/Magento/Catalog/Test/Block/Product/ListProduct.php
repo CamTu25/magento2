@@ -54,7 +54,7 @@ class ListProduct extends Block
     }
 
     /**
-     * Blog product names list.
+     * Post product names list.
      *
      * @return array
      */
@@ -71,7 +71,7 @@ class ListProduct extends Block
     }
 
     /**
-     * Blog products count on page
+     * Post products count on page
      *
      * @return int
      */
@@ -81,7 +81,7 @@ class ListProduct extends Block
     }
 
     /**
-     * Blog all terms used in sort.
+     * Post all terms used in sort.
      *
      * @return array
      */

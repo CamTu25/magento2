@@ -23,7 +23,7 @@ class Config extends AbstractConfig
     }
 
     /**
-     * Blog hard dependencies count
+     * Post hard dependencies count
      *
      * @return int
      */
@@ -37,7 +37,7 @@ class Config extends AbstractConfig
     }
 
     /**
-     * Blog soft dependencies count
+     * Post soft dependencies count
      *
      * @return int
      */

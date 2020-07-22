@@ -23,7 +23,7 @@ class RecentlyViewedProducts extends Sidebar
     protected $recentlyViewedProducts = './/tbody/tr/td[1]';
 
     /**
-     * Blog products from Recently Viewed block
+     * Post products from Recently Viewed block
      *
      * @return array
      */

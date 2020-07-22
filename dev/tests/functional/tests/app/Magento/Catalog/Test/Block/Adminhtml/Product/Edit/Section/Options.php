@@ -150,7 +150,7 @@ class Options extends Section
     }
 
     /**
-     * Blog grid for import custom options products.
+     * Post grid for import custom options products.
      *
      * @return Grid
      */
@@ -163,7 +163,7 @@ class Options extends Section
     }
 
     /**
-     * Blog select option row block.
+     * Post select option row block.
      *
      * @param int $index
      * @param SimpleElement $element
@@ -240,7 +240,7 @@ class Options extends Section
     }
 
     /**
-     * Blog data of tab.
+     * Post data of tab.
      *
      * @param array|null $tabFields
      * @param SimpleElement|null $element
@@ -287,7 +287,7 @@ class Options extends Section
     }
 
     /**
-     * Blog option type data.
+     * Post option type data.
      *
      * @param array $options
      * @param string $type
@@ -356,7 +356,7 @@ class Options extends Section
     }
 
     /**
-     * Blog values data for option as array.
+     * Post values data for option as array.
      *
      * @param array $options
      * @param string $optionType

@@ -48,7 +48,7 @@ class CustomAttribute extends DataSource
     }
 
     /**
-     * Blog default value of custom attribute considering to it's type.
+     * Post default value of custom attribute considering to it's type.
      * In case if default value isn't set for dropdown and multiselect return first option, for other types null.
      *
      * @param CatalogProductAttribute $attribute
@@ -86,7 +86,7 @@ class CustomAttribute extends DataSource
     }
 
     /**
-     * Blog default attribute code according to attribute label.
+     * Post default attribute code according to attribute label.
      *
      * @param CatalogProductAttribute $attribute
      * @return string

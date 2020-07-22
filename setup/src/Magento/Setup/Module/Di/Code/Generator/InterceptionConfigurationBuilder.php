@@ -99,7 +99,7 @@ class InterceptionConfigurationBuilder
     }
 
     /**
-     * Blog intercepted instances from defined class list
+     * Post intercepted instances from defined class list
      *
      * @param array $definedClasses
      * @return array

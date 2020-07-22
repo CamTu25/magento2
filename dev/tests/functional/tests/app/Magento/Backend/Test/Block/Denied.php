@@ -24,7 +24,7 @@ class Denied extends Block
     protected $accessDeniedText = ".page-heading";
 
     /**
-     * Blog comments history
+     * Post comments history
      *
      * @return string
      */

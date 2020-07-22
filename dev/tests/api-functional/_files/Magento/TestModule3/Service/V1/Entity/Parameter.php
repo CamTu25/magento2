@@ -9,7 +9,7 @@ namespace Magento\TestModule3\Service\V1\Entity;
 class Parameter extends \Magento\Framework\Api\AbstractExtensibleObject
 {
     /**
-     * Blog Name.
+     * Post Name.
      *
      * @return string $name
      */
@@ -30,7 +30,7 @@ class Parameter extends \Magento\Framework\Api\AbstractExtensibleObject
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string $value
      */

@@ -44,7 +44,7 @@ class DateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog value test data provider
+     * Post value test data provider
      *
      * @return array
      */

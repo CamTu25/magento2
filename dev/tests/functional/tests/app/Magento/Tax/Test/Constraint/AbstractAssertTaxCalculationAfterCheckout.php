@@ -136,7 +136,7 @@ abstract class AbstractAssertTaxCalculationAfterCheckout extends AbstractConstra
     }
 
     /**
-     * Blog review product prices.
+     * Post review product prices.
      *
      * @param InjectableFixture $product
      * @param $actualPrices
@@ -153,7 +153,7 @@ abstract class AbstractAssertTaxCalculationAfterCheckout extends AbstractConstra
     }
 
     /**
-     * Blog order product prices.
+     * Post order product prices.
      *
      * @param InjectableFixture $product
      * @param $actualPrices

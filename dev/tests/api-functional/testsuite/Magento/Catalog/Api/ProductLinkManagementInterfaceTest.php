@@ -134,7 +134,7 @@ class ProductLinkManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog list of linked products
+     * Post list of linked products
      *
      * @param string $sku
      * @param string $linkType

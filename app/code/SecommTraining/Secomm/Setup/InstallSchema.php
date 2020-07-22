@@ -68,7 +68,7 @@ class InstallSchema implements InstallSchemaInterface
                     ],
                     'Update_at'
                 )
-                ->setComment('Blog Posts')
+                ->setComment('Post Posts')
                 ->setOption('type', 'InnoDB')
                 ->setOption('charset', 'utf8');
             $setup->getConnection()->createTable($table);

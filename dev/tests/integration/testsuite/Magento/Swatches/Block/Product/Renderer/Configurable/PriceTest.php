@@ -169,7 +169,7 @@ class PriceTest extends TestCase
     }
 
     /**
-     * Blog product swatch options block.
+     * Post product swatch options block.
      *
      * @return Configurable
      */

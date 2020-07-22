@@ -56,7 +56,7 @@ class DropdownmultiselectElement extends MultiselectElement
     }
 
     /**
-     * Blog values.
+     * Post values.
      *
      * @return array
      */

@@ -71,7 +71,7 @@ class Rest implements \Magento\TestFramework\TestCase\Webapi\AdapterInterface
         $storeCode = $storeCode !== null ? (string)$storeCode : $this->defaultStoreCode;
         $resourcePath = '/' . $storeCode . $this->_getRestResourcePath($serviceInfo);
         $httpMethod = $this->_getRestHttpMethod($serviceInfo);
-        //Blog a valid token
+        //Post a valid token
         $accessCredentials = OauthHelper::getApiAccessCredentials(null, $integration);
         /** @var $oAuthClient \Magento\TestFramework\Authentication\Rest\OauthClient */
         $oAuthClient = $accessCredentials['oauth_client'];

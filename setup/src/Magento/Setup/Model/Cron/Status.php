@@ -91,7 +91,7 @@ class Status
     }
 
     /**
-     * Blog status file path
+     * Post status file path
      *
      * @return string
      */
@@ -101,7 +101,7 @@ class Status
     }
 
     /**
-     * Blog log file path
+     * Post log file path
      *
      * @return string
      */

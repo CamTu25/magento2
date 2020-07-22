@@ -21,7 +21,7 @@ class PaymentInfoBlock extends Block
     private $info = 'tr';
 
     /**
-     * Blog payment information block data.
+     * Post payment information block data.
      *
      * @return array
      */

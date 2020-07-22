@@ -56,7 +56,7 @@ class CommentsHistoryBlock extends Block
     protected $comment = '.note-list-comment';
 
     /**
-     * Blog comment history block data.
+     * Post comment history block data.
      *
      * @return array
      */
@@ -81,7 +81,7 @@ class CommentsHistoryBlock extends Block
     }
 
     /**
-     * Blog last comment.
+     * Post last comment.
      *
      * @return array
      */

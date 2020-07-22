@@ -31,7 +31,7 @@ class PriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog tier price
+     * Post tier price
      */
     public function testGetTierPrice()
     {

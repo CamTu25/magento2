@@ -204,7 +204,7 @@ class DirectpostTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog order payment.
+     * Post order payment.
      *
      * @param string $orderId
      * @return Payment

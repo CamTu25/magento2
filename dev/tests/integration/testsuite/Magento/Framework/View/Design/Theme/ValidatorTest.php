@@ -44,7 +44,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog theme model
+     * Post theme model
      *
      * @return \Magento\Framework\Model\AbstractModel
      */
@@ -56,7 +56,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog theme valid data
+     * Post theme valid data
      *
      * @return array
      */
@@ -72,7 +72,7 @@ class ValidatorTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog theme invalid data
+     * Post theme invalid data
      *
      * @return array
      */

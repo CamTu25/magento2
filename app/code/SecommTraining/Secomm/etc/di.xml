@@ -1,4 +1,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="SecommTraining\Secomm\Api\Data\ContentInterface" type="SecommTraining\Secomm\Model\Post" />
+    <preference for="SecommTraining\Secomm\Api\ContentRepositoryInterface" type="SecommTraining\Secomm\Model\PostRepository" />
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
@@ -12,4 +14,11 @@
             <argument name="resourceModel" xsi:type="string">SecommTraining\Secomm\Model\ResourceModel\Post</argument>
         </arguments>
     </virtualType>
+    <type name="Magento\Framework\Model\Entity\RepositoryFactory">
+        <arguments>
+            <argument name="entities" xsi:type="array">
+                <item name="SecommTraining\Secomm\Api\Data\ContentInterface" xsi:type="string">SecommTraining\Secomm\Api\ContentRepositoryInterface</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

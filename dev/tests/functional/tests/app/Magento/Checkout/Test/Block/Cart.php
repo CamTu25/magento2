@@ -124,7 +124,7 @@ class Cart extends Block
     }
 
     /**
-     * Blog Shopping Cart item.
+     * Post Shopping Cart item.
      *
      * @param FixtureInterface $product
      * @return CartItem
@@ -152,7 +152,7 @@ class Cart extends Block
     }
 
     /**
-     * Blog "Proceed to One Page Checkout" block.
+     * Post "Proceed to One Page Checkout" block.
      *
      * @return Link
      */
@@ -199,7 +199,7 @@ class Cart extends Block
     }
 
     /**
-     * Blog total discount Price value.
+     * Post total discount Price value.
      *
      * @return string
      * @throws Exception

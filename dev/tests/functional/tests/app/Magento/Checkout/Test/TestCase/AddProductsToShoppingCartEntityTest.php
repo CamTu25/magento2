@@ -244,7 +244,7 @@ class AddProductsToShoppingCartEntityTest extends Injectable
     }
 
     /**
-     * Blog base URL.
+     * Post base URL.
      *
      * @param bool $useHttps
      * @return string

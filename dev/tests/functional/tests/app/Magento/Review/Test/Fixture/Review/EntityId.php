@@ -45,7 +45,7 @@ class EntityId extends DataSource
     }
 
     /**
-     * Blog entity.
+     * Post entity.
      *
      * @return FixtureInterface|null
      */

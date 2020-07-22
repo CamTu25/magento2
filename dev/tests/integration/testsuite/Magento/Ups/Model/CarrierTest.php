@@ -202,7 +202,7 @@ class CarrierTest extends TestCase
     }
 
     /**
-     * Blog list of rates variations
+     * Post list of rates variations
      *
      * @return array
      */

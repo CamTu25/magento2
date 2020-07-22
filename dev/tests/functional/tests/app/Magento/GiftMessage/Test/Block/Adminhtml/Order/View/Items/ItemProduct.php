@@ -30,7 +30,7 @@ class ItemProduct extends \Magento\Sales\Test\Block\Adminhtml\Order\Create\Items
     protected $giftMessageForm = './/*[@role="dialog"][*[@id="gift_options_configure"]]';
 
     /**
-     * Blog GiftMessage form data.
+     * Post GiftMessage form data.
      *
      * @param GiftMessage $giftMessage
      * @return array

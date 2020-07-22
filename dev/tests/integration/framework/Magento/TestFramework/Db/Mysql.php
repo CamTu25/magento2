@@ -77,7 +77,7 @@ class Mysql extends \Magento\TestFramework\Db\AbstractDb
     }
 
     /**
-     * Blog filename for setup db dump
+     * Post filename for setup db dump
      *
      * @return string
      */

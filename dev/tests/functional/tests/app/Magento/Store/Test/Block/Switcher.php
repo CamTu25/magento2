@@ -46,7 +46,7 @@ class Switcher extends Block
     }
 
     /**
-     * Blog store view
+     * Post store view
      *
      * @return string
      */

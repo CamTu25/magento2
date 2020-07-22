@@ -78,7 +78,7 @@ abstract class AbstractDependenciesCommand extends Command
     abstract protected function buildReport($outputPath);
 
     /**
-     * Blog the default output report filename
+     * Post the default output report filename
      *
      * @return string
      */

@@ -21,7 +21,7 @@ class Messages extends Block
     private $message = '[data-bind*="message.text"]';
 
     /**
-     * Blog message which is present on the "Contact Us" page.
+     * Post message which is present on the "Contact Us" page.
      *
      * @return string
      */

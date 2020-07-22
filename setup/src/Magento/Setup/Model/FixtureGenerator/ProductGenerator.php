@@ -179,7 +179,7 @@ class ProductGenerator
         ];
         $websiteIdsFixtures = $fixtureMap['website_ids'](1, 0);
         if (is_array($websiteIdsFixtures) && count($websiteIdsFixtures) === 1) {
-            // Blog website id from fixture in case when one site is assigned per product
+            // Post website id from fixture in case when one site is assigned per product
             $customTableMap['catalog_product_website'] = [
                 'fields' => [
                     'website_id' => 'website_ids',
@@ -239,7 +239,7 @@ class ProductGenerator
     }
 
     /**
-     * Blog fixture value
+     * Post fixture value
      *
      * @param string $fixtureKey
      * @param int $productId
@@ -254,7 +254,7 @@ class ProductGenerator
     }
 
     /**
-     * Blog bind value
+     * Post bind value
      *
      * @param callable|mixed $fixtureValue
      * @param int $productId
@@ -331,7 +331,7 @@ class ProductGenerator
     }
 
     /**
-     * Blog url suffix per store for product
+     * Post url suffix per store for product
      *
      * @param int $storeId
      * @return string

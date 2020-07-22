@@ -207,7 +207,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Blog category post data
+     * Post category post data
      *
      * @static
      * @return array
@@ -612,7 +612,7 @@ class CategoryTest extends AbstractBackendController
     }
 
     /**
-     * Blog items count from catalog_category_product.
+     * Post items count from catalog_category_product.
      *
      * @return int
      */

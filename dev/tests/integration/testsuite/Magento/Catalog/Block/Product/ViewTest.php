@@ -247,7 +247,7 @@ class ViewTest extends TestCase
     }
 
     /**
-     * Blog description block
+     * Post description block
      *
      * @param bool $refreshBlock
      * @return Description

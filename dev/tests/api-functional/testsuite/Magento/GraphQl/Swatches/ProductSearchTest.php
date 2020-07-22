@@ -80,7 +80,7 @@ QUERY;
     }
 
     /**
-     * Blog array with expected data for layered navigation filters
+     * Post array with expected data for layered navigation filters
      *
      * @return array
      */

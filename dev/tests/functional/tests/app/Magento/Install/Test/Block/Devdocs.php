@@ -21,7 +21,7 @@ class Devdocs extends Block
     protected $devdocsTitle = '.page-heading';
 
     /**
-     * Blog Developer Documentation title text.
+     * Post Developer Documentation title text.
      *
      * @return string
      */

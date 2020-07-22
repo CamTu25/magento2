@@ -127,7 +127,7 @@ class Modal extends Block
     }
 
     /**
-     * Blog the alert dialog text.
+     * Post the alert dialog text.
      *
      * @return string
      */

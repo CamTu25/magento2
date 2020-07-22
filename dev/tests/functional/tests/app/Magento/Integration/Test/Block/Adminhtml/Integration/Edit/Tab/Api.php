@@ -14,7 +14,7 @@ use Magento\Mtf\Client\Element\SimpleElement;
 class Api extends \Magento\Backend\Test\Block\Widget\Tab
 {
     /**
-     * Blog data of tab.
+     * Post data of tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

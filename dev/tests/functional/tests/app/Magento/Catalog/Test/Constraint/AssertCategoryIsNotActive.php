@@ -45,7 +45,7 @@ class AssertCategoryIsNotActive extends AbstractConstraint
     }
 
     /**
-     * Blog category url to open.
+     * Post category url to open.
      *
      * @param Category $category
      * @return string

@@ -90,7 +90,7 @@ class AddressesAdditional extends Block
     }
 
     /**
-     * Blog block text
+     * Post block text
      *
      * @return string
      */

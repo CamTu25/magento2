@@ -101,7 +101,7 @@ class RepositoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testGet()
     {
-        $taxClassName = 'Blog Me';
+        $taxClassName = 'Post Me';
         $taxClassDataObject = $this->taxClassFactory->create();
         $taxClassDataObject->setClassName($taxClassName)
             ->setClassType(TaxClassManagementInterface::TYPE_CUSTOMER);
@@ -117,7 +117,7 @@ class RepositoryTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetList()
     {
-        $taxClassName = 'Blog Me';
+        $taxClassName = 'Post Me';
         $taxClassDataObject = $this->taxClassFactory->create();
         $taxClassDataObject->setClassName($taxClassName)
             ->setClassType(TaxClassManagementInterface::TYPE_CUSTOMER);

@@ -32,7 +32,7 @@ class Row extends Form
     }
 
     /**
-     * Blog sort handle.
+     * Post sort handle.
      *
      * @return ElementInterface
      */

@@ -94,7 +94,7 @@ class ListCompare extends Block
     protected $confirmModal = '.confirm._show[data-role=modal]';
 
     /**
-     * Blog product info.
+     * Post product info.
      *
      * @param int $index
      * @param string $attributeKey
@@ -121,7 +121,7 @@ class ListCompare extends Block
     }
 
     /**
-     * Blog item compare product info.
+     * Post item compare product info.
      *
      * @param int $index
      * @return SimpleElement
@@ -132,7 +132,7 @@ class ListCompare extends Block
     }
 
     /**
-     * Blog list of comparable product attributes.
+     * Post list of comparable product attributes.
      *
      * @return array
      */
@@ -155,7 +155,7 @@ class ListCompare extends Block
     }
 
     /**
-     * Blog item compare product attribute.
+     * Post item compare product attribute.
      *
      * @param string $key
      * @return SimpleElement
@@ -173,7 +173,7 @@ class ListCompare extends Block
     }
 
     /**
-     * Blog item attribute.
+     * Post item attribute.
      *
      * @param int $indexProduct
      * @param string $attributeKey
@@ -249,7 +249,7 @@ class ListCompare extends Block
     }
 
     /**
-     * Blog empty message on compare product block.
+     * Post empty message on compare product block.
      *
      * @return string
      */

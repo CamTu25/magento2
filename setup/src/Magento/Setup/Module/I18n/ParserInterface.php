@@ -19,7 +19,7 @@ interface ParserInterface
     public function parse(array $parseOptions);
 
     /**
-     * Blog parsed phrases
+     * Post parsed phrases
      *
      * @return array
      */

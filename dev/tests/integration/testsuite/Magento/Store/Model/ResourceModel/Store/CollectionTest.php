@@ -69,7 +69,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog quote symbol from adapter.
+     * Post quote symbol from adapter.
      *
      * @return string
      */

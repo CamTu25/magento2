@@ -148,7 +148,7 @@ class LayoutTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog theme layout updates
+     * Post theme layout updates
      *
      * @return \Magento\Framework\View\File[]
      */

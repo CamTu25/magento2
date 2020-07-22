@@ -63,7 +63,7 @@ class Search extends SuggestElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string
      */

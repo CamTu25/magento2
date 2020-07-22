@@ -40,7 +40,7 @@ class ExpressReview extends Block
     }
 
     /**
-     * Blog Total text.
+     * Post Total text.
      *
      * @return array|string
      */

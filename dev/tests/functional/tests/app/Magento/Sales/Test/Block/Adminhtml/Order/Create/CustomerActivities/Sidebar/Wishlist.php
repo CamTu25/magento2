@@ -81,7 +81,7 @@ class Wishlist extends Sidebar
     protected $elementWithShowClass = " and contains(@class,'_show')]";
 
     /**
-     * Blog configure block.
+     * Post configure block.
      *
      * @return \Magento\Catalog\Test\Block\Adminhtml\Product\Composite\Configure
      */
@@ -97,7 +97,7 @@ class Wishlist extends Sidebar
     }
 
     /**
-     * Blog customer activities block.
+     * Post customer activities block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\CustomerActivities
      */

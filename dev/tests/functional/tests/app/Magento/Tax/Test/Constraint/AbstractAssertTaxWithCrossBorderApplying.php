@@ -121,7 +121,7 @@ abstract class AbstractAssertTaxWithCrossBorderApplying extends AbstractConstrai
     }
 
     /**
-     * Blog prices on category page
+     * Post prices on category page
      *
      * @param FixtureInterface $product
      * @param array $actualPrices
@@ -156,7 +156,7 @@ abstract class AbstractAssertTaxWithCrossBorderApplying extends AbstractConstrai
     }
 
     /**
-     * Blog cart prices
+     * Post cart prices
      *
      * @param CatalogProductSimple $product
      * @param array $actualPrices

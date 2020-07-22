@@ -55,7 +55,7 @@ class OptionTier extends AbstractOptions
     }
 
     /**
-     * Blog data options from 'Tier price' form.
+     * Post data options from 'Tier price' form.
      *
      * @param array $fields
      * @param SimpleElement|null $element
@@ -74,7 +74,7 @@ class OptionTier extends AbstractOptions
     }
 
     /**
-     * Blog tier price rows data.
+     * Post tier price rows data.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

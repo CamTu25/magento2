@@ -117,7 +117,7 @@ class Grid extends AbstractGrid
     }
 
     /**
-     * Blog version of extension.
+     * Post version of extension.
      *
      * @param Extension $extension
      * @return string

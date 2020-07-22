@@ -198,7 +198,7 @@ abstract class Conditions extends Curl
     }
 
     /**
-     * Blog type param by name
+     * Post type param by name
      *
      * @param string $name
      * @return array
@@ -209,7 +209,7 @@ abstract class Conditions extends Curl
     }
 
     /**
-     * Blog rule param by name
+     * Post rule param by name
      *
      * @param string $name
      * @return array

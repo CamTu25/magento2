@@ -14,7 +14,7 @@ use Magento\Mtf\Client\Locator;
 class View extends \Magento\Sales\Test\Block\Order\View
 {
     /**
-     * Blog item block.
+     * Post item block.
      *
      * @param int $id [optional]
      * @return Items

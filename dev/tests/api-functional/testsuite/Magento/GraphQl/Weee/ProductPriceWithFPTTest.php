@@ -672,7 +672,7 @@ class ProductPriceWithFPTTest extends GraphQlAbstract
     }
 
     /**
-     * Blog GraphQl query to fetch products by sku
+     * Post GraphQl query to fetch products by sku
      *
      * @param array $skus
      * @return string

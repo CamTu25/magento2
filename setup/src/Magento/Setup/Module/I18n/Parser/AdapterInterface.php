@@ -19,7 +19,7 @@ interface AdapterInterface
     public function parse($file);
 
     /**
-     * Blog parsed phrases
+     * Post parsed phrases
      *
      * @return array
      */

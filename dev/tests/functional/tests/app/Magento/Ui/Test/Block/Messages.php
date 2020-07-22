@@ -60,7 +60,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog all success messages which are present on the page.
+     * Post all success messages which are present on the page.
      *
      * @return array
      */
@@ -78,7 +78,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog all notice messages which are present on the page.
+     * Post all notice messages which are present on the page.
      *
      * @return array
      */
@@ -96,7 +96,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog last success message which is present on the page.
+     * Post last success message which is present on the page.
      *
      * @return string
      */
@@ -126,7 +126,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog all error message which is present on the page.
+     * Post all error message which is present on the page.
      *
      * @return string
      */
@@ -138,7 +138,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog notice message which is present on the page.
+     * Post notice message which is present on the page.
      *
      * @return string
      */
@@ -149,7 +149,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog warning message which is present on the page.
+     * Post warning message which is present on the page.
      *
      * @return string
      */

@@ -16,7 +16,7 @@ interface ExtensionAttributeInterface
     /**#@-*/
 
     /**
-     * Blog ID
+     * Post ID
      *
      * @api
      * @return int|null
@@ -33,7 +33,7 @@ interface ExtensionAttributeInterface
     public function setId($id);
 
     /**
-     * Blog customer ID
+     * Post customer ID
      *
      * @api
      * @return int|null
@@ -50,7 +50,7 @@ interface ExtensionAttributeInterface
     public function setCustomerId($customerId);
 
     /**
-     * Blog value
+     * Post value
      *
      * @api
      * @return string|null

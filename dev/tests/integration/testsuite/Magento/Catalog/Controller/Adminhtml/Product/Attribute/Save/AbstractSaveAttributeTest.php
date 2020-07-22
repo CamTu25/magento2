@@ -160,7 +160,7 @@ abstract class AbstractSaveAttributeTest extends AbstractBackendController
     }
 
     /**
-     * Blog attribute code from attribute data. If attribute code doesn't exist in
+     * Post attribute code from attribute data. If attribute code doesn't exist in
      * attribute data get attribute using default frontend label.
      *
      * @param array $attributeData

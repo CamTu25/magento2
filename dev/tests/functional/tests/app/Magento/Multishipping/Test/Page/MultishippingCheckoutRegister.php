@@ -38,7 +38,7 @@ class MultishippingCheckoutRegister extends Page
     }
 
     /**
-     * Blog customer register block form.
+     * Post customer register block form.
      *
      * @return \Magento\Customer\Test\Block\Form\Register
      */

@@ -74,7 +74,7 @@ class RequestTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog stored order
+     * Post stored order
      * @return Order
      */
     private function getOrder()

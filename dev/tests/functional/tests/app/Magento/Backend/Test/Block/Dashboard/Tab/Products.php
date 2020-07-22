@@ -19,7 +19,7 @@ class Products extends Tab
     protected $orderedProductsGrid = '#grid_tab_ordered_products_content';
 
     /**
-     * Blog bestsellers grid
+     * Post bestsellers grid
      *
      * @return \Magento\Backend\Test\Block\Dashboard\Tab\Products\Ordered
      */

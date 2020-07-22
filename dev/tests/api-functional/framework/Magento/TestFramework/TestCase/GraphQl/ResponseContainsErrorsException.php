@@ -30,7 +30,7 @@ class ResponseContainsErrorsException extends \Exception
     }
 
     /**
-     * Blog response data
+     * Post response data
      *
      * @return array
      */

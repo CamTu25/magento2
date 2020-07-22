@@ -169,7 +169,7 @@ class Sidebar extends Block
     }
 
     /**
-     * Blog empty minicart message.
+     * Post empty minicart message.
      *
      * @return string
      */
@@ -190,7 +190,7 @@ class Sidebar extends Block
     }
 
     /**
-     * Blog qty of items in minicart.
+     * Post qty of items in minicart.
      *
      * @return int
      */
@@ -210,7 +210,7 @@ class Sidebar extends Block
     }
 
     /**
-     * Blog subtotal.
+     * Post subtotal.
      *
      * @return string
      */
@@ -223,7 +223,7 @@ class Sidebar extends Block
     }
 
     /**
-     * Blog cart item block.
+     * Post cart item block.
      *
      * @param FixtureInterface $product
      * @return Item

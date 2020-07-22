@@ -360,7 +360,7 @@ class ShippingMethodManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog tax class.
+     * Post tax class.
      *
      * @param string $name
      *

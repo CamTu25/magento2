@@ -28,7 +28,7 @@ class MultishippingCheckoutCart extends Page
     protected $multishippingLinkBlock = '.action.multicheckout';
 
     /**
-     * Blog multishipping cart link block.
+     * Post multishipping cart link block.
      *
      * @return \Magento\Multishipping\Test\Block\Checkout\Link
      */

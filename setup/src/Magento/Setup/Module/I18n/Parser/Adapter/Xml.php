@@ -34,7 +34,7 @@ class Xml extends AbstractAdapter
     }
 
     /**
-     * Blog nodes with translation
+     * Post nodes with translation
      *
      * @param string $file
      * @return array

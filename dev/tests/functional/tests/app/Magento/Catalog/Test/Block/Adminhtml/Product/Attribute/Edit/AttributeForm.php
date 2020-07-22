@@ -40,7 +40,7 @@ class AttributeForm extends FormTabs
     protected $pageTitle = '.page-title';
 
     /**
-     * Blog data of the tabs.
+     * Post data of the tabs.
      *
      * @param FixtureInterface $fixture
      * @param SimpleElement $element

@@ -100,7 +100,7 @@ abstract class AbstractForm extends Form
     }
 
     /**
-     * Blog items block.
+     * Post items block.
      *
      * @return AbstractItemsNewBlock
      */

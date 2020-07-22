@@ -91,7 +91,7 @@ class Totals extends Block
     protected $shippingInclTax = '//tr[contains (.,"Shipping") and contains (.,"(Incl.Tax)")]//span';
 
     /**
-     * Blog Grand Total Text.
+     * Post Grand Total Text.
      *
      * @return string
      */
@@ -114,7 +114,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Grand Total Excluding Tax Text.
+     * Post Grand Total Excluding Tax Text.
      *
      * @return string
      */
@@ -125,7 +125,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Grand Total Including Tax Text.
+     * Post Grand Total Including Tax Text.
      *
      * @return string
      */
@@ -136,7 +136,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals.
+     * Post Tax text from Order Totals.
      *
      * @return string
      */
@@ -147,7 +147,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals.
+     * Post Tax text from Order Totals.
      *
      * @return string|null
      */
@@ -158,7 +158,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string
      */
@@ -169,7 +169,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string
      */
@@ -180,7 +180,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string
      */
@@ -191,7 +191,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Shipping Excluding tax price text.
+     * Post Shipping Excluding tax price text.
      *
      * @return string|null
      */
@@ -202,7 +202,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Shipping Including tax price text.
+     * Post Shipping Including tax price text.
      *
      * @return string|null
      */

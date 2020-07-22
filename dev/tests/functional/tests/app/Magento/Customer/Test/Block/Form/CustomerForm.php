@@ -80,7 +80,7 @@ class CustomerForm extends Form
     }
 
     /**
-     * Blog all error validation messages for fields.
+     * Post all error validation messages for fields.
      *
      * @param Customer $customer
      * @return array
@@ -99,7 +99,7 @@ class CustomerForm extends Form
     }
 
     /**
-     * Blog Customer first name from field.
+     * Post Customer first name from field.
      *
      * @return string
      */
@@ -112,7 +112,7 @@ class CustomerForm extends Form
     }
 
     /**
-     * Blog Customer last name from field.
+     * Post Customer last name from field.
      *
      * @return string
      */

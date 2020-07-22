@@ -211,7 +211,7 @@ QUERY;
     }
 
     /**
-     * Blog cart query
+     * Post cart query
      *
      * @param string $maskedId
      * @return string
@@ -233,7 +233,7 @@ QUERY;
     }
 
     /**
-     * Blog create empty cart mutation
+     * Post create empty cart mutation
      *
      * @return string
      */
@@ -247,7 +247,7 @@ QUERY;
     }
 
     /**
-     * Blog add product to cart mutation
+     * Post add product to cart mutation
      *
      * @param string $maskedId
      * @return string

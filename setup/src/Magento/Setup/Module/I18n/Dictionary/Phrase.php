@@ -93,7 +93,7 @@ class Phrase
     }
 
     /**
-     * Blog phrase
+     * Post phrase
      *
      * @return string
      */
@@ -116,7 +116,7 @@ class Phrase
     }
 
     /**
-     * Blog quote type
+     * Post quote type
      *
      * @return string
      */
@@ -141,7 +141,7 @@ class Phrase
     }
 
     /**
-     * Blog translation
+     * Post translation
      *
      * @return string
      */
@@ -162,7 +162,7 @@ class Phrase
     }
 
     /**
-     * Blog context type
+     * Post context type
      *
      * @return string
      */
@@ -208,7 +208,7 @@ class Phrase
     }
 
     /**
-     * Blog context value
+     * Post context value
      *
      * @return array
      */
@@ -218,7 +218,7 @@ class Phrase
     }
 
     /**
-     * Blog context value as string
+     * Post context value as string
      *
      * @param string $separator
      * @return string
@@ -229,7 +229,7 @@ class Phrase
     }
 
     /**
-     * Blog VO identifier key
+     * Post VO identifier key
      *
      * @return string
      */

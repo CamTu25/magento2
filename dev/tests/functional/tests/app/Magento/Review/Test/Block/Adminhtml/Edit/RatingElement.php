@@ -51,7 +51,7 @@ class RatingElement extends SimpleElement
     }
 
     /**
-     * Blog rating vote
+     * Post rating vote
      *
      * @param SimpleElement $rating
      * @return int
@@ -69,7 +69,7 @@ class RatingElement extends SimpleElement
     }
 
     /**
-     * Blog list ratings
+     * Post list ratings
      *
      * @return array
      */

@@ -32,7 +32,7 @@ class Grid extends GridInterface
     protected $transactionType = 'td.col-transaction-type.col-txn_type';
 
     /**
-     * Blog Transaction type
+     * Post Transaction type
      *
      * @return array|string
      */

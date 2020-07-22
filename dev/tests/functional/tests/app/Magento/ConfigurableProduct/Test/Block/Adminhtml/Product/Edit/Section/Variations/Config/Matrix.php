@@ -145,7 +145,7 @@ class Matrix extends Form
     }
 
     /**
-     * Blog variations data
+     * Post variations data
      *
      * @return array
      */
@@ -165,7 +165,7 @@ class Matrix extends Form
     }
 
     /**
-     * Blog product attribute.
+     * Post product attribute.
      *
      * @return string
      */
@@ -175,7 +175,7 @@ class Matrix extends Form
     }
 
     /**
-     * Blog variation fields.
+     * Post variation fields.
      *
      * @param SimpleElement $context
      * @param array $fields
@@ -196,7 +196,7 @@ class Matrix extends Form
     }
 
     /**
-     * Blog template block.
+     * Post template block.
      *
      * @return Template
      */

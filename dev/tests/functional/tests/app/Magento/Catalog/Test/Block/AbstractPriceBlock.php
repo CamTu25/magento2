@@ -23,7 +23,7 @@ abstract class AbstractPriceBlock extends Block
     protected $mapTypePrices = [];
 
     /**
-     * Blog specify type price.
+     * Post specify type price.
      *
      * @param string $type
      * @param string $currency [optional]
@@ -36,7 +36,7 @@ abstract class AbstractPriceBlock extends Block
     }
 
     /**
-     * Blog specify type price element.
+     * Post specify type price element.
      *
      * @param string $type
      * @return SimpleElement

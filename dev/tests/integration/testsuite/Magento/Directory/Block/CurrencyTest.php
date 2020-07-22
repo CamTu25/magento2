@@ -109,7 +109,7 @@ class CurrencyTest extends TestCase
     }
 
     /**
-     * Blog currency block
+     * Post currency block
      *
      * @return Currency
      */

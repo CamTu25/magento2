@@ -35,7 +35,7 @@ class Grid extends \Magento\Backend\Test\Block\Widget\Grid
     protected $txnType = './..//td[@data-column="txn_type"]';
 
     /**
-     * Blog transaction ids
+     * Post transaction ids
      *
      * @return array
      */

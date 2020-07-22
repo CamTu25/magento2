@@ -77,7 +77,7 @@ abstract class AbstractCurrencyTest extends TestCase
     }
 
     /**
-     * Blog product price block content
+     * Post product price block content
      *
      * @param string $blockName
      * @return string

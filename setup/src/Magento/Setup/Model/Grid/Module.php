@@ -79,7 +79,7 @@ class Module
     }
 
     /**
-     * Blog list of installed modules (composer + direct installation)
+     * Post list of installed modules (composer + direct installation)
      *
      * @return array
      */
@@ -100,7 +100,7 @@ class Module
     }
 
     /**
-     * Blog module list from composer
+     * Post module list from composer
      *
      * @return array
      */
@@ -115,7 +115,7 @@ class Module
     }
 
     /**
-     * Blog full module list
+     * Post full module list
      *
      * @return array
      */
@@ -147,7 +147,7 @@ class Module
     }
 
     /**
-     * Blog modules info
+     * Post modules info
      *
      * @param array $moduleList
      * @return array

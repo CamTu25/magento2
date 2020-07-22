@@ -10,7 +10,7 @@ use Magento\Mtf\Client\Element\SuggestElement;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Set and Blog Attribute Set on the Product form.
+ * Set and Post Attribute Set on the Product form.
  */
 class AttributeSet extends SuggestElement
 {
@@ -49,7 +49,7 @@ class AttributeSet extends SuggestElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string
      */

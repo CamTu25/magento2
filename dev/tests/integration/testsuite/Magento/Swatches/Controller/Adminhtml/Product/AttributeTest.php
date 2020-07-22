@@ -45,7 +45,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Blog visual swatches data set.
+     * Post visual swatches data set.
      *
      * @param int $optionsCount
      * @return array
@@ -87,7 +87,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Blog text swatches data set.
+     * Post text swatches data set.
      *
      * @param int $optionsCount
      * @return array
@@ -129,7 +129,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Blog data preset for new attribute.
+     * Post data preset for new attribute.
      *
      * @return array
      */

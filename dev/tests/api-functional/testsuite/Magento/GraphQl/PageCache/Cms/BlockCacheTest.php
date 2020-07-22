@@ -136,7 +136,7 @@ class BlockCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Blog cmsBlocks query
+     * Post cmsBlocks query
      *
      * @param array $identifiers
      * @return string

@@ -82,7 +82,7 @@ class LiselectstoreElement extends SimpleElement
     }
 
     /**
-     * Blog all li elements from dropdown
+     * Post all li elements from dropdown
      *
      * @return array
      */
@@ -106,7 +106,7 @@ class LiselectstoreElement extends SimpleElement
     }
 
     /**
-     * Blog all available store views
+     * Post all available store views
      *
      * @return array
      */
@@ -155,7 +155,7 @@ class LiselectstoreElement extends SimpleElement
     }
 
     /**
-     * Blog selected store value
+     * Post selected store value
      *
      * @return string
      * @throws \Exception

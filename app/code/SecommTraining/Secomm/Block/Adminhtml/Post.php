@@ -1,5 +1,5 @@
 <?php
-namespace Mageplaza\HelloWorld\Block\Adminhtml;
+namespace SecommTraining\Secomm\Block\Adminhtml;
 
 class Post extends \Magento\Backend\Block\Widget\Grid\Container
 {

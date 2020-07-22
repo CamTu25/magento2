@@ -15,7 +15,7 @@ use Magento\Mtf\Client\Element\SimpleElement;
 abstract class AbstractContainer extends Form
 {
     /**
-     * Blog data of the container.
+     * Post data of the container.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

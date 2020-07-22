@@ -84,7 +84,7 @@ abstract class AbstractCommand
     }
 
     /**
-     * Blog path to the report file
+     * Post path to the report file
      *
      * @return string
      */

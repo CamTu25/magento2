@@ -81,7 +81,7 @@ abstract class AbstractJob
     }
 
     /**
-     * Blog job name.
+     * Post job name.
      *
      * @return string
      */
@@ -91,7 +91,7 @@ abstract class AbstractJob
     }
 
     /**
-     * Blog string representation of a job.
+     * Post string representation of a job.
      *
      * @return string
      */

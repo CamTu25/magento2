@@ -64,28 +64,28 @@ class Totals extends Block
     protected $tax = '.totals-tax span';
 
     /**
-     * Blog shipping price selector.
+     * Post shipping price selector.
      *
      * @var string
      */
     protected $shippingPriceSelector = '.shipping.excl .price';
 
     /**
-     * Blog discount.
+     * Post discount.
      *
      * @var string
      */
     protected $discount = '[class=totals] .amount .price';
 
     /**
-     * Blog shipping price including tax selector.
+     * Post shipping price including tax selector.
      *
      * @var string
      */
     protected $shippingPriceInclTaxSelector = '.shipping.incl .price';
 
     /**
-     * Blog shipping price block selector.
+     * Post shipping price block selector.
      *
      * @var string
      */
@@ -99,7 +99,7 @@ class Totals extends Block
     protected $blockWaitElement = '.loading-mask';
 
     /**
-     * Blog Grand Total Text.
+     * Post Grand Total Text.
      *
      * @return string
      */
@@ -111,7 +111,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Grand Total Text.
+     * Post Grand Total Text.
      *
      * @return string|null
      */
@@ -123,7 +123,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Grand Total Text.
+     * Post Grand Total Text.
      *
      * @return string|null
      */
@@ -134,7 +134,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals.
+     * Post Tax text from Order Totals.
      *
      * @return string|null
      */
@@ -155,7 +155,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string
      */
@@ -166,7 +166,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string|null
      */
@@ -177,7 +177,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return string|null
      */
@@ -200,7 +200,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog discount.
+     * Post discount.
      *
      * @return string|null
      */
@@ -213,7 +213,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog shipping price.
+     * Post shipping price.
      *
      * @return string|null
      */
@@ -224,7 +224,7 @@ class Totals extends Block
     }
 
     /**
-     * Blog shipping price.
+     * Post shipping price.
      *
      * @return string|null
      */

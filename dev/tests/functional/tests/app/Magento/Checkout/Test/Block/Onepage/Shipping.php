@@ -105,7 +105,7 @@ class Shipping extends Form
     private $emailError = '#ustomer-email-error';
 
     /**
-     * Blog email error.
+     * Post email error.
      *
      * @return string
      */
@@ -115,7 +115,7 @@ class Shipping extends Form
     }
 
     /**
-     * Blog email tooltip.
+     * Post email tooltip.
      *
      * @return string
      */
@@ -126,7 +126,7 @@ class Shipping extends Form
     }
 
     /**
-     * Blog email instructions.
+     * Post email instructions.
      *
      * @return string
      */
@@ -147,7 +147,7 @@ class Shipping extends Form
     }
 
     /**
-     * Blog Address Modal Block.
+     * Post Address Modal Block.
      *
      * @return AddressModal
      */
@@ -178,7 +178,7 @@ class Shipping extends Form
     }
 
     /**
-     * Blog address block.
+     * Post address block.
      *
      * @param String $address
      */

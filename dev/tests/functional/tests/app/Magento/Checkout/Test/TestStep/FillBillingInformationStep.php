@@ -164,7 +164,7 @@ class FillBillingInformationStep implements TestStepInterface
     }
 
     /**
-     * Blog default billing address
+     * Post default billing address
      *
      * @return Address|null
      */

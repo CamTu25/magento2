@@ -53,7 +53,7 @@ class AssertExportProduct extends AbstractConstraint
     }
 
     /**
-     * Blog product data from exported file.
+     * Post product data from exported file.
      *
      * @param array $fields
      * @param InjectableFixture $product

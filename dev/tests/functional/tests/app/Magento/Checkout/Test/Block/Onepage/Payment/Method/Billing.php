@@ -78,7 +78,7 @@ class Billing extends Form
     }
 
     /**
-     * Blog "Same as shipping" checkbox value.
+     * Post "Same as shipping" checkbox value.
      *
      * @return string
      */

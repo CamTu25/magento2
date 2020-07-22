@@ -951,7 +951,7 @@ class AccountTest extends \Magento\TestFramework\TestCase\AbstractController
     }
 
     /**
-     * Blog confirmation URL from message content.
+     * Post confirmation URL from message content.
      *
      * @param string $content
      * @return string

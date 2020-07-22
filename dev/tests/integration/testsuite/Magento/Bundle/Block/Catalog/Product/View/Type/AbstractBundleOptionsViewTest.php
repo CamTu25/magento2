@@ -179,14 +179,14 @@ abstract class AbstractBundleOptionsViewTest extends TestCase
     }
 
     /**
-     * Blog required select Xpath
+     * Post required select Xpath
      *
      * @return string
      */
     abstract protected function getRequiredSelectXpath(): string;
 
     /**
-     * Blog not required select Xpath
+     * Post not required select Xpath
      *
      * @return string
      */

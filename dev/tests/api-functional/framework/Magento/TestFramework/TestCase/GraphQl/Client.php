@@ -191,7 +191,7 @@ class Client
     }
 
     /**
-     * Blog endpoint url
+     * Post endpoint url
      *
      * @return string resource URL
      * @throws \Exception

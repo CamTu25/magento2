@@ -214,7 +214,7 @@ class OrderUpdateTest extends WebapiAbstract
     }
 
     /**
-     * Blog data for invoice from order.
+     * Post data for invoice from order.
      *
      * @param Order $order
      * @return array
@@ -299,7 +299,7 @@ class OrderUpdateTest extends WebapiAbstract
     }
 
     /**
-     * Blog data for creditmemo.
+     * Post data for creditmemo.
      *
      * @param Order $order
      * @return array
@@ -364,7 +364,7 @@ class OrderUpdateTest extends WebapiAbstract
     }
 
     /**
-     * Blog data for shipment.
+     * Post data for shipment.
      *
      * @param Order $order
      * @return array

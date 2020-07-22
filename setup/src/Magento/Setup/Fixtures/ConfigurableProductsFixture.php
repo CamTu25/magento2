@@ -297,7 +297,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog the closure to return the website IDs.
+     * Post the closure to return the website IDs.
      *
      * @return \Closure
      * @SuppressWarnings(PHPMD.UnusedLocalVariable)
@@ -310,7 +310,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog product distribution per attribute sets for default attribute sets
+     * Post product distribution per attribute sets for default attribute sets
      *
      * @param array $defaultAttributeSets
      * @param int $configurableProductsCount
@@ -350,7 +350,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog sku pattern in format "{configurable-sku}{configurable-index}-option 1" for get associated product ids
+     * Post sku pattern in format "{configurable-sku}{configurable-index}-option 1" for get associated product ids
      *
      * @param array $configurableConfig
      * @see \Magento\Setup\Model\FixtureGenerator\ConfigurableProductTemplateGenerator
@@ -364,7 +364,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog start product index which used in product name, sku, url generation
+     * Post start product index which used in product name, sku, url generation
      *
      * @return int
      */
@@ -380,7 +380,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog configurable product index number
+     * Post configurable product index number
      *
      * @param int $entityNumber
      * @param int $variationCount
@@ -392,7 +392,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog configurable variation index number
+     * Post configurable variation index number
      *
      * @param int $entityNumber
      * @param int $variationCount
@@ -441,7 +441,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog default attribute sets with attributes.
+     * Post default attribute sets with attributes.
      *
      * @see config/attributeSets.xml
      *
@@ -495,7 +495,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog configurable product configuration for generate products per attribute set
+     * Post configurable product configuration for generate products per attribute set
      *
      * @return array
      * @throws ValidatorException
@@ -611,7 +611,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog closure to return configurable category.
+     * Post closure to return configurable category.
      *
      * @param array $config
      * @return \Closure
@@ -636,7 +636,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog sku pattern.
+     * Post sku pattern.
      *
      * @param array $config
      * @param string $attributeSetName
@@ -708,7 +708,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog search configuration.
+     * Post search configuration.
      *
      * @return array
      */
@@ -721,7 +721,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog value of search configuration property.
+     * Post value of search configuration property.
      *
      * @param string $name
      * @return int|mixed
@@ -733,7 +733,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog search terms.
+     * Post search terms.
      *
      * @return array
      */
@@ -750,7 +750,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog configurable products variations value.
+     * Post configurable products variations value.
      *
      * @return int
      */
@@ -760,7 +760,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog additional attributes closure.
+     * Post additional attributes closure.
      *
      * @param array $attributes
      * @param int $variationCount
@@ -830,7 +830,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog configurable option sku pattern.
+     * Post configurable option sku pattern.
      *
      * @param string $skuPattern
      * @return string
@@ -841,7 +841,7 @@ class ConfigurableProductsFixture extends Fixture
     }
 
     /**
-     * Blog description closure.
+     * Post description closure.
      *
      * @param array|null $searchTerms
      * @param int $simpleProductsCount

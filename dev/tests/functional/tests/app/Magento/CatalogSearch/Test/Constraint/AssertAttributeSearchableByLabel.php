@@ -45,7 +45,7 @@ class AssertAttributeSearchableByLabel extends AbstractConstraint
     }
 
     /**
-     * Blog search value for product attribute.
+     * Post search value for product attribute.
      *
      * @param CatalogProductAttribute $attribute
      * @return string

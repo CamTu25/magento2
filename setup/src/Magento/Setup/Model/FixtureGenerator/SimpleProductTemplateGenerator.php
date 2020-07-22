@@ -54,7 +54,7 @@ class SimpleProductTemplateGenerator implements TemplateEntityGeneratorInterface
     }
 
     /**
-     * Blog product template
+     * Post product template
      *
      * @param int $attributeSet
      * @param array $additionalAttributes

@@ -95,7 +95,7 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog request config path
+     * Post request config path
      *
      * @return string
      */

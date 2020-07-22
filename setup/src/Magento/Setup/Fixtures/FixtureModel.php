@@ -136,7 +136,7 @@ class FixtureModel
     }
 
     /**
-     * Blog param labels
+     * Post param labels
      *
      * @return array
      * @deprecated 2.2.0
@@ -147,7 +147,7 @@ class FixtureModel
     }
 
     /**
-     * Blog fixtures
+     * Post fixtures
      *
      * @return Fixture[]
      */
@@ -172,7 +172,7 @@ class FixtureModel
     }
 
     /**
-     * Blog object manager
+     * Post object manager
      *
      * @return \Magento\Framework\ObjectManagerInterface
      */
@@ -258,7 +258,7 @@ class FixtureModel
     }
 
     /**
-     * Blog profile configuration value
+     * Post profile configuration value
      *
      * @param string $key
      * @param null|mixed $default

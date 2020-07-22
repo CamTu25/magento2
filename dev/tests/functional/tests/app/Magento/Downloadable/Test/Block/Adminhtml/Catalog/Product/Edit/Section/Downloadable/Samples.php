@@ -35,7 +35,7 @@ class Samples extends Form
     protected $sortRowsData = [];
 
     /**
-     * Blog Downloadable sample item block.
+     * Post Downloadable sample item block.
      *
      * @param int $index
      * @param SimpleElement $element
@@ -79,7 +79,7 @@ class Samples extends Form
     }
 
     /**
-     * Blog data samples block.
+     * Post data samples block.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

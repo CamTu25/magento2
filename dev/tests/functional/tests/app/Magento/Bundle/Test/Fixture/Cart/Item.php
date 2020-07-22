@@ -59,7 +59,7 @@ class Item extends \Magento\Catalog\Test\Fixture\Cart\Item
     }
 
     /**
-     * Blog option key.
+     * Post option key.
      *
      * @param array $assignedProducts
      * @param string $checkoutOption

@@ -51,7 +51,7 @@ class Curl extends AbstractCurl implements SitemapInterface
     }
 
     /**
-     * Blog id after created sitemap
+     * Post id after created sitemap
      *
      * @param array $data
      * @return string|null

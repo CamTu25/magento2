@@ -45,7 +45,7 @@ class Info extends Tab
     private $commentsHistoryBlockSelector = '#order_history_block';
 
     /**
-     * Blog order status from info block.
+     * Post order status from info block.
      *
      * @return array|string
      */

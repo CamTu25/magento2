@@ -381,7 +381,7 @@ class Attribute extends Form
     }
 
     /**
-     * Blog new attribute form block.
+     * Post new attribute form block.
      *
      * @return \Magento\ConfigurableProduct\Test\Block\Adminhtml\Product\Edit\NewConfigurableAttributeForm
      */
@@ -394,7 +394,7 @@ class Attribute extends Form
     }
 
     /**
-     * Blog attribute selector element
+     * Post attribute selector element
      *
      * @return AttributeSelector
      */
@@ -409,7 +409,7 @@ class Attribute extends Form
     }
 
     /**
-     * Blog attributes data
+     * Post attributes data
      *
      * @deprecated
      * @return array
@@ -485,7 +485,7 @@ class Attribute extends Form
     }
 
     /**
-     * Blog optional fields
+     * Post optional fields
      *
      * @param SimpleElement $context
      * @param array $fields
@@ -504,7 +504,7 @@ class Attribute extends Form
     }
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return \Magento\Backend\Test\Block\Template
      */

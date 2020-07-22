@@ -135,7 +135,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create billing address block.
+     * Post sales order create billing address block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Billing\Address
      */
@@ -148,7 +148,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create billing address block.
+     * Post sales order create billing address block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Shipping\Address
      */
@@ -161,7 +161,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create payment method block.
+     * Post sales order create payment method block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Billing\Method
      */
@@ -174,7 +174,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create shipping method block.
+     * Post sales order create shipping method block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Shipping\Method
      */
@@ -187,7 +187,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create totals block.
+     * Post sales order create totals block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Totals
      */
@@ -200,7 +200,7 @@ class Create extends Block
     }
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return \Magento\Backend\Test\Block\Template
      */
@@ -213,7 +213,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create search products block.
+     * Post sales order create search products block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Search\Grid
      */
@@ -226,7 +226,7 @@ class Create extends Block
     }
 
     /**
-     * Blog sales order create account information block.
+     * Post sales order create account information block.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Form\Account
      */

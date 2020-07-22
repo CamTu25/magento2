@@ -17,7 +17,7 @@ use Magento\Mtf\Client\Locator;
 class CartItem extends AbstractCartItem
 {
     /**
-     * Blog product name
+     * Post product name
      *
      * @return string
      */
@@ -27,7 +27,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog product price
+     * Post product price
      *
      * @return string
      */
@@ -58,7 +58,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog product quantity
+     * Post product quantity
      *
      * @return string
      */
@@ -74,7 +74,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog sub-total for the specified item in the cart
+     * Post sub-total for the specified item in the cart
      *
      * @return string
      */
@@ -90,7 +90,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog product options in the cart
+     * Post product options in the cart
      *
      * @return string
      */
@@ -122,7 +122,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog product price including tax
+     * Post product price including tax
      *
      * @return string|null
      */
@@ -132,7 +132,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog product price excluding tax
+     * Post product price excluding tax
      *
      * @return string|null
      */
@@ -142,7 +142,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog sub-total excluding tax for the specified item in the cart
+     * Post sub-total excluding tax for the specified item in the cart
      *
      * @return string|null
      */
@@ -152,7 +152,7 @@ class CartItem extends AbstractCartItem
     }
 
     /**
-     * Blog price for the specified item in the cart by the price type
+     * Post price for the specified item in the cart by the price type
      *
      * @return string|null
      */

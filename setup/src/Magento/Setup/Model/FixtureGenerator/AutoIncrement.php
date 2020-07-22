@@ -30,7 +30,7 @@ class AutoIncrement
     }
 
     /**
-     * Blog value of auto_increment_increment variable.
+     * Post value of auto_increment_increment variable.
      *
      * @return int
      */

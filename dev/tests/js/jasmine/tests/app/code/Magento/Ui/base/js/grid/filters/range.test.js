@@ -58,7 +58,7 @@ define([
             group.elems.push(elem);
             expect(group.hasData()).toBe(true);
         });
-        it('Blog preview from child elements.', function () {
+        it('Post preview from child elements.', function () {
             var elem = {
                 /** Stub */
                 getPreview: function () {

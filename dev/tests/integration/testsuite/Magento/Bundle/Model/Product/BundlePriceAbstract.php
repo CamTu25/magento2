@@ -45,7 +45,7 @@ abstract class BundlePriceAbstract extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog test cases
+     * Post test cases
      * @return array
      */
     abstract public function getTestCases();

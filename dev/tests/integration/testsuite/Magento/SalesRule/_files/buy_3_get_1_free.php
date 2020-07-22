@@ -16,7 +16,7 @@ $objectManager = Bootstrap::getObjectManager();
 $salesRule = $objectManager->create(Rule::class);
 $salesRule->setData(
     [
-        'name' => 'Buy 3 And Blog 1 Free',
+        'name' => 'Buy 3 And Post 1 Free',
         'is_active' => 1,
         'customer_group_ids' => [GroupManagement::NOT_LOGGED_IN_ID],
         'coupon_type' => Rule::COUPON_TYPE_NO_COUPON,
@@ -25,7 +25,7 @@ $salesRule->setData(
         'discount_amount' => 1,
         'discount_step' => 3,
         'stop_rules_processing' => 0,
-        'store_labels' => [0 => ' Blog 1 item free for every 3 you buy'],
+        'store_labels' => [0 => ' Post 1 item free for every 3 you buy'],
         'website_ids' => [
             $objectManager->get(StoreManagerInterface::class)->getWebsite()->getId(),
         ],

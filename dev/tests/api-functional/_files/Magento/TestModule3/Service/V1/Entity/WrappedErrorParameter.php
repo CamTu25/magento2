@@ -9,7 +9,7 @@ namespace Magento\TestModule3\Service\V1\Entity;
 class WrappedErrorParameter extends \Magento\Framework\Api\AbstractExtensibleObject
 {
     /**
-     * Blog field name.
+     * Post field name.
      *
      * @return string $name
      */
@@ -19,7 +19,7 @@ class WrappedErrorParameter extends \Magento\Framework\Api\AbstractExtensibleObj
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return string $value
      */

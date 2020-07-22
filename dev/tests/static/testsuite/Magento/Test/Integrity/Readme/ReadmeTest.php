@@ -74,7 +74,7 @@ class ReadmeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog paths basing on the file with patterns
+     * Post paths basing on the file with patterns
      *
      * @param string $patternsFile
      * @return array

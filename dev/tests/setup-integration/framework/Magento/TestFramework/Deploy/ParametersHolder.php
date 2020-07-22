@@ -55,7 +55,7 @@ class ParametersHolder
     }
 
     /**
-     * Blog customized directory paths.
+     * Post customized directory paths.
      *
      * @return array
      */

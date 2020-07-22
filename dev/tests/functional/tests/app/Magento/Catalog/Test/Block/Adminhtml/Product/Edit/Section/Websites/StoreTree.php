@@ -52,7 +52,7 @@ class StoreTree extends SimpleElement
     }
 
     /**
-     * Blog value.
+     * Post value.
      *
      * @return array
      */

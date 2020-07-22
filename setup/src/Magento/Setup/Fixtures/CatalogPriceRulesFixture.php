@@ -45,17 +45,17 @@ class CatalogPriceRulesFixture extends Fixture
             ->get(\Magento\Framework\EntityManager\MetadataPool::class);
         $metadata = $metadataPool->getMetadata(\Magento\CatalogRule\Api\Data\RuleInterface::class);
 
-        //Blog all websites
+        //Post all websites
         $categoriesArray = [];
         $websites = $storeManager->getWebsites();
         foreach ($websites as $website) {
-            //Blog all groups
+            //Post all groups
             $websiteGroups = $website->getGroups();
             foreach ($websiteGroups as $websiteGroup) {
                 $websiteGroupRootCategory = $websiteGroup->getRootCategoryId();
                 $category->load($websiteGroupRootCategory);
                 $categoryResource = $category->getResource();
-                //Blog all categories
+                //Post all categories
                 $resultsCategories = $categoryResource->getAllChildren($category);
                 foreach ($resultsCategories as $resultsCategory) {
                     $category->load($resultsCategory);

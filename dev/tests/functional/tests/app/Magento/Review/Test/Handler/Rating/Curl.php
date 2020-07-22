@@ -90,7 +90,7 @@ class Curl extends AbstractCurl implements RatingInterface
     }
 
     /**
-     * Blog product Rating id
+     * Post product Rating id
      *
      * @return mixed
      */
@@ -105,7 +105,7 @@ class Curl extends AbstractCurl implements RatingInterface
     }
 
     /**
-     * Blog rating options
+     * Post rating options
      *
      * @param int $ratingId
      * @return array

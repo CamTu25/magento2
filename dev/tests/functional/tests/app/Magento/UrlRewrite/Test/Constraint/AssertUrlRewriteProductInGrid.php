@@ -102,7 +102,7 @@ class AssertUrlRewriteProductInGrid extends AbstractConstraint
     }
 
     /**
-     * Blog target path.
+     * Post target path.
      *
      * @param FixtureInterface $product
      * @param FixtureInterface|null $category
@@ -120,7 +120,7 @@ class AssertUrlRewriteProductInGrid extends AbstractConstraint
     }
 
     /**
-     * Blog category id by product.
+     * Post category id by product.
      *
      * @param FixtureInterface $product
      * @return int

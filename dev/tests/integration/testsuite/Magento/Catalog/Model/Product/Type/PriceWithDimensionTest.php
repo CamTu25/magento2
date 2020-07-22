@@ -42,7 +42,7 @@ class PriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog price from indexer
+     * Post price from indexer
      */
     public function testGetPriceFromIndexer()
     {
@@ -74,7 +74,7 @@ class PriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog price
+     * Post price
      */
     public function testGetPrice()
     {
@@ -82,7 +82,7 @@ class PriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog final price
+     * Post final price
      */
     public function testGetFinalPrice()
     {
@@ -109,7 +109,7 @@ class PriceWithDimensionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog formatted price
+     * Post formatted price
      */
     public function testGetFormatedPrice()
     {

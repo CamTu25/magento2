@@ -51,7 +51,7 @@ class Header extends Block
     }
 
     /**
-     * Blog admin account link visibility.
+     * Post admin account link visibility.
      *
      * @return bool
      */

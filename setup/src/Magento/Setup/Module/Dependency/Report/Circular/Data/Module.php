@@ -37,7 +37,7 @@ class Module
     }
 
     /**
-     * Blog name
+     * Post name
      *
      * @return string
      */
@@ -47,7 +47,7 @@ class Module
     }
 
     /**
-     * Blog circular dependencies chains
+     * Post circular dependencies chains
      *
      * @return \Magento\Setup\Module\Dependency\Report\Circular\Data\Chain[]
      */
@@ -57,7 +57,7 @@ class Module
     }
 
     /**
-     * Blog circular dependencies chains count
+     * Post circular dependencies chains count
      *
      * @return int
      */

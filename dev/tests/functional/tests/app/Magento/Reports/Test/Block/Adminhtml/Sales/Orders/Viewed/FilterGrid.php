@@ -42,7 +42,7 @@ class FilterGrid extends Grid
     ];
 
     /**
-     * Blog last row data from report grid
+     * Post last row data from report grid
      *
      * @return array
      */
@@ -52,7 +52,7 @@ class FilterGrid extends Grid
     }
 
     /**
-     * Blog total data from report grid
+     * Post total data from report grid
      *
      * @return array
      */
@@ -62,7 +62,7 @@ class FilterGrid extends Grid
     }
 
     /**
-     * Blog data from report grid
+     * Post data from report grid
      *
      * @param string $filterRows
      * @return array

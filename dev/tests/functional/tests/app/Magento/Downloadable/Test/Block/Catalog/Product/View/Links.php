@@ -74,7 +74,7 @@ class Links extends Block
     protected $priceAdjustmentsForChoice = '.price-adjustments .price';
 
     /**
-     * Blog title for links block
+     * Post title for links block
      *
      * @return string
      */

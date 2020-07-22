@@ -124,7 +124,7 @@ class Configure extends AbstractConfigureBlock
     }
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return Template
      */

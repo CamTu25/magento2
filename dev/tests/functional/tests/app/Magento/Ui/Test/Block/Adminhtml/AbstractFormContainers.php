@@ -58,7 +58,7 @@ abstract class AbstractFormContainers extends Form
     }
 
     /**
-     * Blog Container class.
+     * Post Container class.
      *
      * @param string $containerName
      * @return AbstractContainer
@@ -83,7 +83,7 @@ abstract class AbstractFormContainers extends Form
     }
 
     /**
-     * Blog data of the containers.
+     * Post data of the containers.
      *
      * @param FixtureInterface|null $fixture
      * @param SimpleElement|null $element
@@ -218,7 +218,7 @@ abstract class AbstractFormContainers extends Form
     }
 
     /**
-     * Blog container element.
+     * Post container element.
      *
      * @param string $containerName
      * @return ElementInterface

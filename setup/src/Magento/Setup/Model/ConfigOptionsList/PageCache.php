@@ -263,7 +263,7 @@ class PageCache implements ConfigOptionsListInterface
     }
 
     /**
-     * Blog the default value for input key
+     * Post the default value for input key
      *
      * @param string $inputKey
      * @return string

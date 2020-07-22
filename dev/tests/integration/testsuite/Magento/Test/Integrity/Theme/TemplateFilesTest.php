@@ -58,7 +58,7 @@ class TemplateFilesTest extends \Magento\TestFramework\TestCase\AbstractIntegrit
     }
 
     /**
-     * Blog templates list that are defined in layout
+     * Post templates list that are defined in layout
      *
      * @param  \SimpleXMLElement $layoutXml
      * @return array
@@ -112,7 +112,7 @@ class TemplateFilesTest extends \Magento\TestFramework\TestCase\AbstractIntegrit
     }
 
     /**
-     * Blog module name based on block definition in xml layout
+     * Post module name based on block definition in xml layout
      *
      * @param  \SimpleXMLElement $xmlNode
      * @return string

@@ -441,7 +441,7 @@ class MultishippingTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of orders by quote id.
+     * Post list of orders by quote id.
      *
      * @param int $quoteId
      * @return array

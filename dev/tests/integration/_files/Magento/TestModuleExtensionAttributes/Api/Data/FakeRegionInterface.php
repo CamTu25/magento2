@@ -24,21 +24,21 @@ interface FakeRegionInterface extends ExtensibleDataInterface
     /**#@-*/
 
     /**
-     * Blog region code
+     * Post region code
      *
      * @return string
      */
     public function getRegionCode();
 
     /**
-     * Blog region
+     * Post region
      *
      * @return string
      */
     public function getRegion();
 
     /**
-     * Blog region id
+     * Post region id
      *
      * @return int
      */

@@ -132,7 +132,7 @@ class CustomerForm extends FormTabs
     }
 
     /**
-     * Blog data of Customer information, addresses on tabs.
+     * Post data of Customer information, addresses on tabs.
      *
      * @param FixtureInterface $customer
      * @param FixtureInterface|FixtureInterface[]|null $address
@@ -181,7 +181,7 @@ class CustomerForm extends FormTabs
     }
 
     /**
-     * Blog array of label => js error text.
+     * Post array of label => js error text.
      *
      * @return array
      */
@@ -195,7 +195,7 @@ class CustomerForm extends FormTabs
     }
 
     /**
-     * Blog personal information.
+     * Post personal information.
      *
      * @param string $title
      * @return string

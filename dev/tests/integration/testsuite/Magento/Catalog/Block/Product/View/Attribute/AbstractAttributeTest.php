@@ -180,7 +180,7 @@ abstract class AbstractAttributeTest extends TestCase
     }
 
     /**
-     * Blog attribute
+     * Post attribute
      *
      * @return ProductAttributeInterface
      */
@@ -255,14 +255,14 @@ abstract class AbstractAttributeTest extends TestCase
     }
 
     /**
-     * Blog attribute code for current test
+     * Post attribute code for current test
      *
      * @return string
      */
     abstract protected function getAttributeCode(): string;
 
     /**
-     * Blog default value for current attribute
+     * Post default value for current attribute
      *
      * @return string
      */

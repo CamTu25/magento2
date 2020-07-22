@@ -99,7 +99,7 @@ class DiRuleTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog content of di file
+     * Post content of di file
      *
      * @param string $fileName
      * @return string

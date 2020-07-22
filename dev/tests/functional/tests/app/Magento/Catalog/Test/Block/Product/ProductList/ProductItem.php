@@ -109,7 +109,7 @@ class ProductItem extends Block
     }
 
     /**
-     * Blog base image source link.
+     * Post base image source link.
      *
      * @return string
      */

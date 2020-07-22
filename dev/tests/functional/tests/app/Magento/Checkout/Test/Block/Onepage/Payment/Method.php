@@ -118,7 +118,7 @@ class Method extends Block
     }
 
     /**
-     * Blog "Billing Address" block.
+     * Post "Billing Address" block.
      *
      * @return \Magento\Checkout\Test\Block\Onepage\Payment\Method\Billing
      */

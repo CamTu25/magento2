@@ -294,7 +294,7 @@ class ProductInCategoriesViewTest extends TestCase
     }
 
     /**
-     * Blog product listing block
+     * Post product listing block
      *
      * @param bool $refresh
      * @return ListProduct

@@ -39,7 +39,7 @@ class Labels extends Section
     }
 
     /**
-     * Blog data of labels section.
+     * Post data of labels section.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

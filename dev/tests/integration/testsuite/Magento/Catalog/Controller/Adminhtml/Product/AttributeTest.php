@@ -215,7 +215,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Blog attribute data preset.
+     * Post attribute data preset.
      *
      * @return array
      */
@@ -341,7 +341,7 @@ class AttributeTest extends \Magento\TestFramework\TestCase\AbstractBackendContr
     }
 
     /**
-     * Blog attribute data for post
+     * Post attribute data for post
      *
      * @return array
      */

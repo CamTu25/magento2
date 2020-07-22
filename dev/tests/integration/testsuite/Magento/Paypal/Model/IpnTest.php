@@ -262,7 +262,7 @@ class IpnTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog stored order.
+     * Post stored order.
      *
      * @param string $incrementId
      * @return OrderInterface

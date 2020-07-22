@@ -36,7 +36,7 @@ class Extension
     }
 
     /**
-     * Blog formatted list of installed extensions
+     * Post formatted list of installed extensions
      *
      * @return array
      */
@@ -59,7 +59,7 @@ class Extension
     }
 
     /**
-     * Blog formatted list of extensions that have new version
+     * Post formatted list of extensions that have new version
      *
      * @return array
      */

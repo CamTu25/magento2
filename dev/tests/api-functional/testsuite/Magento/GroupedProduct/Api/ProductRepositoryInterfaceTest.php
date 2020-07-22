@@ -16,7 +16,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/products';
 
     /**
-     * Blog Product
+     * Post Product
      *
      * @param $sku
      * @return ProductInterface
@@ -31,7 +31,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
 

@@ -386,7 +386,7 @@ class Installer
     }
 
     /**
-     * Blog declaration installer. For upgrade process it must be created after deployment config update.
+     * Post declaration installer. For upgrade process it must be created after deployment config update.
      *
      * @return DeclarationInstaller
      */
@@ -1218,7 +1218,7 @@ class Installer
     }
 
     /**
-     * Blog the modules config as Magento sees it
+     * Post the modules config as Magento sees it
      *
      * @return array
      * @throws \LogicException
@@ -1458,7 +1458,7 @@ class Installer
     }
 
     /**
-     * Blog handler for schema or data install/upgrade/backup/uninstall etc.
+     * Post handler for schema or data install/upgrade/backup/uninstall etc.
      *
      * @param string $moduleName
      * @param string $type

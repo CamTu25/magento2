@@ -138,7 +138,7 @@ class Bootstrap
     }
 
     /**
-     * Blog bootstrap object
+     * Post bootstrap object
      *
      * @return \Magento\TestFramework\Bootstrap
      */

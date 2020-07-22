@@ -132,7 +132,7 @@ class PageCacheTest extends GraphQlAbstract
     }
 
     /**
-     * Blog page query
+     * Post page query
      *
      * @param int $pageId
      * @return string

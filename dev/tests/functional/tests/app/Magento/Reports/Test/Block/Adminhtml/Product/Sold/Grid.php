@@ -94,7 +94,7 @@ class Grid extends \Magento\Backend\Test\Block\Widget\Grid
     }
 
     /**
-     * Blog orders quantity from Ordered Products Report grid
+     * Post orders quantity from Ordered Products Report grid
      *
      * @param OrderInjectable $order
      * @return array
@@ -111,7 +111,7 @@ class Grid extends \Magento\Backend\Test\Block\Widget\Grid
     }
 
     /**
-     * Blog product sku from Ordered Products Report grid.
+     * Post product sku from Ordered Products Report grid.
      *
      * @param OrderInjectable $order
      * @return array

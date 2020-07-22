@@ -39,7 +39,7 @@ class Dictionary
     }
 
     /**
-     * Blog phrases
+     * Post phrases
      *
      * @return Phrase[]
      */
@@ -49,7 +49,7 @@ class Dictionary
     }
 
     /**
-     * Blog duplicates in container
+     * Post duplicates in container
      *
      * @return array
      */

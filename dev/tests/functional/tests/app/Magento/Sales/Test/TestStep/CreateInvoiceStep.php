@@ -146,7 +146,7 @@ class CreateInvoiceStep implements TestStepInterface
     }
 
     /**
-     * Blog invoice ids.
+     * Post invoice ids.
      *
      * @return array
      */
@@ -157,7 +157,7 @@ class CreateInvoiceStep implements TestStepInterface
     }
 
     /**
-     * Blog shipment ids.
+     * Post shipment ids.
      *
      * @return array
      */
@@ -168,7 +168,7 @@ class CreateInvoiceStep implements TestStepInterface
     }
 
     /**
-     * Blog cart items
+     * Post cart items
      *
      * @return mixed
      */

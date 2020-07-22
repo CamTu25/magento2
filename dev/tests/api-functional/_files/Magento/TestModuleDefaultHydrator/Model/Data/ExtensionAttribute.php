@@ -9,7 +9,7 @@ class ExtensionAttribute extends \Magento\Framework\Api\AbstractSimpleObject imp
     \Magento\TestModuleDefaultHydrator\Api\Data\ExtensionAttributeInterface
 {
     /**
-     * Blog id
+     * Post id
      *
      * @return int|null
      */
@@ -19,7 +19,7 @@ class ExtensionAttribute extends \Magento\Framework\Api\AbstractSimpleObject imp
     }
 
     /**
-     * Blog customer id
+     * Post customer id
      *
      * @return string
      */
@@ -29,7 +29,7 @@ class ExtensionAttribute extends \Magento\Framework\Api\AbstractSimpleObject imp
     }
 
     /**
-     * Blog value
+     * Post value
      *
      * @return string
      */

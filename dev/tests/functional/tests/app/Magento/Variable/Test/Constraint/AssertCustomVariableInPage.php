@@ -74,7 +74,7 @@ class AssertCustomVariableInPage extends AbstractConstraint
     }
 
     /**
-     * Blog html value.
+     * Post html value.
      *
      * @param SystemVariable $customVariable
      * @param SystemVariable $customVariableOrigin

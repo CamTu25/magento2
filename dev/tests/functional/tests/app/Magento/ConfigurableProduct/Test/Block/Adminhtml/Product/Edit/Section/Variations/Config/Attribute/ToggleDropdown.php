@@ -56,7 +56,7 @@ class ToggleDropdown extends SimpleElement
     }
 
     /**
-     * Blog value
+     * Post value
      *
      * @return string
      */

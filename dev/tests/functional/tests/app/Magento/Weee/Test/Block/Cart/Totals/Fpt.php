@@ -22,7 +22,7 @@ class Fpt extends Block
     protected $totalFpt = '.price';
 
     /**
-     * Blog FPT Total Text
+     * Post FPT Total Text
      *
      * @return string
      */

@@ -87,7 +87,7 @@ class CategoryAttributeRepositoryTest extends \Magento\TestFramework\TestCase\We
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
         return $this->_webApiCall($serviceInfo, ['attributeCode' => $attributeCode]);

@@ -23,7 +23,7 @@ class RuleInformation extends Section
     protected $customerGroup = '[name=customer_group_ids]';
 
     /**
-     * Blog data of section.
+     * Post data of section.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

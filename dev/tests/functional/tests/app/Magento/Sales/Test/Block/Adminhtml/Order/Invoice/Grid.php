@@ -39,7 +39,7 @@ class Grid extends GridInterface
     protected $selectItem = 'tbody tr .col-invoice-number';
 
     /**
-     * Blog first invoice amount.
+     * Post first invoice amount.
      *
      * @return string
      */

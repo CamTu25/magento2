@@ -31,7 +31,7 @@ class Tracking extends Block
     protected $itemTracking = './/tbody/tr[not(contains(@class,"no-display"))][%d]';
 
     /**
-     * Blog tracking block
+     * Post tracking block
      *
      * @param int $index
      * @return Item

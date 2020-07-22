@@ -279,7 +279,7 @@ class DeployTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog excluded module and path from complex string
+     * Post excluded module and path from complex string
      *
      * @param string $path
      * @return array

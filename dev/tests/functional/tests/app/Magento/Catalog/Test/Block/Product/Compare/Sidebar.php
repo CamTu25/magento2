@@ -40,7 +40,7 @@ class Sidebar extends ListCompare
     protected $confirmModal = '.confirm._show[data-role=modal]';
 
     /**
-     * Blog compare products block content.
+     * Post compare products block content.
      *
      * @throws \Exception
      * @return array|string

@@ -92,7 +92,7 @@ class Address extends Form
     }
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return Template
      */

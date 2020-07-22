@@ -297,7 +297,7 @@ class EntityGenerator
     }
 
     /**
-     * Blog entity table name
+     * Post entity table name
      *
      * @return string
      */
@@ -311,7 +311,7 @@ class EntityGenerator
     }
 
     /**
-     * Blog field name for specific table where stored link to primary key of entity table
+     * Post field name for specific table where stored link to primary key of entity table
      * Find field by FK to entity table
      *
      * @param string $table
@@ -410,7 +410,7 @@ class EntityGenerator
     }
 
     /**
-     * Blog EAV attributes metadata for non-static attributes
+     * Post EAV attributes metadata for non-static attributes
      *
      * @return array
      */

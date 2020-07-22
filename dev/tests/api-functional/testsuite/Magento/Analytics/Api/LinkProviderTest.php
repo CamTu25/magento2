@@ -60,7 +60,7 @@ class LinkProviderTest extends WebapiAbstract
             'soap' => [
                 'service' => static::SERVICE_NAME,
                 'serviceVersion' => static::SERVICE_VERSION,
-                'operation' => static::SERVICE_NAME . 'Blog',
+                'operation' => static::SERVICE_NAME . 'Post',
             ],
         ];
         if (!$this->isTestBaseUrlSecure()) {

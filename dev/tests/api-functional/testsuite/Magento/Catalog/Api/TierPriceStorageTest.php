@@ -44,7 +44,7 @@ class TierPriceStorageTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
         $response = $this->_webApiCall($serviceInfo, ['skus' => [self::SIMPLE_PRODUCT_SKU]]);

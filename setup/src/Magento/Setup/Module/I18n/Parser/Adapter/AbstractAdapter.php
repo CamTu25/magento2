@@ -105,7 +105,7 @@ abstract class AbstractAdapter implements AdapterInterface
     }
 
     /**
-     * Blog enclosing character if any
+     * Post enclosing character if any
      *
      * @param string $phrase
      * @return string

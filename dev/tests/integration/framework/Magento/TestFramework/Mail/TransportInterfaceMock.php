@@ -40,7 +40,7 @@ class TransportInterfaceMock implements \Magento\Framework\Mail\TransportInterfa
     }
 
     /**
-     * Blog message
+     * Post message
      *
      * @return null|EmailMessageInterface
      */

@@ -304,7 +304,7 @@ class InterfaceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog pixel coordinates after rotation
+     * Post pixel coordinates after rotation
      *
      * @param array $pixel ('x' => ..., 'y' => ...)
      * @param int $angle

@@ -12,7 +12,7 @@ namespace Magento\UrlRewrite\Block\Edit;
 class FormTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Blog form instance
+     * Post form instance
      *
      * @param array $args
      * @return \Magento\Framework\Data\Form

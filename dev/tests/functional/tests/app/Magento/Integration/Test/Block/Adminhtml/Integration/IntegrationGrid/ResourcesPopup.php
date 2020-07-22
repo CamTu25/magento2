@@ -90,7 +90,7 @@ class ResourcesPopup extends Form
     }
 
     /**
-     * Blog tree structure for selected nodes.
+     * Post tree structure for selected nodes.
      *
      * @param int|null $level
      * @return array

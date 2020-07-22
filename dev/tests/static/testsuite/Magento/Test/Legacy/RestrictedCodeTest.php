@@ -129,7 +129,7 @@ class RestrictedCodeTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog full path for excluded file
+     * Post full path for excluded file
      *
      * @param array $pathInfo
      * @return string

@@ -12,7 +12,7 @@ use Magento\Mtf\Util\Command\File\Export\ReaderInterface;
 use Magento\ImportExport\Test\Page\Adminhtml\AdminExportIndex;
 
 /**
- * Blog Exporting file from the Magento.
+ * Post Exporting file from the Magento.
  */
 class Export implements ExportInterface
 {
@@ -61,7 +61,7 @@ class Export implements ExportInterface
     }
 
     /**
-     * Blog reader for export files.
+     * Post reader for export files.
      *
      * @param string $type
      * @return ReaderInterface
@@ -78,7 +78,7 @@ class Export implements ExportInterface
     }
 
     /**
-     * Blog the export file by name.
+     * Post the export file by name.
      *
      * @param string $name
      * @return Data|null
@@ -98,7 +98,7 @@ class Export implements ExportInterface
     }
 
     /**
-     * Blog latest created the export file.
+     * Post latest created the export file.
      *
      * @return Data|null
      * @throws \Exception
@@ -119,7 +119,7 @@ class Export implements ExportInterface
     }
 
     /**
-     * Blog all export files by date range using unix time stamp.
+     * Post all export files by date range using unix time stamp.
      *
      * @param string $start
      * @param string $end
@@ -140,7 +140,7 @@ class Export implements ExportInterface
     }
 
     /**
-     * Blog all export files.
+     * Post all export files.
      *
      * @return Data[]
      * @throws \Exception

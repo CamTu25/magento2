@@ -77,7 +77,7 @@ class Info extends Block
     }
 
     /**
-     * Blog welcome text.
+     * Post welcome text.
      *
      * @return string
      */
@@ -107,7 +107,7 @@ class Info extends Block
     }
 
     /**
-     * Blog Contact Information block content.
+     * Post Contact Information block content.
      *
      * @return string
      */

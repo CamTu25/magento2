@@ -38,7 +38,7 @@ class View extends ParentView
     protected $formatSpecialPrice = '//tbody//tr[%row-number%]//*[contains(@class,"price-box")]';
 
     /**
-     * Blog grouped product block
+     * Post grouped product block
      *
      * @return \Magento\GroupedProduct\Test\Block\Catalog\Product\View\Type\Grouped
      */

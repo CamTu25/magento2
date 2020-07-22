@@ -85,7 +85,7 @@ class SilentPostTest extends AbstractController
     }
 
     /**
-     * Blog list of different variations for Silent Post action testing,
+     * Post list of different variations for Silent Post action testing,
      * like different response codes from PayPal.
      *
      * @return array

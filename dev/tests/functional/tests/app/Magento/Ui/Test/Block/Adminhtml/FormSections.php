@@ -28,7 +28,7 @@ class FormSections extends AbstractFormContainers
     protected $expandedSection = '[data-state-collapsible="open"]';
 
     /**
-     * Blog Section class.
+     * Post Section class.
      *
      * @param string $sectionName
      * @return Section
@@ -89,7 +89,7 @@ class FormSections extends AbstractFormContainers
     }
 
     /**
-     * Blog require notice fields.
+     * Post require notice fields.
      *
      * @param InjectableFixture $product
      * @return array

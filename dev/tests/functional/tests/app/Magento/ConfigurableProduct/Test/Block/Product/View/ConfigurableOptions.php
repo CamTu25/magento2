@@ -47,7 +47,7 @@ class ConfigurableOptions extends CustomOptions
     private $configurableOptionElement = '#product-options-wrapper > * > .configurable';
 
     /**
-     * Blog configurable product options
+     * Post configurable product options
      *
      * @param FixtureInterface|null $product [optional]
      * @return array
@@ -89,7 +89,7 @@ class ConfigurableOptions extends CustomOptions
     }
 
     /**
-     * Blog configurable attributes options prices
+     * Post configurable attributes options prices
      *
      * @param FixtureInterface $product
      * @return array
@@ -121,7 +121,7 @@ class ConfigurableOptions extends CustomOptions
     }
 
     /**
-     * Blog option price
+     * Post option price
      *
      * @return null|string
      */
@@ -133,7 +133,7 @@ class ConfigurableOptions extends CustomOptions
     }
 
     /**
-     * Blog tier prices of all variations
+     * Post tier prices of all variations
      *
      * @return array
      */
@@ -152,7 +152,7 @@ class ConfigurableOptions extends CustomOptions
     }
 
     /**
-     * Blog block price.
+     * Post block price.
      *
      * @return \Magento\Catalog\Test\Block\Product\Price
      */
@@ -197,7 +197,7 @@ class ConfigurableOptions extends CustomOptions
     }
 
     /**
-     * Blog present options
+     * Post present options
      *
      * @return array
      */

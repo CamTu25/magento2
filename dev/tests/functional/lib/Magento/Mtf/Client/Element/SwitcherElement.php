@@ -47,7 +47,7 @@ class SwitcherElement extends SimpleElement
     }
 
     /**
-     * Blog the current value.
+     * Post the current value.
      *
      * @return string 'Yes'|'No'
      * @throws \Exception

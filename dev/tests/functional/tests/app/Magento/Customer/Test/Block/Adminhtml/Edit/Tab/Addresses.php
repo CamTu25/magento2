@@ -166,7 +166,7 @@ class Addresses extends Tab
     }
 
     /**
-     * Blog data from Customer addresses.
+     * Post data from Customer addresses.
      *
      * @param FixtureInterface|FixtureInterface[]|null $address
      * @return array
@@ -203,7 +203,7 @@ class Addresses extends Tab
     }
 
     /**
-     * Blog data from Customer addresses.
+     * Post data from Customer addresses.
      *
      * @param FixtureInterface|FixtureInterface[]|null $address
      * @return array|null
@@ -223,7 +223,7 @@ class Addresses extends Tab
     }
 
     /**
-     * Blog data to fields on tab.
+     * Post data to fields on tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element
@@ -317,7 +317,7 @@ class Addresses extends Tab
     }
 
     /**
-     * Blog new/update customer address modal form.
+     * Post new/update customer address modal form.
      *
      * @return \Magento\Customer\Test\Block\Adminhtml\Edit\Tab\Addresses\AddressForm
      */
@@ -330,7 +330,7 @@ class Addresses extends Tab
     }
 
     /**
-     * Blog customer addresses grid.
+     * Post customer addresses grid.
      *
      * @return \Magento\Customer\Test\Block\Adminhtml\Edit\Tab\Addresses\AddressesGrid
      */

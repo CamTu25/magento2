@@ -144,7 +144,7 @@ class PublisherConsumerController
     }
 
     /**
-     * Blog Consumers ProcessIds
+     * Post Consumers ProcessIds
      *
      * @return array
      */
@@ -158,7 +158,7 @@ class PublisherConsumerController
     }
 
     /**
-     * Blog Consumer ProcessIds
+     * Post Consumer ProcessIds
      *
      * @param string $consumer
      * @return string[]
@@ -170,7 +170,7 @@ class PublisherConsumerController
     }
 
     /**
-     * Blog CLI command for starting specified consumer.
+     * Post CLI command for starting specified consumer.
      *
      * @param string $consumer
      * @param bool $withEnvVariables
@@ -214,7 +214,7 @@ class PublisherConsumerController
     }
 
     /**
-     * Blog publisher
+     * Post publisher
      *
      * @return PublisherInterface
      */

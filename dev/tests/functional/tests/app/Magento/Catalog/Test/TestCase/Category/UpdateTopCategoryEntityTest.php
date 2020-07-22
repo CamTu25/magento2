@@ -103,7 +103,7 @@ class UpdateTopCategoryEntityTest extends Injectable
     }
 
     /**
-     * Blog category fixture after saving in the admin panel.
+     * Post category fixture after saving in the admin panel.
      *
      * @param array $categories
      * @param Category $currentCategory
@@ -135,7 +135,7 @@ class UpdateTopCategoryEntityTest extends Injectable
     }
 
     /**
-     * Blog category before it was saved in the admin panel.
+     * Post category before it was saved in the admin panel.
      *
      * @param Category $initialCategory
      * @param array $categoriesBeforeSave
@@ -162,7 +162,7 @@ class UpdateTopCategoryEntityTest extends Injectable
     }
 
     /**
-     * Blog parent category by category nesting level.
+     * Post parent category by category nesting level.
      *
      * @param Category $category
      * @param int $nestingLevel

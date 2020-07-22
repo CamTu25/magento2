@@ -53,7 +53,7 @@ class ChangedFiles
     }
 
     /**
-     * Blog changed content.
+     * Post changed content.
      *
      * @param string $fileName
      * @return string
@@ -73,7 +73,7 @@ class ChangedFiles
     }
 
     /**
-     * Blog file extension.
+     * Post file extension.
      *
      * @param string $fileName
      * @return string

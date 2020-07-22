@@ -51,7 +51,7 @@ class Parameters extends Tab
     }
 
     /**
-     * Blog element class.
+     * Post element class.
      *
      * @param array $fields
      * @return string

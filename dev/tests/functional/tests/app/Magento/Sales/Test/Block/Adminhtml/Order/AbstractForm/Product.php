@@ -44,7 +44,7 @@ class Product extends Form
     protected $itemSubInclTax = '//td[@class="col-subtotal"]/div[@class="price-incl-tax"]/span[@class="price"]';
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @return string|null
      */
@@ -55,7 +55,7 @@ class Product extends Form
     }
 
     /**
-     * Blog Item price including tax
+     * Post Item price including tax
      *
      * @return string|null
      */
@@ -66,7 +66,7 @@ class Product extends Form
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @return string|null
      */
@@ -77,7 +77,7 @@ class Product extends Form
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @return string|null
      */

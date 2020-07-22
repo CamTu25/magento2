@@ -10,7 +10,7 @@ namespace Magento\GraphQl\RelatedProduct;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Blog related products test
+ * Post related products test
  */
 class GetRelatedProductsTest extends GraphQlAbstract
 {

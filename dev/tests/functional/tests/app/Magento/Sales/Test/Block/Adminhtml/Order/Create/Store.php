@@ -33,7 +33,7 @@ class Store extends Block
     protected $store = '//label[contains(., "%s")]/preceding-sibling::*';
 
     /**
-     * Blog backend abstract block
+     * Post backend abstract block
      *
      * @return \Magento\Backend\Test\Block\Template
      */

@@ -301,7 +301,7 @@ class AsyncScheduleMultiStoreTest extends WebapiAbstract
     }
 
     /**
-     * Blog Simple Product Data
+     * Post Simple Product Data
      *
      * @param array $productData
      * @return array

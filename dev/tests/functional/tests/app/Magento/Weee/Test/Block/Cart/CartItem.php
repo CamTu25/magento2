@@ -29,7 +29,7 @@ class CartItem extends \Magento\Checkout\Test\Block\Cart\CartItem
     protected $subtotalFptBlock = './/td[@class="col subtotal"]';
 
     /**
-     * Blog block price fpt
+     * Post block price fpt
      *
      * @return \Magento\Weee\Test\Block\Cart\CartItem\Fpt
      */
@@ -42,7 +42,7 @@ class CartItem extends \Magento\Checkout\Test\Block\Cart\CartItem
     }
 
     /**
-     * Blog block subtotal fpt
+     * Post block subtotal fpt
      *
      * @return \Magento\Weee\Test\Block\Cart\CartItem\Fpt
      */

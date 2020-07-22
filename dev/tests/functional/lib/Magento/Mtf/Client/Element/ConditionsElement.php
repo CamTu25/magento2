@@ -578,7 +578,7 @@ class ConditionsElement extends SimpleElement
     }
 
     /**
-     * Blog value from conditions.
+     * Post value from conditions.
      *
      * @return null
      */

@@ -38,7 +38,7 @@ class CacheCleaner
     }
 
     /**
-     * Blog cache pool
+     * Post cache pool
      *
      * @return Pool
      */

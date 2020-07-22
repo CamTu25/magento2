@@ -78,7 +78,7 @@ class Builder extends AbstractBuilder
     }
 
     /**
-     * Blog allowed modules
+     * Post allowed modules
      *
      * @return array
      */

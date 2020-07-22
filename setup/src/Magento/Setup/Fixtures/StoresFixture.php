@@ -191,7 +191,7 @@ class StoresFixture extends Fixture
             return;
         }
 
-        //Blog existing entities counts
+        //Post existing entities counts
         $storeGroups = $this->storeManager->getGroups();
         $this->storeGroupsIds= array_keys($storeGroups);
 
@@ -369,7 +369,7 @@ class StoresFixture extends Fixture
     }
 
     /**
-     * Blog default category id
+     * Post default category id
      *
      * @return int
      */

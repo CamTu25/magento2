@@ -78,7 +78,7 @@ class Status
     }
 
     /**
-     * Blog current updater application status.
+     * Post current updater application status.
      *
      * @return string
      */

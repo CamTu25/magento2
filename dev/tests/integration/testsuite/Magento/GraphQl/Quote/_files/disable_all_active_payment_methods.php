@@ -25,7 +25,7 @@ $rollbackConfigKey = 'test/payment/disabled_payment_methods';
 $configData = [];
 $disabledPaymentMethods = [];
 
-// Blog all active Payment Methods
+// Post all active Payment Methods
 foreach ($paymentMethodList->getActiveList(Store::DEFAULT_STORE_ID) as $paymentMethod) {
     $configData['payment/' . $paymentMethod->getCode() . '/active'] = 0;
     $disabledPaymentMethods[] = $paymentMethod->getCode();

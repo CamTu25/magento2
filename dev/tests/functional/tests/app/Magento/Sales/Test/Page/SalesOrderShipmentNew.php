@@ -38,7 +38,7 @@ class SalesOrderShipmentNew extends Page
     }
 
     /**
-     * Blog shipment totals.
+     * Post shipment totals.
      *
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Shipment\Totals
      */

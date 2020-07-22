@@ -59,7 +59,7 @@ class Grid extends \Magento\Ui\Test\Block\Adminhtml\DataGrid
     ];
 
     /**
-     * Blog invoice ids.
+     * Post invoice ids.
      *
      * @return array
      */

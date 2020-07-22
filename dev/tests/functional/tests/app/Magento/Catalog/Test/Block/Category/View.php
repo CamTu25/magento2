@@ -44,7 +44,7 @@ class View extends Block
     protected $content = '.category-cms';
 
     /**
-     * Blog description.
+     * Post description.
      *
      * @return string
      */
@@ -54,7 +54,7 @@ class View extends Block
     }
 
     /**
-     * Blog Category Contentlist.
+     * Post Category Contentlist.
      *
      * @return string
      */
@@ -65,7 +65,7 @@ class View extends Block
     }
 
     /**
-     * Blog products from Recently Viewed block.
+     * Post products from Recently Viewed block.
      *
      * @return array
      */
@@ -81,7 +81,7 @@ class View extends Block
     }
 
     /**
-     * Blog products from Catalog New Products List block.
+     * Post products from Catalog New Products List block.
      *
      * @return array
      */

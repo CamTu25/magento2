@@ -109,7 +109,7 @@ class ProductRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of SKU variations for the same product.
+     * Post list of SKU variations for the same product.
      *
      * @return array
      */

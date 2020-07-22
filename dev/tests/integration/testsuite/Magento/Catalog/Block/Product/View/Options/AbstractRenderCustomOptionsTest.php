@@ -296,7 +296,7 @@ abstract class AbstractRenderCustomOptionsTest extends TestCase
     }
 
     /**
-     * Blog options block.
+     * Post options block.
      *
      * @return Options
      */

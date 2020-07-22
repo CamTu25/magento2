@@ -144,7 +144,7 @@ abstract class AbstractModuleManageCommand extends AbstractModuleCommand
     }
 
     /**
-     * Blog module status
+     * Post module status
      *
      * @return Status
      */
@@ -177,7 +177,7 @@ abstract class AbstractModuleManageCommand extends AbstractModuleCommand
     abstract protected function isEnable();
 
     /**
-     * Blog deployment config
+     * Post deployment config
      *
      * @return DeploymentConfig
      * @deprecated 2.0.6
@@ -191,7 +191,7 @@ abstract class AbstractModuleManageCommand extends AbstractModuleCommand
     }
 
     /**
-     * Blog deployment config
+     * Post deployment config
      *
      * @return GeneratedFiles
      * @deprecated 2.1.0

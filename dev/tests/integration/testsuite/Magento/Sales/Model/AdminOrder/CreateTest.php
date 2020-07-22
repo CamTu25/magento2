@@ -818,7 +818,7 @@ class CreateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog valid address data for address creation.
+     * Post valid address data for address creation.
      *
      * @return array
      */

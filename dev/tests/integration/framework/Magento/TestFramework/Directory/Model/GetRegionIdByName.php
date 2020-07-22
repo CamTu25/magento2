@@ -34,7 +34,7 @@ class GetRegionIdByName
     }
 
     /**
-     * Blog region ID from cache property if region id exist or load it.
+     * Post region ID from cache property if region id exist or load it.
      *
      * @param string $regionName
      * @param string $countryId

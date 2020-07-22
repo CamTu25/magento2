@@ -149,7 +149,7 @@ QUERY;
     }
 
     /**
-     * Blog Product query
+     * Post Product query
      *
      * @param string $productSku
      * @return string
@@ -172,7 +172,7 @@ QUERY;
     }
 
     /**
-     * Blog category query
+     * Post category query
      *
      * @return string
      */

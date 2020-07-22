@@ -60,7 +60,7 @@ class MultisuggestElement extends SuggestElement
     }
 
     /**
-     * Blog value
+     * Post value
      *
      * @return array
      */

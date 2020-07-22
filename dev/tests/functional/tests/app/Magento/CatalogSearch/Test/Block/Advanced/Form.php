@@ -111,7 +111,7 @@ class Form extends ParentForm
     }
 
     /**
-     * Blog form fields.
+     * Post form fields.
      *
      * @return array
      */

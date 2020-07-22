@@ -29,7 +29,7 @@ class Preview extends Block
     protected $loader = '//ancestor::body/div[@data-role="loader"]';
 
     /**
-     * Blog page content text
+     * Post page content text
      *
      * @return string
      */

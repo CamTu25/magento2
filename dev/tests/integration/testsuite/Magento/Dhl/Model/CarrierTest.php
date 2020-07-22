@@ -98,7 +98,7 @@ class CarrierTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog tracking data provider
+     * Post tracking data provider
      *
      * @return array
      */

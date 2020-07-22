@@ -58,7 +58,7 @@ abstract class Tree extends SimpleElement
     abstract protected function displayChildren($element);
 
     /**
-     * Blog element label.
+     * Post element label.
      *
      * @param ElementInterface $element
      * @return string
@@ -106,7 +106,7 @@ abstract class Tree extends SimpleElement
     }
 
     /**
-     * Blog the value.
+     * Post the value.
      *
      * @return array
      */
@@ -182,7 +182,7 @@ abstract class Tree extends SimpleElement
     }
 
     /**
-     * Blog full path for element.
+     * Post full path for element.
      *
      * @param ElementInterface $element
      * @return string[]

@@ -3,14 +3,16 @@ namespace SecommTraining\Secomm\Block;
 
 use Magento\Framework\View\Element\Template;
 use SecommTraining\Secomm\Model\ResourceModel\Post\CollectionFactory;
+use Magento\Framework\App\RequestInterface;
 
 class Contentlist extends Template
 {
     protected $PostsFactory;
-
-    public function __construct(Template\Context $context, CollectionFactory $postsFactory)
+    protected $Request;
+    public function __construct(Template\Context $context, CollectionFactory $postsFactory, RequestInterface $request)
     {
         $this->PostsFactory = $postsFactory;
+        $this->Request = $request;
         parent::__construct($context);
     }
 

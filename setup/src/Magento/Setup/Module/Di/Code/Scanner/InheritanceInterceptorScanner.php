@@ -23,7 +23,7 @@ class InheritanceInterceptorScanner implements ScannerInterface
     }
 
     /**
-     * Blog intercepted class names
+     * Post intercepted class names
      *
      * @param array $classes
      * @param array $interceptedEntities

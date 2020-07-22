@@ -82,7 +82,7 @@ class Navigation extends Block
     }
 
     /**
-     * Blog all available filters.
+     * Post all available filters.
      *
      * @return array
      */
@@ -148,7 +148,7 @@ class Navigation extends Block
     }
 
     /**
-     * Blog Layered Navigation filter options.
+     * Post Layered Navigation filter options.
      *
      * @param string $attributeLabel
      * @return array

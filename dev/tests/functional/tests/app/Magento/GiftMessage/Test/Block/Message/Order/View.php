@@ -33,7 +33,7 @@ class View extends \Magento\Sales\Test\Block\Order\View
     protected $giftMessageTextSelector = "[class*='message']";
 
     /**
-     * Blog gift message for order.
+     * Post gift message for order.
      *
      * @return array
      */

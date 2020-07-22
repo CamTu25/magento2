@@ -115,7 +115,7 @@ class QueryText extends DataSource
     }
 
     /**
-     * Blog product fixture to search.
+     * Post product fixture to search.
      *
      * @return InjectableFixture
      */
@@ -125,7 +125,7 @@ class QueryText extends DataSource
     }
 
     /**
-     * Blog product fixture to search.
+     * Post product fixture to search.
      *
      * @return InjectableFixture[]
      */

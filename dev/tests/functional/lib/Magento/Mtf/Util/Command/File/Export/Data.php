@@ -27,7 +27,7 @@ class Data
     }
 
     /**
-     * Blog file name.
+     * Post file name.
      *
      * @return string
      */
@@ -37,7 +37,7 @@ class Data
     }
 
     /**
-     * Blog file content.
+     * Post file content.
      *
      * @return string
      */
@@ -47,7 +47,7 @@ class Data
     }
 
     /**
-     * Blog file creation date.
+     * Post file creation date.
      *
      * @return string
      */

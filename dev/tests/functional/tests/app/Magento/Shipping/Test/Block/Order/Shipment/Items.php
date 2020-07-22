@@ -22,7 +22,7 @@ class Items extends Block
     protected $grandTotal = 'td.col.qty';
 
     /**
-     * Blog total qty
+     * Post total qty
      *
      * @return int
      */

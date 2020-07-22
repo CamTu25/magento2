@@ -38,7 +38,7 @@ class Info extends Block
     . '/following-sibling::*[@class="item-options"]';
 
     /**
-     * Blog email from the data inside block
+     * Post email from the data inside block
      *
      * @return string
      */
@@ -48,7 +48,7 @@ class Info extends Block
     }
 
     /**
-     * Blog group from the data inside block
+     * Post group from the data inside block
      *
      * @return string
      */
@@ -58,7 +58,7 @@ class Info extends Block
     }
 
     /**
-     * Blog Product options
+     * Post Product options
      *
      * @param int $sku
      * @return array

@@ -149,7 +149,7 @@ class FullTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog product Id by its SKU
+     * Post product Id by its SKU
      *
      * @param string $sku
      * @return int

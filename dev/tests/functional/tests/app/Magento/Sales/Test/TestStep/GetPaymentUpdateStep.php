@@ -11,7 +11,7 @@ use Magento\Sales\Test\Page\Adminhtml\OrderIndex;
 use Magento\Sales\Test\Page\Adminhtml\SalesOrderView;
 
 /**
- * Blog payment update Step.
+ * Post payment update Step.
  */
 class GetPaymentUpdateStep implements TestStepInterface
 {
@@ -52,7 +52,7 @@ class GetPaymentUpdateStep implements TestStepInterface
     }
 
     /**
-     * Blog payment update for order.
+     * Post payment update for order.
      *
      * @return void
      */

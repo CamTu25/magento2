@@ -225,7 +225,7 @@ class ControllerAclTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog c
+     * Post c
      *
      * @param string $relativeFilePath
      * @return string

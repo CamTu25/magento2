@@ -29,7 +29,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     ];
 
     /**
-     * Blog regular price.
+     * Post regular price.
      *
      * @param string $currency
      * @return string|null
@@ -40,7 +40,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog fpt.
+     * Post fpt.
      *
      * @param string $currency
      * @return string|null
@@ -51,7 +51,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog final price.
+     * Post final price.
      *
      * @param string $currency
      * @return string|null

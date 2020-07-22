@@ -31,7 +31,7 @@ class Shipment extends Block
     protected $shipmentContent = '/following-sibling::div[contains(@class,"order-items-shipment")][1]';
 
     /**
-     * Blog item shipment block
+     * Post item shipment block
      *
      * @param int $id
      * @return Items

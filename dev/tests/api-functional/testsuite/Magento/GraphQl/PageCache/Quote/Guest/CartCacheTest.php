@@ -105,7 +105,7 @@ QUERY;
     }
 
     /**
-     * Blog cart query string
+     * Post cart query string
      *
      * @param string $maskedQuoteId
      * @return string

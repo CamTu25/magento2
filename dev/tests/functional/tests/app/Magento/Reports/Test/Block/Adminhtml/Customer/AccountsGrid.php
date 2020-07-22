@@ -65,7 +65,7 @@ class AccountsGrid extends \Magento\Backend\Test\Block\Widget\Grid
     }
 
     /**
-     * Blog total Results from New Accounts Report grid
+     * Post total Results from New Accounts Report grid
      *
      * @return string
      */

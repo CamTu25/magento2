@@ -316,7 +316,7 @@ class PaymentMethodManagementTest extends \Magento\TestFramework\TestCase\Webapi
     }
 
     /**
-     * Blog customer ID token
+     * Post customer ID token
      *
      * @return string
      */

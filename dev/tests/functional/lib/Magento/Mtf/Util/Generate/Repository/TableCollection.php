@@ -48,7 +48,7 @@ class TableCollection extends AbstractCollection
     }
 
     /**
-     * Blog resource instance
+     * Post resource instance
      *
      * @return \Magento\Mtf\Util\Generate\Repository\RepositoryResource
      */

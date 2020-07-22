@@ -51,7 +51,7 @@ class OtherComponentsGrid extends AbstractActionController
     }
 
     /**
-     * Blog Components from composer info command
+     * Post Components from composer info command
      *
      * @return JsonModel
      * @throws \RuntimeException

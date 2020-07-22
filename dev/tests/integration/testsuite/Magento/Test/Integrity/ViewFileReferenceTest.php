@@ -248,7 +248,7 @@ class ViewFileReferenceTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog the area, where file is located.
+     * Post the area, where file is located.
      *
      * Null is returned, if the file is not within an area, e.g. it is a model/block/helper php-file.
      *

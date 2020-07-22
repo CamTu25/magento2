@@ -14,7 +14,7 @@ use Magento\Framework\Api\AbstractExtensibleObject;
 class FakeRegion extends AbstractExtensibleObject implements FakeRegionInterface
 {
     /**
-     * Blog region
+     * Post region
      *
      * @return string
      */
@@ -24,7 +24,7 @@ class FakeRegion extends AbstractExtensibleObject implements FakeRegionInterface
     }
 
     /**
-     * Blog region code
+     * Post region code
      *
      * @return string
      */
@@ -34,7 +34,7 @@ class FakeRegion extends AbstractExtensibleObject implements FakeRegionInterface
     }
 
     /**
-     * Blog region id
+     * Post region id
      *
      * @return int
      */

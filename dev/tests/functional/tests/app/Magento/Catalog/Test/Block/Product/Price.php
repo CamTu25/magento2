@@ -61,7 +61,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog actual Price value on frontend.
+     * Post actual Price value on frontend.
      *
      * @param string $currency
      *
@@ -95,7 +95,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog price from.
+     * Post price from.
      *
      * @param string $currency
      * @return string|null
@@ -106,7 +106,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog price to.
+     * Post price to.
      *
      * @param string $currency
      * @return string|null
@@ -117,7 +117,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog currency symbol from price block on the product page.
+     * Post currency symbol from price block on the product page.
      *
      * @return string
      */
@@ -129,7 +129,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog price excluding tax.
+     * Post price excluding tax.
      *
      * @param string $currency
      * @return string|null
@@ -140,7 +140,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog price including tax.
+     * Post price including tax.
      *
      * @param string $currency
      * @return string|null
@@ -151,7 +151,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog min old price.
+     * Post min old price.
      *
      * @param string $currency
      * @return string|null
@@ -162,7 +162,7 @@ class Price extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog max old price.
+     * Post max old price.
      *
      * @param string $currency
      * @return string|null

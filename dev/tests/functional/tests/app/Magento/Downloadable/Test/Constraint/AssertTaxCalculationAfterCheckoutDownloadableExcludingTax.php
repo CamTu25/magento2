@@ -22,7 +22,7 @@ class AssertTaxCalculationAfterCheckoutDownloadableExcludingTax extends
     protected $severeness = 'high';
 
     /**
-     * Blog review totals.
+     * Post review totals.
      *
      * @param $actualPrices
      * @return array
@@ -43,7 +43,7 @@ class AssertTaxCalculationAfterCheckoutDownloadableExcludingTax extends
     }
 
     /**
-     * Blog order totals.
+     * Post order totals.
      *
      * @param $actualPrices
      * @return array

@@ -29,7 +29,7 @@ class LoginWithCaptcha extends Login
     private $captchaReload = '.captcha-reload';
 
     /**
-     * Blog captcha element visibility.
+     * Post captcha element visibility.
      *
      * @return bool
      */
@@ -39,7 +39,7 @@ class LoginWithCaptcha extends Login
     }
 
     /**
-     * Blog captcha reload button element visibility.
+     * Post captcha reload button element visibility.
      *
      * @return bool
      */

@@ -42,7 +42,7 @@ class LinkRow extends Form
     }
 
     /**
-     * Blog data item link.
+     * Post data item link.
      *
      * @param array $fields
      * @return array
@@ -75,7 +75,7 @@ class LinkRow extends Form
     }
 
     /**
-     * Blog sort handle.
+     * Post sort handle.
      *
      * @return ElementInterface
      */

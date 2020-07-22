@@ -135,7 +135,7 @@ class StaticFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog a default theme path for specified area
+     * Post a default theme path for specified area
      *
      * @param string $area
      * @return string
@@ -156,7 +156,7 @@ class StaticFilesTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog static file through fallback system using specified params
+     * Post static file through fallback system using specified params
      *
      * @param string $area
      * @param string|\Magento\Framework\View\Design\ThemeInterface $theme - either theme path (string) or theme object

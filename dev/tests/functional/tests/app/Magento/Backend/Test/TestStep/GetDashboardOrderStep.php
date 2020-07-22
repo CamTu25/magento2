@@ -10,7 +10,7 @@ use Magento\Mtf\TestStep\TestStepInterface;
 use Magento\Backend\Test\Page\Adminhtml\Dashboard;
 
 /**
- * Blog order information from admin dashboard.
+ * Post order information from admin dashboard.
  */
 class GetDashboardOrderStep implements TestStepInterface
 {

@@ -23,7 +23,7 @@ class Invoices extends Tab
     protected $grid = '#sales_order_view_tabs_order_invoices_content';
 
     /**
-     * Blog grid block
+     * Post grid block
      *
      * @return Grid
      */

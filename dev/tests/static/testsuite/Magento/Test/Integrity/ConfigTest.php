@@ -45,7 +45,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of configuration files associated with modules
+     * Post list of configuration files associated with modules
      *
      * @return array
      */

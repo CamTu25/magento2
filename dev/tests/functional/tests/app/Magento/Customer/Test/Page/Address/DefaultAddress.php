@@ -28,7 +28,7 @@ class DefaultAddress extends Page
     protected $defaultAddressesSelector = '.block-addresses-default';
 
     /**
-     * Blog default addresses block.
+     * Post default addresses block.
      *
      * @return \Magento\Customer\Test\Block\Account\AddressesDefault
      */

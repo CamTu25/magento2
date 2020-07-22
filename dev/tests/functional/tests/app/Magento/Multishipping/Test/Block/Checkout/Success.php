@@ -40,7 +40,7 @@ class Success extends Block
     }
 
     /**
-     * Blog ids for placed order
+     * Post ids for placed order
      *
      * @param int $ordersNumber
      * @return array

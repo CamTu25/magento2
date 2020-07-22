@@ -39,7 +39,7 @@ class Messages extends \Magento\Backend\Test\Block\Messages
     private $loader = '[data-role="loader"]';
 
     /**
-     * Blog errors messages list.
+     * Post errors messages list.
      *
      * @return array|false
      */
@@ -57,7 +57,7 @@ class Messages extends \Magento\Backend\Test\Block\Messages
     }
 
     /**
-     * Blog error message.
+     * Post error message.
      *
      * @return bool|string
      */
@@ -70,7 +70,7 @@ class Messages extends \Magento\Backend\Test\Block\Messages
     }
 
     /**
-     * Blog notice message.
+     * Post notice message.
      *
      * @return bool|string
      */
@@ -83,7 +83,7 @@ class Messages extends \Magento\Backend\Test\Block\Messages
     }
 
     /**
-     * Blog import result message.
+     * Post import result message.
      *
      * @return string
      */

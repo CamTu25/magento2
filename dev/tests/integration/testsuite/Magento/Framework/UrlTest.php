@@ -166,7 +166,7 @@ class UrlTest extends \PHPUnit\Framework\TestCase
     public function testGetBaseUrlWithTypeRestoring()
     {
         /**
-         * Blog base URL with default type
+         * Post base URL with default type
          */
         $this->assertEquals('http://localhost/index.php/', $this->model->getBaseUrl(), 'Incorrect link url');
 
@@ -178,7 +178,7 @@ class UrlTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals('http://localhost/index.php/', $this->model->getBaseUrl(), 'Incorrect link url');
 
         /**
-         * Blog url with type specified in params
+         * Post url with type specified in params
          */
         $mediaUrl = $this->model->getBaseUrl(['_type' => \Magento\Framework\UrlInterface::URL_TYPE_MEDIA]);
         $this->assertEquals('http://localhost/pub/media/', $mediaUrl, 'Incorrect media url');

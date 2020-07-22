@@ -211,7 +211,7 @@ class LayoutRuleTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog content of layout file
+     * Post content of layout file
      *
      * @param string $fileName
      * @return string

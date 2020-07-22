@@ -478,7 +478,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog fixture customer address
+     * Post fixture customer address
      *
      * @return \Magento\Customer\Model\Address
      */

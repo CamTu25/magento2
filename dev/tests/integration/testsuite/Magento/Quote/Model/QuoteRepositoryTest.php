@@ -177,7 +177,7 @@ class QuoteRepositoryTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog search criteria
+     * Post search criteria
      *
      * @param string $filterValue
      * @return SearchCriteria

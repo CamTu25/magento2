@@ -1,8 +1,8 @@
 <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
     <argument name="data" xsi:type="array">
         <item name="js_config" xsi:type="array">
-            <item name="provider" xsi:type="string">secommtraining_secomm_post.secommmenu_secommblog_post_data_source</item>
-            <item name="deps" xsi:type="string">secommtraining_secomm_post.secommmenu_secommblog_post_data_source</item>
+            <item name="provider" xsi:type="string">secommtraining_secomm_post.secommtraining_secomm_post_data_source</item>
+            <item name="deps" xsi:type="string">secommtraining_secomm_post.secommtraining_secomm_post_data_source</item>
         </item>
         <item name="spinner" xsi:type="string">spinner_columns</item>
         <item name="buttons" xsi:type="array">
@@ -10,14 +10,14 @@
                 <item name="name" xsi:type="string">add</item>
                 <item name="label" xsi:type="string" translate="true">Add New Post</item>
                 <item name="class" xsi:type="string">primary</item>
-                <item name="url" xsi:type="string">*/*/new</item>
+                <item name="url" xsi:type="string">*/content/new</item>
             </item>
         </item>
     </argument>
-    <dataSource name="secommmenu_secommblog_data_source">
+    <dataSource name="secommtraining_secomm_post_data_source">
         <argument name="dataProvider" xsi:type="configurableObject">
             <argument name="class" xsi:type="string">SecommTraining\Secomm\Ui\Component\Listing\DataProviders\SecommTraning\Secomm\Post</argument>
-            <argument name="name" xsi:type="string">secommmenu_secommblog_post_data_source</argument>
+            <argument name="name" xsi:type="string">secommtraining_secomm_post_data_source</argument>
             <argument name="primaryFieldName" xsi:type="string">entity_id</argument>
             <argument name="requestFieldName" xsi:type="string">id</argument>
             <argument name="data" xsi:type="array">
@@ -145,5 +145,12 @@
                 </item>
             </argument>
         </column>
+        <actionsColumn name="actions" class="SecommTraining\Secomm\Ui\Component\Listing\Column\ContentActions">
+            <settings>
+                <indexField>entity_id</indexField>
+                <resizeEnabled>false</resizeEnabled>
+                <resizeDefaultWidth>107</resizeDefaultWidth>
+            </settings>
+        </actionsColumn>
     </columns>
 </listing>

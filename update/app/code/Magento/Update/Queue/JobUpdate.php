@@ -126,7 +126,7 @@ class JobUpdate extends AbstractJob
     }
 
     /**
-     * Blog composer application
+     * Post composer application
      *
      * @return MagentoComposerApplication
      */

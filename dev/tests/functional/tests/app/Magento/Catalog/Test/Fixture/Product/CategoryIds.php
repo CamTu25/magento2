@@ -84,7 +84,7 @@ class CategoryIds extends DataSource
     }
 
     /**
-     * Blog id of categories
+     * Post id of categories
      *
      * @return array
      */

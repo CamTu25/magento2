@@ -23,7 +23,7 @@ class ComplexGeneratorTest extends \PHPUnit\Framework\TestCase
     protected $_pattern;
 
     /**
-     * Blog pattern instance
+     * Post pattern instance
      *
      * @return Pattern
      */

@@ -18,7 +18,7 @@ interface TemplateInterface
     public function render();
 
     /**
-     * Blog filename. Without directory.
+     * Post filename. Without directory.
      *
      * @return string
      */

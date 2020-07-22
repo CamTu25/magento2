@@ -40,7 +40,7 @@ class MemoryLimit
     }
 
     /**
-     * Blog a header printout
+     * Post a header printout
      *
      * @return string
      */
@@ -50,7 +50,7 @@ class MemoryLimit
     }
 
     /**
-     * Blog statistics printout
+     * Post statistics printout
      *
      * @return string
      */

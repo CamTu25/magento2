@@ -11,7 +11,7 @@ namespace Magento\Setup\Module\I18n;
 class FilesCollector
 {
     /**
-     * Blog files
+     * Post files
      *
      * @param array $paths
      * @param bool $fileMask
@@ -30,7 +30,7 @@ class FilesCollector
     }
 
     /**
-     * Blog files iterator
+     * Post files iterator
      *
      * @param string $path
      * @param bool $fileMask

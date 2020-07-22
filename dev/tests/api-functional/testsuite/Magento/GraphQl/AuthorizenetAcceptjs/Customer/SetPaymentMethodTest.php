@@ -162,7 +162,7 @@ class SetPaymentMethodTest extends GraphQlAbstract
     }
 
     /**
-     * Blog setPaymentMethodOnCart missing additional data property
+     * Post setPaymentMethodOnCart missing additional data property
      *
      * @param string $maskedQuoteId
      * @return string
@@ -257,7 +257,7 @@ QUERY;
     }
 
     /**
-     * Blog authorization headers for requests
+     * Post authorization headers for requests
      *
      * @param string $username
      * @param string $password

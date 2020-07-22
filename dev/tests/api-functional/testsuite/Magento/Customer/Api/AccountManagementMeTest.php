@@ -180,7 +180,7 @@ class AccountManagementMeTest extends \Magento\TestFramework\TestCase\WebapiAbst
 
     public function testGetCustomerData()
     {
-        //Blog expected details from the Service directly
+        //Post expected details from the Service directly
         $customerData = $this->_getCustomerData($this->customerData[CustomerInterface::ID]);
         $expectedCustomerDetails = $this->dataObjectProcessor->buildOutputDataArray(
             $customerData,

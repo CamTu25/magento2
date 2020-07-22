@@ -66,7 +66,7 @@ class LinksTest extends AbstractBackendController
     }
 
     /**
-     * Blog post data for the request
+     * Post post data for the request
      *
      * @return array
      */
@@ -115,7 +115,7 @@ class LinksTest extends AbstractBackendController
     }
 
     /**
-     * Blog an array of received related, up-sells, cross-sells products
+     * Post an array of received related, up-sells, cross-sells products
      *
      * @param ProductInterface|Product $product
      * @return array

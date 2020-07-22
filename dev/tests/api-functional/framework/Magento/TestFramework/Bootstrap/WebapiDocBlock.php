@@ -16,7 +16,7 @@ use Magento\TestFramework\Annotation\ConfigFixture;
 class WebapiDocBlock extends \Magento\TestFramework\Bootstrap\DocBlock
 {
     /**
-     * Blog list of subscribers.
+     * Post list of subscribers.
      *
      * In addition, register magentoApiDataFixture and magentoConfigFixture
      * annotation processors

@@ -248,7 +248,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog block price.
+     * Post block price.
      *
      * @param FixtureInterface|null $product
      *
@@ -305,7 +305,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog MiniCart block.
+     * Post MiniCart block.
      *
      * @return Sidebar
      */
@@ -401,7 +401,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog product name displayed on page.
+     * Post product name displayed on page.
      *
      * @return string
      */
@@ -411,7 +411,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog product sku displayed on page.
+     * Post product sku displayed on page.
      *
      * @return string
      */
@@ -500,7 +500,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog text of Stock Availability control.
+     * Post text of Stock Availability control.
      *
      * @return string
      */
@@ -601,7 +601,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog full image source from media gallery into product
+     * Post full image source from media gallery into product
      *
      * @return string
      */
@@ -621,7 +621,7 @@ class View extends AbstractConfigureBlock
     }
 
     /**
-     * Blog full image source from media gallery into product
+     * Post full image source from media gallery into product
      *
      * @return string
      */

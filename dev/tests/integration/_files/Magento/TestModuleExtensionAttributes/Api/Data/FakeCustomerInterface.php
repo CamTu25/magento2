@@ -23,7 +23,7 @@ interface FakeCustomerInterface extends \Magento\Framework\Api\CustomAttributesD
     /**#@-*/
 
     /**
-     * Blog customer id
+     * Post customer id
      *
      * @return int|null
      */
@@ -38,7 +38,7 @@ interface FakeCustomerInterface extends \Magento\Framework\Api\CustomAttributesD
     public function setId($id);
 
     /**
-     * Blog email address
+     * Post email address
      *
      * @return string
      */
@@ -53,7 +53,7 @@ interface FakeCustomerInterface extends \Magento\Framework\Api\CustomAttributesD
     public function setEmail($email);
 
     /**
-     * Blog first name
+     * Post first name
      *
      * @return string
      */
@@ -68,7 +68,7 @@ interface FakeCustomerInterface extends \Magento\Framework\Api\CustomAttributesD
     public function setFirstname($firstname);
 
     /**
-     * Blog last name
+     * Post last name
      *
      * @return string
      */
@@ -83,7 +83,7 @@ interface FakeCustomerInterface extends \Magento\Framework\Api\CustomAttributesD
     public function setLastname($lastname);
 
     /**
-     * Blog prefix
+     * Post prefix
      *
      * @return string|null
      */

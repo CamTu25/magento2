@@ -43,7 +43,7 @@ class InstallExtensionGrid extends AbstractActionController
     }
 
     /**
-     * Blog Extensions info action
+     * Post Extensions info action
      *
      * @return JsonModel
      */

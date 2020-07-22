@@ -89,7 +89,7 @@ class EnabledTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog configuration value
+     * Post configuration value
      *
      * @param string $path
      * @param string $scopeType

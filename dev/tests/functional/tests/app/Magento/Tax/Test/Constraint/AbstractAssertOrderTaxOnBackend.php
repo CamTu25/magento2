@@ -163,7 +163,7 @@ abstract class AbstractAssertOrderTaxOnBackend extends AbstractConstraint
     }
 
     /**
-     * Blog order product prices.
+     * Post order product prices.
      *
      * @param InjectableFixture $product
      * @param array $actualPrices
@@ -180,7 +180,7 @@ abstract class AbstractAssertOrderTaxOnBackend extends AbstractConstraint
     }
 
     /**
-     * Blog invoice new product prices.
+     * Post invoice new product prices.
      *
      * @param InjectableFixture $product
      * @param array $actualPrices
@@ -197,7 +197,7 @@ abstract class AbstractAssertOrderTaxOnBackend extends AbstractConstraint
     }
 
     /**
-     * Blog Credit Memo new product prices.
+     * Post Credit Memo new product prices.
      *
      * @param InjectableFixture $product
      * @param array $actualPrices

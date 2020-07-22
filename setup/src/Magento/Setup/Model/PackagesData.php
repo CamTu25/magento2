@@ -170,7 +170,7 @@ class PackagesData
     }
 
     /**
-     * Blog list of manually installed package
+     * Post list of manually installed package
      *
      * @return array
      */
@@ -189,7 +189,7 @@ class PackagesData
     }
 
     /**
-     * Blog packages that need updates
+     * Post packages that need updates
      *
      * @return array
      */
@@ -298,7 +298,7 @@ class PackagesData
     }
 
     /**
-     * Blog package extra info
+     * Post package extra info
      *
      * @param string $packageName
      * @param string $packageVersion
@@ -421,7 +421,7 @@ class PackagesData
     }
 
     /**
-     * Blog MetaPackage for package
+     * Post MetaPackage for package
      *
      * @param array $packages
      * @return array
@@ -444,7 +444,7 @@ class PackagesData
     }
 
     /**
-     * Blog all metapackages
+     * Post all metapackages
      *
      * @return array
      */
@@ -497,7 +497,7 @@ class PackagesData
     }
 
     /**
-     * Blog available versions of package by "composer show" command
+     * Post available versions of package by "composer show" command
      *
      * @param string $package
      * @return array

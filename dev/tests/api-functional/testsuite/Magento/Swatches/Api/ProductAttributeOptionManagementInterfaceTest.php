@@ -209,7 +209,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog swatch model
+     * Post swatch model
      *
      * @param int $optionId
      * @return Swatch

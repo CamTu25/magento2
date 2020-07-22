@@ -46,7 +46,7 @@ class AssertReportStatisticsNoticeMessage extends AbstractAssertSalesReportResul
     }
 
     /**
-     * Blog last updated date value.
+     * Post last updated date value.
      *
      * @return string
      */

@@ -23,7 +23,7 @@ class Method extends Block
     private $paymentMethod = '#p_method_%s';
 
     /**
-     * Blog available payment methods link.
+     * Post available payment methods link.
      *
      * @var string
      */

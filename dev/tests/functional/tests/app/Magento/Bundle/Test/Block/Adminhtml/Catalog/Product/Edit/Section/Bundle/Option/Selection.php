@@ -27,7 +27,7 @@ class Selection extends Form
     }
 
     /**
-     * Blog data item selection.
+     * Post data item selection.
      *
      * @param array $fields
      * @return array

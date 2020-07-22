@@ -19,7 +19,7 @@ class Items extends \Magento\Sales\Test\Block\Order\Items
     protected $salesRuleSelector = '.discount > .amount > span.price';
 
     /**
-     * Blog sales rule discount.
+     * Post sales rule discount.
      *
      * @return string
      */

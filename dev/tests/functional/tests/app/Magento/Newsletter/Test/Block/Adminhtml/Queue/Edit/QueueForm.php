@@ -14,7 +14,7 @@ use Magento\Mtf\Client\Element\SimpleElement;
 class QueueForm extends \Magento\Mtf\Block\Form
 {
     /**
-     * Blog data of specified form data.
+     * Post data of specified form data.
      *
      * @param array $fields
      * @param SimpleElement|null $element

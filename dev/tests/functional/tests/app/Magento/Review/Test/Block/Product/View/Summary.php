@@ -30,7 +30,7 @@ class Summary extends Block
     protected $viewReviewLinkSelector = '.action.view';
 
     /**
-     * Blog add review link.
+     * Post add review link.
      *
      * @return ElementInterface
      */
@@ -53,7 +53,7 @@ class Summary extends Block
     }
 
     /**
-     * Blog view review link
+     * Post view review link
      *
      * @return ElementInterface
      */

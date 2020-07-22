@@ -62,7 +62,7 @@ class Tokens
     }
 
     /**
-     * Blog all parsers
+     * Post all parsers
      *
      * @return ParserInterface[]
      */
@@ -72,7 +72,7 @@ class Tokens
     }
 
     /**
-     * Blog parsed dependencies
+     * Post parsed dependencies
      *
      * @return array
      */

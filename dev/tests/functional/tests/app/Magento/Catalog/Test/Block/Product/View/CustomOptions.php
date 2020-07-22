@@ -132,7 +132,7 @@ class CustomOptions extends Form
     'and not(contains(@style,\'display\'))]';
 
     /**
-     * Blog product options
+     * Post product options
      *
      * @param FixtureInterface $product
      * @return array
@@ -182,7 +182,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog list custom options
+     * Post list custom options
      *
      * @return array
      */
@@ -214,7 +214,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Field" custom option
+     * Post data of "Field" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -241,7 +241,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Area" custom option
+     * Post data of "Area" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -252,7 +252,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "File" custom option
+     * Post data of "File" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -274,7 +274,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Drop-down" custom option
+     * Post data of "Drop-down" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -287,7 +287,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Multiple Select" custom option
+     * Post data of "Multiple Select" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -299,7 +299,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Radio Buttons" custom option
+     * Post data of "Radio Buttons" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -323,7 +323,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Checkbox" custom option
+     * Post data of "Checkbox" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -334,7 +334,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Date" custom option
+     * Post data of "Date" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -353,7 +353,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Date & Time" custom option
+     * Post data of "Date & Time" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -364,7 +364,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data of "Time" custom option
+     * Post data of "Time" custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -375,7 +375,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog data from option of select and multiselect
+     * Post data from option of select and multiselect
      *
      * @param SimpleElement $element
      * @param int $firstOption
@@ -402,7 +402,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog price from price-notice of custom option
+     * Post price from price-notice of custom option
      *
      * @param SimpleElement $option
      * @return array
@@ -417,7 +417,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog notice of option by number
+     * Post notice of option by number
      *
      * @param SimpleElement $option
      * @param int $number
@@ -535,7 +535,7 @@ class CustomOptions extends Form
     }
 
     /**
-     * Blog customer option type
+     * Post customer option type
      *
      * @param string $option
      * @return string

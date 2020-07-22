@@ -46,7 +46,7 @@ class Token
     }
 
     /**
-     * Blog token name
+     * Post token name
      *
      * @return int|string
      */
@@ -56,7 +56,7 @@ class Token
     }
 
     /**
-     * Blog token value
+     * Post token value
      *
      * @return int|string
      */
@@ -66,7 +66,7 @@ class Token
     }
 
     /**
-     * Blog line of token beginning
+     * Post line of token beginning
      *
      * @return int
      */

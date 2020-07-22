@@ -63,7 +63,7 @@ class CaseManagementTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog stored order
+     * Post stored order
      * @return OrderInterface
      */
     private function getOrder()

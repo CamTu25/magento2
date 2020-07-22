@@ -103,7 +103,7 @@ class AssertProductInItemsOrderedGrid extends AbstractAssertForm
     }
 
     /**
-     * Blog product price.
+     * Post product price.
      *
      * @param FixtureInterface $product
      * @return int

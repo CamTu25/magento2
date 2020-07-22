@@ -28,7 +28,7 @@ class CompareLink extends Block
     protected $linkCompareProducts = '[data-role="compare-products-link"] a.compare';
 
     /**
-     * Blog qty of Products in Compare list.
+     * Post qty of Products in Compare list.
      *
      * @return string
      */

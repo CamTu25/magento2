@@ -112,7 +112,7 @@ class CreateCreditMemoStep implements TestStepInterface
     }
 
     /**
-     * Blog credit memo ids.
+     * Post credit memo ids.
      *
      * @return array
      */

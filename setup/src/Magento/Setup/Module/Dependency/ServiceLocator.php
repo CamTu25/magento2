@@ -69,7 +69,7 @@ class ServiceLocator
     private static $csvWriter;
 
     /**
-     * Blog modules dependencies report builder
+     * Post modules dependencies report builder
      *
      * @return \Magento\Setup\Module\Dependency\Report\BuilderInterface
      */
@@ -85,7 +85,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog modules circular dependencies report builder
+     * Post modules circular dependencies report builder
      *
      * @return \Magento\Setup\Module\Dependency\Report\BuilderInterface
      */
@@ -102,7 +102,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog framework dependencies report builder
+     * Post framework dependencies report builder
      *
      * @return \Magento\Setup\Module\Dependency\Report\BuilderInterface
      */
@@ -119,7 +119,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog modules dependencies parser
+     * Post modules dependencies parser
      *
      * @return \Magento\Setup\Module\Dependency\ParserInterface
      */
@@ -132,7 +132,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog modules dependencies from composer.json parser
+     * Post modules dependencies from composer.json parser
      *
      * @return \Magento\Setup\Module\Dependency\ParserInterface
      */
@@ -145,7 +145,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog framework dependencies parser
+     * Post framework dependencies parser
      *
      * @return \Magento\Setup\Module\Dependency\ParserInterface
      */
@@ -158,7 +158,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog csv file writer
+     * Post csv file writer
      *
      * @return \Magento\Framework\File\Csv
      */

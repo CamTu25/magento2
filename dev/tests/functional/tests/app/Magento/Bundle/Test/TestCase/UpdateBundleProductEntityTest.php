@@ -117,7 +117,7 @@ class UpdateBundleProductEntityTest extends Injectable
     }
 
     /**
-     * Blog Category instances.
+     * Post Category instances.
      *
      * @param BundleProduct $originalProduct
      * @param BundleProduct $product

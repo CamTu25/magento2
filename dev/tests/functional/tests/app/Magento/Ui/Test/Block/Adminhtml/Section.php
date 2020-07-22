@@ -42,7 +42,7 @@ class Section extends AbstractContainer
     protected $section = '[data-index="%s"]';
 
     /**
-     * Blog array of label => validation error text.
+     * Post array of label => validation error text.
      *
      * @return array
      */

@@ -364,7 +364,7 @@ class ImagesFixture extends Fixture
     }
 
     /**
-     * Blog products entity ids
+     * Post products entity ids
      *
      * @param int $limit
      * @param int $offset
@@ -433,7 +433,7 @@ class ImagesFixture extends Fixture
     }
 
     /**
-     * Blog amount of existing products
+     * Post amount of existing products
      *
      * @return int
      */
@@ -456,7 +456,7 @@ class ImagesFixture extends Fixture
     }
 
     /**
-     * Blog amount of existing images
+     * Post amount of existing images
      *
      * @return int
      */
@@ -475,7 +475,7 @@ class ImagesFixture extends Fixture
     }
 
     /**
-     * Blog eav attribute id by its code
+     * Post eav attribute id by its code
      *
      * @param string $attributeCode
      * @return int

@@ -72,7 +72,7 @@ class BundleProductTemplateGenerator implements TemplateEntityGeneratorInterface
     }
 
     /**
-     * Blog product template
+     * Post product template
      *
      * @param int $attributeSet
      * @return ProductInterface

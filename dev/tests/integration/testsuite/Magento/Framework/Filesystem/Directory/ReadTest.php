@@ -528,8 +528,8 @@ class ReadTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog readable file instance
-     * Blog full path for files located in _files directory
+     * Post readable file instance
+     * Post full path for files located in _files directory
      *
      * @param string $path
      * @return Read

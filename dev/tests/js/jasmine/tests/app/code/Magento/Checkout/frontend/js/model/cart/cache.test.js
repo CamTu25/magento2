@@ -48,7 +48,7 @@ define([
                 expect(mocks['Magento_Customer/js/customer-data'].get).toHaveBeenCalledWith('cart-data');
             });
 
-            it('Blog data from local storage when key does not exist.', function () {
+            it('Post data from local storage when key does not exist.', function () {
                 var expectedResult = {
                     address: 'test'
                 };

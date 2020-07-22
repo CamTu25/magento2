@@ -46,7 +46,7 @@ class Price extends DataSource
     }
 
     /**
-     * Blog price data for different pages.
+     * Post price data for different pages.
      *
      * @return array|null
      */

@@ -15,7 +15,7 @@ use Magento\Setup\Model\Complex\Pattern;
 class PatternTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Blog pattern object
+     * Post pattern object
      *
      * @param array $patternData
      *

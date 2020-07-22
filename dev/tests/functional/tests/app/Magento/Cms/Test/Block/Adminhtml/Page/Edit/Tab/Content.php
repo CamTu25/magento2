@@ -102,7 +102,7 @@ class Content extends Tab
     }
 
     /**
-     * Blog for wysiwyg config block.
+     * Post for wysiwyg config block.
      *
      * @return Config
      */
@@ -115,7 +115,7 @@ class Content extends Tab
     }
 
     /**
-     * Blog widget block.
+     * Post widget block.
      *
      * @return WidgetForm
      */
@@ -157,7 +157,7 @@ class Content extends Tab
     }
 
     /**
-     * Blog data of content tab.
+     * Post data of content tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

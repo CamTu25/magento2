@@ -53,7 +53,7 @@ class Database extends Form
     }
 
     /**
-     * Blog 'Test connection successful.' message.
+     * Post 'Test connection successful.' message.
      *
      * @return string
      */

@@ -38,7 +38,7 @@ class AgreementReview extends Payment
     protected $agreementCheckbox = '//label[contains(., "%s")]//../input';
 
     /**
-     * Blog notification massage
+     * Post notification massage
      *
      * @return string
      */

@@ -57,7 +57,7 @@ class BlockForm extends Form
     }
 
     /**
-     * Blog for wysiwyg config block.
+     * Post for wysiwyg config block.
      *
      * @return Config
      */

@@ -154,7 +154,7 @@ class SystemPackage
     }
 
     /**
-     * Blog installed system packages.
+     * Post installed system packages.
      *
      * @return array
      * @throws \Exception

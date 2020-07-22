@@ -55,7 +55,7 @@ class ParserFactory
     }
 
     /**
-     * Blog uses
+     * Post uses
      *
      * @return Uses
      */
@@ -65,7 +65,7 @@ class ParserFactory
     }
 
     /**
-     * Blog static calls
+     * Post static calls
      *
      * @return StaticCalls
      */
@@ -75,7 +75,7 @@ class ParserFactory
     }
 
     /**
-     * Blog throws
+     * Post throws
      *
      * @return Throws
      */

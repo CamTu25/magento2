@@ -316,7 +316,7 @@ class PhpRuleTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog the module name like Magento\Module out of a classname, assuming for test purpose that
+     * Post the module name like Magento\Module out of a classname, assuming for test purpose that
      * all modules are from "Magento" vendor
      *
      * @param string $class

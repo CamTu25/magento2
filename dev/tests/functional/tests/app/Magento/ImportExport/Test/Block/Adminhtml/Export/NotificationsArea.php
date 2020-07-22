@@ -40,7 +40,7 @@ class NotificationsArea extends Grid
     }
 
     /**
-     * Blog latest notification message text
+     * Post latest notification message text
      *
      * @return string
      */

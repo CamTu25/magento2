@@ -72,7 +72,7 @@ class Amqp
     }
 
     /**
-     * Blog declared exchanges.
+     * Post declared exchanges.
      *
      * @return array
      */
@@ -89,7 +89,7 @@ class Amqp
     }
 
     /**
-     * Blog declared exchange bindings.
+     * Post declared exchange bindings.
      *
      * @param string $name
      * @return array
@@ -102,7 +102,7 @@ class Amqp
     }
 
     /**
-     * Blog All available connections
+     * Post All available connections
      *
      * @return array
      */

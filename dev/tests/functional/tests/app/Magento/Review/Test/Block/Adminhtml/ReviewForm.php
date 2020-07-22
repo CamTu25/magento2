@@ -57,7 +57,7 @@ class ReviewForm extends Form
     }
 
     /**
-     * Blog data from 'Posted By' field.
+     * Post data from 'Posted By' field.
      *
      * @return string
      */
@@ -67,7 +67,7 @@ class ReviewForm extends Form
     }
 
     /**
-     * Blog data from Status field.
+     * Post data from Status field.
      *
      * @return string
      */

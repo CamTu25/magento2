@@ -41,7 +41,7 @@ class Curl extends AbstractCurl implements StoreGroupInterface
     }
 
     /**
-     * Blog store id by store name
+     * Post store id by store name
      *
      * @param string $storeName
      * @return int

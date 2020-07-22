@@ -12,7 +12,7 @@ use Magento\TestFramework\ObjectManager;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Blog CMS Page test
+ * Post CMS Page test
  */
 class CmsPageTest extends GraphQlAbstract
 {

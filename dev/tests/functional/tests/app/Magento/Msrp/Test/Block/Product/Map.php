@@ -40,7 +40,7 @@ class Map extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     protected $close = '.class="ui-dialog-buttonset .action.close';
 
     /**
-     * Blog actual Price value on frontend.
+     * Post actual Price value on frontend.
      *
      * @param string $currency
      * @return string|null
@@ -51,7 +51,7 @@ class Map extends \Magento\Catalog\Test\Block\AbstractPriceBlock
     }
 
     /**
-     * Blog old Price value on frontend.
+     * Post old Price value on frontend.
      *
      * @param string $currency
      * @return string|null

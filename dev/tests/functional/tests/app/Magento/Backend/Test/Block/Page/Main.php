@@ -36,7 +36,7 @@ class Main extends Block
     private $graphImage = '#diagram_tab_orders_content .dashboard-diagram-chart';
 
     /**
-     * Blog Revenue price block.
+     * Post Revenue price block.
      *
      * @return string
      */
@@ -46,7 +46,7 @@ class Main extends Block
     }
 
     /**
-     * Blog orders report from dashboard.
+     * Post orders report from dashboard.
      *
      * @param array $argumentsList
      * @return array

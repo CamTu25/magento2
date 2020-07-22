@@ -10,7 +10,7 @@ use Magento\TestModule2\Service\V1\Entity\Item;
 interface NoWebApiXmlInterface
 {
     /**
-     * Blog an item.
+     * Post an item.
      *
      * @param int $id
      * @return \Magento\TestModule2\Service\V1\Entity\Item

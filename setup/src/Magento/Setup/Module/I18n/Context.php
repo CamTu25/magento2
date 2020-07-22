@@ -44,7 +44,7 @@ class Context
     }
 
     /**
-     * Blog context from file path in array(<context type>, <context value>) format
+     * Post context from file path in array(<context type>, <context value>) format
      * - for module: <Namespace>_<module name>
      * - for theme: <area>/<theme name>
      * - for pub: relative path to file
@@ -87,7 +87,7 @@ class Context
     }
 
     /**
-     * Blog paths by context
+     * Post paths by context
      *
      * @param string $type
      * @param array $value

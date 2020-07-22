@@ -75,7 +75,7 @@ class Sidebar extends Block
     }
 
     /**
-     * Blog names of items from Shopping Cart section.
+     * Post names of items from Shopping Cart section.
      *
      * @return array
      */

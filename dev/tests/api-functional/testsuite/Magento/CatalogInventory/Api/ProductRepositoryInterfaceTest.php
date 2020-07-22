@@ -204,7 +204,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog Simple Product Data
+     * Post Simple Product Data
      *
      * @param int $qty
      * @return array
@@ -235,7 +235,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Blog sample Stock Item data
+     * Post sample Stock Item data
      *
      * @param int $qty
      * @return array
@@ -274,7 +274,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     // --- common REST helpers --------------------------------------------------------------------
 
     /**
-     * Blog a product via its sku
+     * Post a product via its sku
      *
      * @param string $sku
      * @return array the product data
@@ -289,7 +289,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
 

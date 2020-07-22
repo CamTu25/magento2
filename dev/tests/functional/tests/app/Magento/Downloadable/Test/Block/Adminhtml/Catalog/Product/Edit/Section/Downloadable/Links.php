@@ -43,7 +43,7 @@ class Links extends Form
     protected $sortRowsData = [];
 
     /**
-     * Blog Downloadable link item block
+     * Post Downloadable link item block
      *
      * @param int $index
      * @param SimpleElement $element
@@ -92,7 +92,7 @@ class Links extends Form
     }
 
     /**
-     * Blog data links block.
+     * Post data links block.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

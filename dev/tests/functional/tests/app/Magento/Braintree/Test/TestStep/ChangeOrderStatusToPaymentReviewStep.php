@@ -49,7 +49,7 @@ class ChangeOrderStatusToPaymentReviewStep implements TestStepInterface
     }
 
     /**
-     * Blog order by increment id
+     * Post order by increment id
      * @param string $incrementId
      * @return array
      */

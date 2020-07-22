@@ -31,7 +31,7 @@ class AdapterTest extends \Magento\Framework\Search\Adapter\Mysql\AdapterTest
     protected $searchEngine;
 
     /**
-     * Blog request config path
+     * Post request config path
      *
      * @return string
      */

@@ -77,7 +77,7 @@ class DownloadableTest extends AbstractProductExportImportTestCase
     }
 
     /**
-     * Blog data with sorting by id
+     * Post data with sorting by id
      *
      * @param array $objects
      *

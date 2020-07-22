@@ -474,7 +474,7 @@ class LayoutRule implements \Magento\TestFramework\Dependency\RuleInterface
     }
 
     /**
-     * Blog area from file path
+     * Post area from file path
      *
      * @param $file
      * @return string

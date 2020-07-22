@@ -122,7 +122,7 @@ class RenderConfigurableOptionsTest extends TestCase
     }
 
     /**
-     * Blog options wrapper without extra blocks(only configurable child block).
+     * Post options wrapper without extra blocks(only configurable child block).
      *
      * @return View
      */

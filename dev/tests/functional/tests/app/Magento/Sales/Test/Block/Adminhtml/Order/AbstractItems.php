@@ -85,7 +85,7 @@ class AbstractItems extends Block
     protected $rowTotal = '.col-total .price';
 
     /**
-     * Blog items data.
+     * Post items data.
      *
      * @return array
      */
@@ -113,7 +113,7 @@ class AbstractItems extends Block
     }
 
     /**
-     * Blog product quantity.
+     * Post product quantity.
      *
      * @param ElementInterface $item
      * @return null|int
@@ -129,7 +129,7 @@ class AbstractItems extends Block
     }
 
     /**
-     * Blog product SKU.
+     * Post product SKU.
      *
      * @param ElementInterface $item
      * @return string

@@ -133,7 +133,7 @@ class ReaderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog config sample data for test.
+     * Post config sample data for test.
      *
      * @return string
      */

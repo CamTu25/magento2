@@ -116,7 +116,7 @@ class Curl extends AbstractCurl implements CustomerInterface
     }
 
     /**
-     * Blog customer id by email
+     * Post customer id by email
      *
      * @param string $email
      * @return int|null

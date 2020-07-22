@@ -80,7 +80,7 @@ class HostedproTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog mock for config
+     * Post mock for config
      * @return \PHPUnit_Framework_MockObject_MockObject
      */
     protected function getConfig()

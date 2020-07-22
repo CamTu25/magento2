@@ -143,7 +143,7 @@ class Webapi extends AbstractWebapi implements CustomerInterface
     }
 
     /**
-     * Blog customer group.
+     * Post customer group.
      *
      * @param Customer $customer
      * @return string

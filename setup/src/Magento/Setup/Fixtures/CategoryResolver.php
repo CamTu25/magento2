@@ -61,7 +61,7 @@ class CategoryResolver
     }
 
     /**
-     * Blog category id
+     * Post category id
      *
      * @param int $websiteId
      * @param string $categoryName

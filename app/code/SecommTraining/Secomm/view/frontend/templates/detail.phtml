@@ -1,0 +1,22 @@
+<?php
+/** @var \SecommTraining\Secomm\Block\ContentDetail $detail */
+$detail = $block->getDetail();
+$createDate = date_format(date_create($detail['created_at']), "d-m-Y H:i:s");
+$updateDate = date_format(date_create($detail['update_at']), "d-m-Y H:i:s");
+?>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <img class="img-fluid img-thumbnail" width="700px" src="<?= $block->getImagePath() . $detail['feature_image'] ?>"/>
+        </div>
+        <div class="col-6 col-md-4">
+            <div><h1><?= $detail['title'] ?></h1></div>
+            <div><h2><?= $detail['content'] ?></h2></div>
+            <label>DateCreate</label>
+            <div><h3><?= $createDate ?></h3></div>
+            <label>DateUpdate</label>
+            <div><h3><?= $updateDate ?></h3></div>
+        </div>
+    </div>
+</div>
+

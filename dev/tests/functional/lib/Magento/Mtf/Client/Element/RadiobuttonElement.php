@@ -28,7 +28,7 @@ class RadiobuttonElement extends SimpleElement
     protected $selectedLabelSelector = 'input[type=radio]:checked + label';
 
     /**
-     * Blog value of the required element.
+     * Post value of the required element.
      *
      * @return string
      */

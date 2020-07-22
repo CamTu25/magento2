@@ -176,7 +176,7 @@ class ConfigTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog mocked Communication Config Instance
+     * Post mocked Communication Config Instance
      *
      * @return \Magento\Framework\Communication\ConfigInterface
      */

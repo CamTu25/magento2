@@ -263,7 +263,7 @@ class LinkManagementTest extends WebapiAbstract
     }
 
     /**
-     * Blog configurable product attributes
+     * Post configurable product attributes
      *
      * @param string $productSku
      * @return array

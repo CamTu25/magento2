@@ -16,7 +16,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class Cart extends \Magento\Checkout\Test\Block\Cart
 {
     /**
-     * Blog cart item block
+     * Post cart item block
      *
      * @param FixtureInterface $product
      * @return CartItem

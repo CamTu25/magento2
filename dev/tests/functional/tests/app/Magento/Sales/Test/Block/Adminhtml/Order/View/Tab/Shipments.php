@@ -22,7 +22,7 @@ class Shipments extends Tab
     protected $grid = '#sales_order_view_tabs_order_shipments_content';
 
     /**
-     * Blog grid block.
+     * Post grid block.
      *
      * @return Grid
      */

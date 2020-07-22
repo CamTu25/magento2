@@ -73,7 +73,7 @@ class AssertProductQtyDecreasedAfterCreditmemo extends AbstractConstraint
     }
 
     /**
-     * Blog product's fixture.
+     * Post product's fixture.
      *
      * @param OrderInjectable $order
      * @param array $data

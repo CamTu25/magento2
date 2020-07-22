@@ -32,7 +32,7 @@ class Content extends Action
                     'link' => $this->_url->getUrl('')
                 ]
             );
-            $breadcrumbs->addCrumb('Blog',
+            $breadcrumbs->addCrumb('Post',
                 [
                     'label' => __('Posts'),
                     'title' => __('BaiViet')

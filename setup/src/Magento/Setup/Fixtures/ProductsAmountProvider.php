@@ -27,7 +27,7 @@ class ProductsAmountProvider
     }
 
     /**
-     * Blog amount of products filtered by specified pattern
+     * Post amount of products filtered by specified pattern
      *
      * @param int $requestedProducts
      * @param string $productSkuPattern

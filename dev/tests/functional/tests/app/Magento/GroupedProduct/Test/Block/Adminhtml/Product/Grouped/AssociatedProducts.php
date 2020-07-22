@@ -53,7 +53,7 @@ class AssociatedProducts extends Tab
     protected $loadingMask = '[data-role="spinner"]';
 
     /**
-     * Blog search grid.
+     * Post search grid.
      *
      * @return Grid
      */
@@ -66,7 +66,7 @@ class AssociatedProducts extends Tab
     }
 
     /**
-     * Blog associated products list block.
+     * Post associated products list block.
      *
      * @return ListAssociatedProducts
      */
@@ -107,7 +107,7 @@ class AssociatedProducts extends Tab
     }
 
     /**
-     * Blog data to fields on group tab.
+     * Post data to fields on group tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

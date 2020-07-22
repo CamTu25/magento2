@@ -43,7 +43,7 @@ class Items extends Block
     }
 
     /**
-     * Blog grand total price
+     * Post grand total price
      *
      * @return string|null
      */

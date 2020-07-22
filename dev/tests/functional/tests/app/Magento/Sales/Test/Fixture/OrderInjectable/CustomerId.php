@@ -38,7 +38,7 @@ class CustomerId extends DataSource
     }
 
     /**
-     * Blog customer fixture.
+     * Post customer fixture.
      *
      * @return Customer
      */

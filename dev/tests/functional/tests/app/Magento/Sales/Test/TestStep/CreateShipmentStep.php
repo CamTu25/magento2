@@ -117,7 +117,7 @@ class CreateShipmentStep implements TestStepInterface
     }
 
     /**
-     * Blog shipment id.
+     * Post shipment id.
      *
      * @return array
      */

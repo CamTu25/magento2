@@ -58,7 +58,7 @@ class PhraseCollector
     }
 
     /**
-     * Blog phrases for given file
+     * Post phrases for given file
      *
      * @return array
      */

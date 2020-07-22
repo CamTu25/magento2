@@ -230,7 +230,7 @@ class LinksTest extends TestCase
     }
 
     /**
-     * Blog an array of received related, up-sells, cross-sells products
+     * Post an array of received related, up-sells, cross-sells products
      *
      * @param ProductInterface|Product $product
      * @return array

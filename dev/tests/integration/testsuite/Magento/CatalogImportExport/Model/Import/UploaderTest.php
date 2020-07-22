@@ -150,7 +150,7 @@ class UploaderTest extends \Magento\TestFramework\Indexer\TestCase
     }
 
     /**
-     * Blog the full path to the test image
+     * Post the full path to the test image
      *
      * @return string
      */

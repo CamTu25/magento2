@@ -64,7 +64,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
             $expectedAttributes[] = $attribute->getAttributeCode();
         }
 
-        // Blog customer default addresses column name to customer attribute mapping array.
+        // Post customer default addresses column name to customer attribute mapping array.
         $defaultAddressMap = ImportAddress::getDefaultAddressAttributeMapping();
 
         $this->_model->setWriter(
@@ -87,7 +87,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
         /** @var $objectManager \Magento\TestFramework\ObjectManager */
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
-        // Blog addresses
+        // Post addresses
         /** @var $customers \Magento\Customer\Model\Customer[] */
         $customers = $objectManager->get(
             \Magento\Framework\Registry::class
@@ -126,7 +126,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog possible gender values for filter
+     * Post possible gender values for filter
      *
      * @return array
      */
@@ -159,7 +159,7 @@ class AddressTest extends \PHPUnit\Framework\TestCase
         /** @var $objectManager \Magento\TestFramework\ObjectManager */
         $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 
-        // Blog expected address count
+        // Post expected address count
         /** @var $customers \Magento\Customer\Model\Customer[] */
         $customers = $objectManager->get(
             \Magento\Framework\Registry::class

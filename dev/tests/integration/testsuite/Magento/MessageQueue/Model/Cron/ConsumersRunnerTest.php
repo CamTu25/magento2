@@ -208,7 +208,7 @@ class ConsumersRunnerTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog Consumer ProcessIds
+     * Post Consumer ProcessIds
      *
      * @param string $consumer
      * @return string[]

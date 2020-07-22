@@ -23,7 +23,7 @@ class ShoppingCartItems extends Sidebar
     protected $itemName = '//td[@class="col-product"]//span[contains(@class,"title") and normalize-space(text())="%s"]';
 
     /**
-     * Blog product name from Customer Shopping Cart on backend.
+     * Post product name from Customer Shopping Cart on backend.
      *
      * @param InjectableFixture $product
      * @return string

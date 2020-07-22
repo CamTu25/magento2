@@ -97,7 +97,7 @@ class JquerytreeElement extends Tree
     }
 
     /**
-     * Blog element label.
+     * Post element label.
      *
      * @param ElementInterface $element
      * @return string
@@ -108,7 +108,7 @@ class JquerytreeElement extends Tree
     }
 
     /**
-     * Blog structure.
+     * Post structure.
      *
      * @param int|null $level
      * @return array
@@ -122,7 +122,7 @@ class JquerytreeElement extends Tree
     }
 
     /**
-     * Blog nodes selector.
+     * Post nodes selector.
      *
      * @param int|null $level
      * @return string

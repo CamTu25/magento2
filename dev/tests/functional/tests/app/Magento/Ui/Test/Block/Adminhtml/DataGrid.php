@@ -481,7 +481,7 @@ class DataGrid extends Grid
     }
 
     /**
-     * Blog rows data.
+     * Post rows data.
      *
      * @param array $columns
      * @return array

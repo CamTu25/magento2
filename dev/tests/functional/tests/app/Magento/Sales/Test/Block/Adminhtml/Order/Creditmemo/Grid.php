@@ -46,7 +46,7 @@ class Grid extends GridInterface
     protected $selectItem = 'tbody tr .col-increment_id';
 
     /**
-     * Blog first refund amount
+     * Post first refund amount
      *
      * @return array|string
      */
@@ -56,7 +56,7 @@ class Grid extends GridInterface
     }
 
     /**
-     * Blog first status
+     * Post first status
      *
      * @return array|string
      */

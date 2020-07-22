@@ -59,7 +59,7 @@ class GridPageAction extends ParentGridPageActions
     }
 
     /**
-     * Blog product list.
+     * Post product list.
      *
      * @return array
      */

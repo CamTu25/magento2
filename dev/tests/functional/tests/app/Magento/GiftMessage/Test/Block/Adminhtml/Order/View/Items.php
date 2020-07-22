@@ -24,7 +24,7 @@ class Items extends \Magento\Sales\Test\Block\Adminhtml\Order\View\Items
     protected $itemProduct = '//tbody[*[td//*[normalize-space(text())="%s"]]]';
 
     /**
-     * Blog item product block.
+     * Post item product block.
      *
      * @param InjectableFixture $product
      * @return ItemProduct

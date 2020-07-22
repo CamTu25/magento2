@@ -128,7 +128,7 @@ class ChosenOption extends SimpleElement
     }
 
     /**
-     * Blog block by class.
+     * Post block by class.
      *
      * @param string $class
      * @return mixed

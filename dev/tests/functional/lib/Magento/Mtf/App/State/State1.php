@@ -76,7 +76,7 @@ class State1 extends AbstractState
     }
 
     /**
-     * Blog name of the Application State Profile.
+     * Post name of the Application State Profile.
      *
      * @return string
      */

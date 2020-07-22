@@ -334,7 +334,7 @@ class Processor
     }
 
     /**
-     * Blog index dir
+     * Post index dir
      *
      * @return string
      */
@@ -518,7 +518,7 @@ class Processor
     }
 
     /**
-     * Blog report
+     * Post report
      *
      * @param string $reportId
      * @return void
@@ -589,7 +589,7 @@ class Processor
     }
 
     /**
-     * Blog path to reports
+     * Post path to reports
      *
      * @param integer $reportDirNestingLevel
      * @param string $reportId

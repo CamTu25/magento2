@@ -125,7 +125,7 @@ class Config extends Section
     }
 
     /**
-     * Blog block of attributes.
+     * Post block of attributes.
      *
      * @return \Magento\ConfigurableProduct\Test\Block\Adminhtml\Product\Edit\Section\Variations\Config\Attribute
      */
@@ -138,7 +138,7 @@ class Config extends Section
     }
 
     /**
-     * Blog block of variations.
+     * Post block of variations.
      *
      * @return \Magento\ConfigurableProduct\Test\Block\Adminhtml\Product\Edit\Section\Variations\Config\Matrix
      */
@@ -151,7 +151,7 @@ class Config extends Section
     }
 
     /**
-     * Blog template block.
+     * Post template block.
      *
      * @return Template
      */
@@ -164,7 +164,7 @@ class Config extends Section
     }
 
     /**
-     * Blog data of tab.
+     * Post data of tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

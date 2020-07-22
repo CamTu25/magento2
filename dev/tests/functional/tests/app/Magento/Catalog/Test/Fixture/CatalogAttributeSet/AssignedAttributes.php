@@ -57,7 +57,7 @@ class AssignedAttributes extends DataSource
     }
 
     /**
-     * Blog Attributes
+     * Post Attributes
      *
      * @return array
      */

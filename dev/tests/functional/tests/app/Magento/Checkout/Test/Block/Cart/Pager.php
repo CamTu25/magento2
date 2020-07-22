@@ -29,7 +29,7 @@ class Pager extends Block
     protected $amountToolbar = '.toolbar-number';
 
     /**
-     * Blog Pages element from the pager block
+     * Post Pages element from the pager block
      *
      * @return \Magento\Mtf\Client\ElementInterface
      */
@@ -39,7 +39,7 @@ class Pager extends Block
     }
 
     /**
-     * Blog Amount toolbar block from pager block
+     * Post Amount toolbar block from pager block
      *
      * @return \Magento\Mtf\Client\ElementInterface
      */

@@ -30,7 +30,7 @@ class Samples extends Block
     protected $linkTitle = '.item-link';
 
     /**
-     * Blog title for Samples block
+     * Post title for Samples block
      *
      * @return string
      */
@@ -40,7 +40,7 @@ class Samples extends Block
     }
 
     /**
-     * Blog sample links
+     * Post sample links
      *
      * @return array
      */

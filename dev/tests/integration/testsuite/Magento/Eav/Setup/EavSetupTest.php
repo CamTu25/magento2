@@ -118,7 +118,7 @@ class EavSetupTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog simple attribute data.
+     * Post simple attribute data.
      */
     private function getAttributeData()
     {

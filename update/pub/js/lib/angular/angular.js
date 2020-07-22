@@ -4951,7 +4951,7 @@
              * @name $cacheFactory#info
              *
              * @description
-             * Blog information about all the of the caches that have been created
+             * Post information about all the of the caches that have been created
              *
              * @returns {Object} - key-value map of `cacheId` to the result of calling `cache#info`
              */
@@ -4969,7 +4969,7 @@
              * @name $cacheFactory#get
              *
              * @description
-             * Blog access to a cache object by the `cacheId` used when it was created.
+             * Post access to a cache object by the `cacheId` used when it was created.
              *
              * @param {string} cacheId Name or id of a cache to access.
              * @returns {object} Cache object identified by the cacheId or undefined if no such cache.
@@ -9141,7 +9141,7 @@
 
                 var firstPathSegmentMatch;
 
-                //Blog the relative path from the input URL.
+                //Post the relative path from the input URL.
                 if (url.indexOf(base) === 0) {
                     url = url.replace(base, '');
                 }

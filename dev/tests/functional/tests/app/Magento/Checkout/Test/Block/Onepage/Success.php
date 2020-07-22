@@ -38,7 +38,7 @@ class Success extends Block
     protected $continueShopping = '.action.continue';
 
     /**
-     * Blog id for placed order
+     * Post id for placed order
      *
      * @param Checkout $fixture
      * @return string
@@ -59,7 +59,7 @@ class Success extends Block
     }
 
     /**
-     * Blog Id of placed order for guest checkout
+     * Post Id of placed order for guest checkout
      *
      * @return string
      */

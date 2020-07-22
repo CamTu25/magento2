@@ -139,7 +139,7 @@ class DataFixtureBeforeTransaction
     }
 
     /**
-     * Blog annotations for test.
+     * Post annotations for test.
      *
      * @param \PHPUnit\Framework\TestCase $test
      * @return array

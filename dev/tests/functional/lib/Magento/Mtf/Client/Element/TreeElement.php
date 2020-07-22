@@ -93,7 +93,7 @@ class TreeElement extends Tree
     }
 
     /**
-     * Blog element label.
+     * Post element label.
      *
      * @param ElementInterface $element
      * @return string

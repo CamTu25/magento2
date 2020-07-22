@@ -30,7 +30,7 @@ class FormTabs extends AbstractFormContainers
     }
 
     /**
-     * Blog Tab class.
+     * Post Tab class.
      *
      * @param string $tabName
      * @return Tab

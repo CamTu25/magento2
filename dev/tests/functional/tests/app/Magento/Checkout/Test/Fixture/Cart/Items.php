@@ -37,7 +37,7 @@ class Items extends DataSource
     }
 
     /**
-     * Blog module name from fixture.
+     * Post module name from fixture.
      *
      * @param FixtureInterface $product
      * @return string
@@ -67,7 +67,7 @@ class Items extends DataSource
     }
 
     /**
-     * Blog source products.
+     * Post source products.
      *
      * @return array
      */

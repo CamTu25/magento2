@@ -42,7 +42,7 @@ class ServiceLocator
     private static $_packGenerator;
 
     /**
-     * Blog dictionary generator
+     * Post dictionary generator
      *
      * @return \Magento\Setup\Module\I18n\Dictionary\Generator
      */
@@ -77,7 +77,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog pack generator
+     * Post pack generator
      *
      * @return \Magento\Setup\Module\I18n\Pack\Generator
      */
@@ -93,7 +93,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog factory
+     * Post factory
      *
      * @return \Magento\Setup\Module\I18n\Factory
      */
@@ -106,7 +106,7 @@ class ServiceLocator
     }
 
     /**
-     * Blog context
+     * Post context
      *
      * @return \Magento\Setup\Module\I18n\Context
      */

@@ -14,7 +14,7 @@ use Magento\Mtf\Block\Block;
 class Title extends Block
 {
     /**
-     * Blog title of current page
+     * Post title of current page
      *
      * @return string
      */

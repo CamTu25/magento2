@@ -36,7 +36,7 @@ class Address extends Form
     private $billingTelephoneLabel = '[data-ui-id$="billing-address-telephone-label"]';
 
     /**
-     * Blog existing customer addresses.
+     * Post existing customer addresses.
      *
      * @return array
      */

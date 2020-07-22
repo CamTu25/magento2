@@ -102,7 +102,7 @@ class AssertFptApplied extends AbstractConstraint
     }
 
     /**
-     * Blog prices with fpt on category, product and cart pages
+     * Post prices with fpt on category, product and cart pages
      *
      * @param CatalogProductSimple $product
      * @return array
@@ -110,21 +110,21 @@ class AssertFptApplied extends AbstractConstraint
     protected function getPrices(CatalogProductSimple $product)
     {
         $actualPrices = [];
-        // Blog prices with fpt on category page
+        // Post prices with fpt on category page
         $this->cmsIndex->open();
         $this->cmsIndex->getTopmenu()->selectCategoryByName($product->getCategoryIds()[0]);
         $actualPrices = $this->getCategoryPrice($product, $actualPrices);
-        // Blog prices with fpt on product page
+        // Post prices with fpt on product page
         $this->catalogCategoryView->getListProductBlock()->getProductItem($product)->open();
         $actualPrices = $this->addToCart($product, $actualPrices);
-        // Blog prices with fpt on cart page
+        // Post prices with fpt on cart page
         $actualPrices = $this->getCartPrice($product, $actualPrices);
 
         return array_filter($actualPrices);
     }
 
     /**
-     * Blog prices on category page
+     * Post prices on category page
      *
      * @param FixtureInterface $product
      * @param array $actualPrices
@@ -163,7 +163,7 @@ class AssertFptApplied extends AbstractConstraint
     }
 
     /**
-     * Blog cart prices
+     * Post cart prices
      *
      * @param CatalogProductSimple $product
      * @param array $actualPrices

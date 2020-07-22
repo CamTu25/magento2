@@ -132,7 +132,7 @@ class UpdateSimpleProductEntityTest extends Injectable
     }
 
     /**
-     * Blog Category instance.
+     * Post Category instance.
      *
      * @param CatalogProductSimple $initialProduct
      * @param CatalogProductSimple $product

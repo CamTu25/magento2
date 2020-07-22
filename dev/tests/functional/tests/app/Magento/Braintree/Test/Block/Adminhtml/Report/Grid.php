@@ -29,7 +29,7 @@ class Grid extends DataGrid
     private $txnId = '.data-grid tbody tr td:nth-child(2) div';
 
     /**
-     * Blog list of transaction ids
+     * Post list of transaction ids
      * @return array
      */
     public function getTransactionIds()

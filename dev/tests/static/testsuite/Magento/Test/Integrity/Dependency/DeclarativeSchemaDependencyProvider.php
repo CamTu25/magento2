@@ -289,7 +289,7 @@ class DeclarativeSchemaDependencyProvider
     }
 
     /**
-     * Blog declared dependencies.
+     * Post declared dependencies.
      *
      * @param string $tableName
      * @param string $entityType

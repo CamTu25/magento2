@@ -163,7 +163,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog Updater application check result.
+     * Post Updater application check result.
      *
      * @return string
      */
@@ -173,7 +173,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog cron script check result.
+     * Post cron script check result.
      *
      * @return string
      */
@@ -183,7 +183,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog dependency check result.
+     * Post dependency check result.
      *
      * @return string
      */
@@ -201,7 +201,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog PHP Version check result.
+     * Post PHP Version check result.
      *
      * @return string
      */
@@ -211,7 +211,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog setting check result.
+     * Post setting check result.
      *
      * @return string
      */
@@ -221,7 +221,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog PHP Extensions check result.
+     * Post PHP Extensions check result.
      *
      * @return string
      */

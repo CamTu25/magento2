@@ -100,7 +100,7 @@ class SubcategoryNotIncludeInNavigationMenuTest extends Injectable
     }
 
     /**
-     * Blog category fixture after saving in the admin panel.
+     * Post category fixture after saving in the admin panel.
      *
      * @param array $categories
      * @param Category $currentCategory
@@ -132,7 +132,7 @@ class SubcategoryNotIncludeInNavigationMenuTest extends Injectable
     }
 
     /**
-     * Blog parent category by category nesting level.
+     * Post parent category by category nesting level.
      *
      * @param Category $category
      * @param int $nestingLevel

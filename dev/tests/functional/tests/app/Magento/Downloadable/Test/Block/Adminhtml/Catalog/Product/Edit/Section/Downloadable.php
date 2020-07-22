@@ -40,7 +40,7 @@ class Downloadable extends Section
     protected $isDownloadableProduct = '[name="is_downloadable"]';
 
     /**
-     * Blog Downloadable block.
+     * Post Downloadable block.
      *
      * @param string $type
      * @param SimpleElement $element
@@ -56,7 +56,7 @@ class Downloadable extends Section
     }
 
     /**
-     * Blog data to fields on downloadable tab.
+     * Post data to fields on downloadable tab.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

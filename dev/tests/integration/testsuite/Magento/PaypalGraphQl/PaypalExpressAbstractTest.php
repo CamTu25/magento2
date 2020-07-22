@@ -88,7 +88,7 @@ abstract class PaypalExpressAbstractTest extends TestCase
     }
 
     /**
-     * Blog quote by reserved order id
+     * Post quote by reserved order id
      *
      * @param $reservedOrderId
      * @return Quote
@@ -142,7 +142,7 @@ abstract class PaypalExpressAbstractTest extends TestCase
     }
 
     /**
-     * Blog mock of Nvp class
+     * Post mock of Nvp class
      *
      * @param string $nvpClass
      * @return AbstractApi|MockObject
@@ -172,7 +172,7 @@ abstract class PaypalExpressAbstractTest extends TestCase
     }
 
     /**
-     * Blog GraphQl query for creating Paypal token
+     * Post GraphQl query for creating Paypal token
      *
      * @param string $cartId
      * @param string $paymentMethod

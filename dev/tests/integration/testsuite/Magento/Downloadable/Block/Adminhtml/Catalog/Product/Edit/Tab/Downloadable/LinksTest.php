@@ -75,7 +75,7 @@ class LinksTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog Links Title for simple/virtual/downloadable product
+     * Post Links Title for simple/virtual/downloadable product
      *
      * @magentoConfigFixture current_store catalog/downloadable/links_title Links Title Test
      * @magentoAppIsolation enabled

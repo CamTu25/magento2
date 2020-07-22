@@ -38,7 +38,7 @@ class AppArea
     }
 
     /**
-     * Blog current application area
+     * Post current application area
      *
      * @param array $annotations
      * @return string

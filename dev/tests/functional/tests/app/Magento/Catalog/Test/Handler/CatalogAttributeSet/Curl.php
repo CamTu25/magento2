@@ -108,7 +108,7 @@ class Curl extends AbstractCurl implements CatalogAttributeSetInterface
     }
 
     /**
-     * Blog Default Attribute Set page with curl
+     * Post Default Attribute Set page with curl
      *
      * @param CatalogAttributeSet $fixture
      * @return string
@@ -142,7 +142,7 @@ class Curl extends AbstractCurl implements CatalogAttributeSetInterface
     }
 
     /**
-     * Blog data attributes for curl
+     * Post data attributes for curl
      *
      * @param string $response
      * @return array

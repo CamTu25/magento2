@@ -178,7 +178,7 @@ class InitParamListener implements ListenerAggregateInterface, FactoryInterface
     }
 
     /**
-     * Blog cookie path
+     * Post cookie path
      *
      * @param \Magento\Framework\ObjectManagerInterface $objectManager
      * @return string

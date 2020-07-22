@@ -66,7 +66,7 @@ class Shipping extends Form
     protected $blockWaitElement = '._block-content-loading';
 
     /**
-     * Blog shipping price selector for exclude and include price.
+     * Post shipping price selector for exclude and include price.
      *
      * @var string
      */
@@ -92,7 +92,7 @@ class Shipping extends Form
     }
 
     /**
-     * Blog countries displayed at the top of country element.
+     * Post countries displayed at the top of country element.
      *
      * @return array
      */

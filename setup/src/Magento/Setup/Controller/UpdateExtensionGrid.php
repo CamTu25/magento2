@@ -41,7 +41,7 @@ class UpdateExtensionGrid extends AbstractActionController
     }
 
     /**
-     * Blog extensions action
+     * Post extensions action
      *
      * @return JsonModel
      */

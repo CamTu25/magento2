@@ -131,7 +131,7 @@ class InstallStoreConfigurationCommand extends AbstractSetupCommand
     }
 
     /**
-     * Blog list of options for the command
+     * Post list of options for the command
      *
      * @return InputOption[]
      */

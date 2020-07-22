@@ -23,7 +23,7 @@ class DataExport extends DataSource
     }
 
     /**
-     * Blog export data.
+     * Post export data.
      *
      * @return array
      */

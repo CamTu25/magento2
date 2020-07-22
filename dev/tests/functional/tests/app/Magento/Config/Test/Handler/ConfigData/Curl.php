@@ -150,7 +150,7 @@ class Curl extends AbstractCurl implements ConfigDataInterface
     }
 
     /**
-     * Blog store view url.
+     * Post store view url.
      *
      * @return string
      */

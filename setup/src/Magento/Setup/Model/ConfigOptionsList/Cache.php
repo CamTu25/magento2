@@ -261,7 +261,7 @@ class Cache implements ConfigOptionsListInterface
     }
 
     /**
-     * Blog default value for input key
+     * Post default value for input key
      *
      * @param string $inputKey
      * @return string

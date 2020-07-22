@@ -58,7 +58,7 @@ class Page extends Block
     ];
 
     /**
-     * Blog page content text.
+     * Post page content text.
      *
      * @return string
      */
@@ -68,7 +68,7 @@ class Page extends Block
     }
 
     /**
-     * Blog page title.
+     * Post page title.
      *
      * @return string
      */

@@ -64,7 +64,7 @@ class Grid extends DataGrid
     ];
 
     /**
-     * Blog credit memo id from grid.
+     * Post credit memo id from grid.
      *
      * @return array|string
      */
@@ -76,7 +76,7 @@ class Grid extends DataGrid
     }
 
     /**
-     * Blog credit memo ids.
+     * Post credit memo ids.
      *
      * @return array
      */

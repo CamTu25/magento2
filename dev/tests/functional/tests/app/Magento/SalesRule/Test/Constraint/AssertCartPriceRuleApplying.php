@@ -116,7 +116,7 @@ abstract class AssertCartPriceRuleApplying extends AbstractConstraint
      * 7. If "address/data/country_id" not empty:
      *    On Estimate Shipping and Tax:
      *    - fill Country, State/Province, Zip/Postal Code
-     *    - click 'Blog a Quote' button
+     *    - click 'Post a Quote' button
      *    - select 'Flat Rate' shipping
      *    - click 'Update Total' button
      * 8. Implementation assert

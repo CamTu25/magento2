@@ -79,7 +79,7 @@ class AssertCustomerIsRedirectedToCheckoutFromCart extends AbstractConstraint
     }
 
     /**
-     * Blog Order.
+     * Post Order.
      *
      * @param array $checkoutData
      * @return void

@@ -388,7 +388,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
 
@@ -417,7 +417,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
         try {
@@ -616,7 +616,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Blog tax rates created in Magento\Tax\_files\tax_classes.php
+     * Post tax rates created in Magento\Tax\_files\tax_classes.php
      *
      * @return \Magento\Tax\Model\Calculation\Rate[]
      */
@@ -637,7 +637,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Blog tax classes created in Magento\Tax\_files\tax_classes.php
+     * Post tax classes created in Magento\Tax\_files\tax_classes.php
      *
      * @return \Magento\Tax\Model\ClassModel[]
      */
@@ -661,7 +661,7 @@ class TaxRateRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Blog tax rule created in Magento\Tax\_files\tax_classes.php
+     * Post tax rule created in Magento\Tax\_files\tax_classes.php
      *
      * @return \Magento\Tax\Model\Calculation\Rule[]
      */

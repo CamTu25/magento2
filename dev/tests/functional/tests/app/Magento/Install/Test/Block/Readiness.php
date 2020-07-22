@@ -78,7 +78,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog File Permissions check result.
+     * Post File Permissions check result.
      *
      * @return string
      */
@@ -88,7 +88,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog PHP Version check result.
+     * Post PHP Version check result.
      *
      * @return string
      */
@@ -98,7 +98,7 @@ class Readiness extends Block
     }
 
     /**
-     * Blog PHP Extensions check result.
+     * Post PHP Extensions check result.
      *
      * @return string
      */

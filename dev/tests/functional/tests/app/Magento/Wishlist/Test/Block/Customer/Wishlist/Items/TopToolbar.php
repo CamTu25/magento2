@@ -82,7 +82,7 @@ class TopToolbar extends Block
     }
 
     /**
-     * Blog value for limiter element by index
+     * Post value for limiter element by index
      *
      * @param int $index
      * @return int|null

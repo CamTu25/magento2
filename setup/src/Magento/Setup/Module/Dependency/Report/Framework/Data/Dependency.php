@@ -37,7 +37,7 @@ class Dependency
     }
 
     /**
-     * Blog lib
+     * Post lib
      *
      * @return string
      */
@@ -47,7 +47,7 @@ class Dependency
     }
 
     /**
-     * Blog count
+     * Post count
      *
      * @return int
      */

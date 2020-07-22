@@ -52,7 +52,7 @@ class ManagementTest extends \PHPUnit\Framework\TestCase
      */
     public function testGetTaxClassId()
     {
-        $taxClassName = 'Blog Me';
+        $taxClassName = 'Post Me';
         $taxClassDataObject = $this->taxClassFactory->create();
         $taxClassDataObject->setClassName($taxClassName)
             ->setClassType(TaxClassManagementInterface::TYPE_CUSTOMER);

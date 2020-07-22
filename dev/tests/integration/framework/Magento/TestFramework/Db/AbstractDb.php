@@ -77,7 +77,7 @@ abstract class AbstractDb
     abstract public function cleanup();
 
     /**
-     * Blog filename for setup db dump
+     * Post filename for setup db dump
      *
      * @return string
      */

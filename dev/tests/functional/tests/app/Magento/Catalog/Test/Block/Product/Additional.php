@@ -32,7 +32,7 @@ class Additional extends Block
     protected $attributeValueSelector = '/following::td[1]';
 
     /**
-     * Blog product attributes.
+     * Post product attributes.
      *
      * @return SimpleElement[]
      */
@@ -79,7 +79,7 @@ class Additional extends Block
     }
 
     /**
-     * Blog list of available attributes.
+     * Post list of available attributes.
      *
      * @return array
      */

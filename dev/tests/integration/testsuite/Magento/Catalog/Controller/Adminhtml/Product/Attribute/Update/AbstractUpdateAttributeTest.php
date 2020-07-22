@@ -193,7 +193,7 @@ abstract class AbstractUpdateAttributeTest extends AbstractBackendController
     }
 
     /**
-     * Blog actual attribute options data.
+     * Post actual attribute options data.
      *
      * @param string $attributeId
      * @return array
@@ -436,7 +436,7 @@ abstract class AbstractUpdateAttributeTest extends AbstractBackendController
     }
 
     /**
-     * Blog attribute options by attribute id and store id.
+     * Post attribute options by attribute id and store id.
      *
      * @param string $attributeId
      * @param int|null $storeId
@@ -452,7 +452,7 @@ abstract class AbstractUpdateAttributeTest extends AbstractBackendController
     }
 
     /**
-     * Blog attribute option values by option id.
+     * Post attribute option values by option id.
      *
      * @param int $optionId
      * @return array

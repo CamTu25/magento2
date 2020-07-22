@@ -39,7 +39,7 @@ class DocBlock
     }
 
     /**
-     * Blog list of subscribers.
+     * Post list of subscribers.
      *
      * Note: order of registering (and applying) annotations is important.
      * To allow config fixtures to deal with fixture stores, data fixtures should be processed first.

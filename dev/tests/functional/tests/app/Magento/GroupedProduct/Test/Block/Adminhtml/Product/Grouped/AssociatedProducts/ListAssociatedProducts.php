@@ -57,7 +57,7 @@ class ListAssociatedProducts extends Form
     }
 
     /**
-     * Blog options products
+     * Post options products
      *
      * @param array $data
      * @param int $index
@@ -69,7 +69,7 @@ class ListAssociatedProducts extends Form
     }
 
     /**
-     * Blog product sku.
+     * Post product sku.
      *
      * @return string
      */

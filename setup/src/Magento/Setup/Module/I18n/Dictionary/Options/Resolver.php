@@ -125,7 +125,7 @@ class Resolver implements ResolverInterface
     }
 
     /**
-     * Blog the given type component directories
+     * Post the given type component directories
      *
      * @param string $componentType
      * @return array

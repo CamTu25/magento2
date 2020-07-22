@@ -52,7 +52,7 @@ class RuleTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog array with catalog rule data
+     * Post array with catalog rule data
      *
      * @return array
      */

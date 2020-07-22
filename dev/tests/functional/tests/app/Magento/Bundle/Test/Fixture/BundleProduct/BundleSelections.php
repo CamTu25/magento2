@@ -52,7 +52,7 @@ class BundleSelections extends DataSource
     }
 
     /**
-     * Blog dataset for a field.
+     * Post dataset for a field.
      *
      * @param array $data
      * @return void
@@ -100,7 +100,7 @@ class BundleSelections extends DataSource
     }
 
     /**
-     * Blog products from bundle items.
+     * Post products from bundle items.
      *
      * @return array
      */

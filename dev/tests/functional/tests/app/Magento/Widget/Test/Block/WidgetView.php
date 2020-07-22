@@ -84,7 +84,7 @@ class WidgetView extends Block
     }
 
     /**
-     * Blog widget type based on widget code.
+     * Post widget type based on widget code.
      *
      * @param Widget $widget
      * @return string

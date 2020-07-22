@@ -125,7 +125,7 @@ class AdvancedMoveCategoryEntityTest extends Injectable
     }
 
     /**
-     * Blog moved category tree.
+     * Post moved category tree.
      *
      * @param Category $movedCategory
      * @param Category $parentCategory

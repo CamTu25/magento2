@@ -93,7 +93,7 @@ class CancelOrderTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog stored order.
+     * Post stored order.
      *
      * @return OrderInterface
      */

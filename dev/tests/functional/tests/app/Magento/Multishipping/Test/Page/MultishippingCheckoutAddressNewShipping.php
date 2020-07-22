@@ -38,7 +38,7 @@ class MultishippingCheckoutAddressNewShipping extends Page
     }
 
     /**
-     * Blog form for edit customer address.
+     * Post form for edit customer address.
      *
      * @return \Magento\Customer\Test\Block\Address\Edit
      */

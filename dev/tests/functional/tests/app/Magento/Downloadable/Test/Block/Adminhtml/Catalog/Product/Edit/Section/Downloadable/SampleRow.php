@@ -33,7 +33,7 @@ class SampleRow extends Form
     }
 
     /**
-     * Blog data item sample.
+     * Post data item sample.
      *
      * @param array $fields
      * @return array
@@ -56,7 +56,7 @@ class SampleRow extends Form
     }
 
     /**
-     * Blog sort handle.
+     * Post sort handle.
      *
      * @return ElementInterface
      */

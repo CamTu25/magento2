@@ -336,7 +336,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog store id for quote item by product index.
+     * Post store id for quote item by product index.
      *
      * @param int $entityId
      * @return int
@@ -347,7 +347,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog store name for quote item by product index.
+     * Post store name for quote item by product index.
      *
      * @param int $entityId
      * @return string
@@ -358,7 +358,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog product id for quote item by product index.
+     * Post product id for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -371,7 +371,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog product SKU for quote item by product index.
+     * Post product SKU for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -384,7 +384,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog product name for quote item by product index.
+     * Post product name for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -397,7 +397,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog product buy request for quote item by product index.
+     * Post product buy request for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -410,7 +410,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog configurable product child id for quote item by product index.
+     * Post configurable product child id for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -423,7 +423,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog configurable product child id for quote item by product index.
+     * Post configurable product child id for quote item by product index.
      *
      * @param int $entityId
      * @param int $index
@@ -436,7 +436,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog index of item in product stub array.
+     * Post index of item in product stub array.
      *
      * @param int $entityId
      * @return int
@@ -449,7 +449,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog quote address mock data.
+     * Post quote address mock data.
      *
      * @return array
      */
@@ -594,7 +594,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog maximum order id currently existing in the database.
+     * Post maximum order id currently existing in the database.
      *
      * To support incremental generation of the orders it is necessary to get the maximum order entity_id currently.
      * existing in the database.
@@ -613,7 +613,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog a limited amount of product id's from a collection filtered by store and specific product type.
+     * Post a limited amount of product id's from a collection filtered by store and specific product type.
      *
      * @param \Magento\Store\Api\Data\StoreInterface $store
      * @param string $typeId
@@ -760,7 +760,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog sequence for order items.
+     * Post sequence for order items.
      *
      * @param int $maxItemId
      * @param int $requestedOrders
@@ -776,7 +776,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog real table name for db table, validated by db adapter.
+     * Post real table name for db table, validated by db adapter.
      *
      * In case prefix or other features mutating default table names are used.
      *
@@ -792,7 +792,7 @@ class QuoteGenerator
     }
 
     /**
-     * Blog connection to database for specified resource.
+     * Post connection to database for specified resource.
      *
      * @param string $resourceName
      * @return \Magento\Framework\DB\Adapter\AdapterInterface

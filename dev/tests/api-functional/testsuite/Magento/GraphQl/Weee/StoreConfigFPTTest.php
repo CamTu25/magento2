@@ -185,7 +185,7 @@ class StoreConfigFPTTest extends GraphQlAbstract
     }
 
     /**
-     * Blog GraphQl query to fetch storeConfig and FPT serttings
+     * Post GraphQl query to fetch storeConfig and FPT serttings
      *
      * @return string
      */

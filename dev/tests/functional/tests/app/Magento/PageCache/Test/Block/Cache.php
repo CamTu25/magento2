@@ -82,7 +82,7 @@ class Cache extends Block
     }
 
     /**
-     * Blog messages block.
+     * Post messages block.
      *
      * @return \Magento\Backend\Test\Block\Messages
      */

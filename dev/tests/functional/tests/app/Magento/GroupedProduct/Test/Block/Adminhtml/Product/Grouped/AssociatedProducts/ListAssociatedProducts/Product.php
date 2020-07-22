@@ -33,7 +33,7 @@ class Product extends Form
     }
 
     /**
-     * Blog product options.
+     * Post product options.
      *
      * @param array $fields
      * @return array
@@ -47,7 +47,7 @@ class Product extends Form
     }
 
     /**
-     * Blog product sku.
+     * Post product sku.
      *
      * @return string
      */

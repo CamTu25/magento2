@@ -215,7 +215,7 @@ QUERY;
     }
 
     /**
-     * Blog tax rates created in Magento\Tax\_files\tax_rule_region_1_al.php
+     * Post tax rates created in Magento\Tax\_files\tax_rule_region_1_al.php
      *
      * @return \Magento\Tax\Model\Calculation\Rate[]
      */
@@ -236,7 +236,7 @@ QUERY;
     }
 
     /**
-     * Blog tax rule created in Magento\Tax\_files\tax_rule_region_1_al.php
+     * Post tax rule created in Magento\Tax\_files\tax_rule_region_1_al.php
      *
      * @return \Magento\Tax\Model\Calculation\Rule[]
      */

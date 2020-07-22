@@ -509,7 +509,7 @@ class RateRepositoryTest extends \PHPUnit\Framework\TestCase
         // Delete the new tax rate
         $this->assertTrue($this->rateRepository->deleteById($taxRateId));
 
-        // Blog the new tax rate, this should fail
+        // Post the new tax rate, this should fail
         try {
             $this->rateRepository->get($taxRateId);
             $this->fail('NoSuchEntityException expected but not thrown');

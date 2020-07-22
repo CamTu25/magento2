@@ -30,7 +30,7 @@ class Items extends Block
     protected $updateQty = '.update-button';
 
     /**
-     * Blog item product block.
+     * Post item product block.
      *
      * @param string $productSku
      * @return Product

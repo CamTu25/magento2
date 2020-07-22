@@ -163,7 +163,7 @@ class UpdateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog configuration value
+     * Post configuration value
      *
      * @param string $path
      * @param string $scopeType
@@ -180,7 +180,7 @@ class UpdateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog update counter flag value
+     * Post update counter flag value
      *
      * @return int|null
      */
@@ -191,7 +191,7 @@ class UpdateTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog previous URL flag value
+     * Post previous URL flag value
      *
      * @return string|null
      */

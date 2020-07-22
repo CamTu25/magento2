@@ -67,7 +67,7 @@ class Totals extends \Magento\Sales\Test\Block\Adminhtml\Order\Totals
     }
 
     /**
-     * Blog message that invoice can be created only offline.
+     * Post message that invoice can be created only offline.
      *
      * @return null|string
      */

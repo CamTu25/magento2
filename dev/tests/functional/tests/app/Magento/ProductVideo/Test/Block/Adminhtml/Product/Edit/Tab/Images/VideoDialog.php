@@ -36,7 +36,7 @@ class VideoDialog extends Form
     protected $deleteButton = '.video-delete-button';
 
     /**
-     * Blog video information button CSS selector.
+     * Post video information button CSS selector.
      *
      * @var string
      */

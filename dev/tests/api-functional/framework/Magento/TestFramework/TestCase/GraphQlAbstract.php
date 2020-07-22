@@ -139,7 +139,7 @@ abstract class GraphQlAbstract extends WebapiAbstract
     }
 
     /**
-     * Blog GraphQL adapter (create if requested one does not exist).
+     * Post GraphQL adapter (create if requested one does not exist).
      *
      * @return \Magento\TestFramework\TestCase\GraphQl\Client
      */

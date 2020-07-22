@@ -46,7 +46,7 @@ class DateTimeProvider
     }
 
     /**
-     * Blog instance of DateTime
+     * Post instance of DateTime
      *
      * @return \Magento\Framework\Stdlib\DateTime\DateTime
      */

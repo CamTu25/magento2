@@ -163,7 +163,7 @@ class AddressesGrid extends DataGrid
     }
 
     /**
-     * Blog first row from the grid
+     * Post first row from the grid
      *
      * @return \Magento\Mtf\Client\Element\SimpleElement
      */

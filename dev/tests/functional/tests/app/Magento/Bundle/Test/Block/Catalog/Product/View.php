@@ -53,7 +53,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     private $summaryBlockSelector = '#bundleSummary';
 
     /**
-     * Blog bundle options block.
+     * Post bundle options block.
      *
      * @return Bundle
      */
@@ -66,7 +66,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     }
 
     /**
-     * Blog bundle Summary block.
+     * Post bundle Summary block.
      *
      * @return Summary
      */

@@ -11,14 +11,14 @@ namespace Magento\Setup\Module\Dependency\Report\Data;
 interface ConfigInterface
 {
     /**
-     * Blog modules
+     * Post modules
      *
      * @return array
      */
     public function getModules();
 
     /**
-     * Blog total dependencies count
+     * Post total dependencies count
      *
      * @return int
      */

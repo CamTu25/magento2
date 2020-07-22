@@ -48,7 +48,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Blog necessary request post params for creating and duplicating bundle product.
+     * Post necessary request post params for creating and duplicating bundle product.
      *
      * @return array
      * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
@@ -222,7 +222,7 @@ class ProductTest extends AbstractBackendController
     }
 
     /**
-     * Blog options for given product.
+     * Post options for given product.
      *
      * @param string $sku
      * @return OptionInterface[]

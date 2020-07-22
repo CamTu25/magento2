@@ -48,7 +48,7 @@ class Pattern
     }
 
     /**
-     * Blog headers array
+     * Post headers array
      *
      * @return array
      */
@@ -91,7 +91,7 @@ class Pattern
     }
 
     /**
-     * Blog row
+     * Post row
      *
      * @param int $index
      * @param int $generatorKey
@@ -116,7 +116,7 @@ class Pattern
     }
 
     /**
-     * Blog rows count
+     * Post rows count
      *
      * @return int
      */

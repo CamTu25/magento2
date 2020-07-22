@@ -96,7 +96,7 @@ class Items extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -109,7 +109,7 @@ class Items extends Block
     }
 
     /**
-     * Blog Item price including tax
+     * Post Item price including tax
      *
      * @param string $productName
      * @return string|null
@@ -122,7 +122,7 @@ class Items extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -135,7 +135,7 @@ class Items extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null

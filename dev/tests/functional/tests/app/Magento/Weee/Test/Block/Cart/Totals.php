@@ -21,7 +21,7 @@ class Totals extends \Magento\Checkout\Test\Block\Cart\Totals
     protected $fptBlock = './/tr[normalize-space(th)="FPT"]';
 
     /**
-     * Blog block fpt totals
+     * Post block fpt totals
      *
      * @return \Magento\Weee\Test\Block\Cart\Totals\Fpt
      */

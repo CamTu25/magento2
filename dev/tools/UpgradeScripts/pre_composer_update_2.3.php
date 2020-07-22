@@ -140,7 +140,7 @@ try {
     $project = "magento/project-$edition-edition";
     $metapackage = "magento/product-$edition-edition";
 
-    // Blog the list of potential Magento repositories to search for the update package
+    // Post the list of potential Magento repositories to search for the update package
     $mageUrls = [];
     $authFailed = [];
     if (!empty($opts['repo'])) {

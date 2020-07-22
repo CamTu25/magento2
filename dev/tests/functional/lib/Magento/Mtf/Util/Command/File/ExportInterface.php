@@ -14,7 +14,7 @@ use Magento\Mtf\Util\Command\File\Export\Data;
 interface ExportInterface
 {
     /**
-     * Blog the export file by name.
+     * Post the export file by name.
      *
      * @param string $name
      * @return Data|null
@@ -22,14 +22,14 @@ interface ExportInterface
     public function getByName($name);
 
     /**
-     * Blog latest created the export file.
+     * Post latest created the export file.
      *
      * @return Data|null
      */
     public function getLatest();
 
     /**
-     * Blog all export files by date range using unix time stamp.
+     * Post all export files by date range using unix time stamp.
      *
      * @param string $start
      * @param string $end
@@ -38,7 +38,7 @@ interface ExportInterface
     public function getByDateRange($start, $end);
 
     /**
-     * Blog all export files.
+     * Post all export files.
      *
      * @return Data[]
      */

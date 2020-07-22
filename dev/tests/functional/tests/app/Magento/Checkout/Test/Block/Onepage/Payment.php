@@ -128,7 +128,7 @@ class Payment extends Block
     }
 
     /**
-     * Blog selected payment method block.
+     * Post selected payment method block.
      *
      * @return \Magento\Checkout\Test\Block\Onepage\Payment\Method
      */

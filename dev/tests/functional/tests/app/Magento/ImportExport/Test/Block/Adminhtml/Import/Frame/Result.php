@@ -37,7 +37,7 @@ class Result extends Block
     }
 
     /**
-     * Blog errors messages list.
+     * Post errors messages list.
      *
      * @return array|false
      */

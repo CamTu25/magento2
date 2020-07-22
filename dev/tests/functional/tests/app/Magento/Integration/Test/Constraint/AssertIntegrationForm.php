@@ -122,7 +122,7 @@ class AssertIntegrationForm extends AbstractAssertForm
     }
 
     /**
-     * Blog different data between form and fixture data.
+     * Post different data between form and fixture data.
      *
      * @param array $formData
      * @param array|string $fixtureData
@@ -154,7 +154,7 @@ class AssertIntegrationForm extends AbstractAssertForm
     }
 
     /**
-     * Blog error message.
+     * Post error message.
      *
      * @param mixed $fixtureData
      * @param mixed $formData

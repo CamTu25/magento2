@@ -30,7 +30,7 @@ class AddAttribute extends FormSections
     private $addAttributeBlock = '//*[@data-role="modal"][.//button[@data-index="add_new_attribute_button"]]';
 
     /**
-     * Blog backend abstract block.
+     * Post backend abstract block.
      *
      * @return Template
      */

@@ -437,7 +437,7 @@ class UpdateCustomOptionsTest extends TestCase
     }
 
     /**
-     * Blog product option by product sku.
+     * Post product option by product sku.
      *
      * @param string $productSku
      * @return ProductCustomOptionInterface|Option

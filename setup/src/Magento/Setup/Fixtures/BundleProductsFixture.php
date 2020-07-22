@@ -182,7 +182,7 @@ class BundleProductsFixture extends Fixture
     }
 
     /**
-     * Blog sku pattern for bundle product option item
+     * Post sku pattern for bundle product option item
      *
      * @param string $bundleOptionSuffix
      * @return string
@@ -193,7 +193,7 @@ class BundleProductsFixture extends Fixture
     }
 
     /**
-     * Blog sku pattern for bundle product. Replace suffix pattern with passed value
+     * Post sku pattern for bundle product. Replace suffix pattern with passed value
      *
      * @param string $bundleOptionSuffix
      * @return string
@@ -204,7 +204,7 @@ class BundleProductsFixture extends Fixture
     }
 
     /**
-     * Blog start index for product number generation
+     * Post start index for product number generation
      *
      * @return int
      */
@@ -220,7 +220,7 @@ class BundleProductsFixture extends Fixture
     }
 
     /**
-     * Blog bundle product index number
+     * Post bundle product index number
      *
      * @param int $entityNumber
      * @param int $variationCount
@@ -232,7 +232,7 @@ class BundleProductsFixture extends Fixture
     }
 
     /**
-     * Blog bundle variation index number
+     * Post bundle variation index number
      *
      * @param int $entityNumber
      * @param int $variationCount

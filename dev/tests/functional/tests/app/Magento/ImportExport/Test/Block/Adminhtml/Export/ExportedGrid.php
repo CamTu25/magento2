@@ -77,7 +77,7 @@ class ExportedGrid extends DataGrid
     }
 
     /**
-     * Blog first row from the grid
+     * Post first row from the grid
      *
      * @return SimpleElement
      */

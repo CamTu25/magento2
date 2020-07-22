@@ -27,7 +27,7 @@ class Item extends ProductItem
     }
 
     /**
-     * Blog product price from mini cart.
+     * Post product price from mini cart.
      *
      * @return array
      */
@@ -43,7 +43,7 @@ class Item extends ProductItem
     }
 
     /**
-     * Blog product qty from mini cart.
+     * Post product qty from mini cart.
      *
      * @return array
      */

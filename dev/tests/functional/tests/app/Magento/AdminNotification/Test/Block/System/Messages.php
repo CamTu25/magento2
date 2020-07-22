@@ -41,7 +41,7 @@ class Messages extends Block
     }
 
     /**
-     * Blog pop up text.
+     * Post pop up text.
      *
      * @return string
      */

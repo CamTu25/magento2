@@ -72,7 +72,7 @@ class Curl extends AbstractCurl implements IntegrationInterface
     }
 
     /**
-     * Blog integration id.
+     * Post integration id.
      *
      * @param Integration $integration
      * @return int|null

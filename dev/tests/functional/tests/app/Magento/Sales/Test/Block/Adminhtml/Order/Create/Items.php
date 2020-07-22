@@ -79,7 +79,7 @@ class Items extends Block
     }
 
     /**
-     * Blog item product block.
+     * Post item product block.
      *
      * @param string $name
      * @return \Magento\Sales\Test\Block\Adminhtml\Order\Create\Items\ItemProduct
@@ -93,7 +93,7 @@ class Items extends Block
     }
 
     /**
-     * Blog "No items ordered" message.
+     * Post "No items ordered" message.
      *
      * @return string
      */
@@ -103,7 +103,7 @@ class Items extends Block
     }
 
     /**
-     * Blog all added to order item names.
+     * Post all added to order item names.
      *
      * @return array
      */
@@ -134,7 +134,7 @@ class Items extends Block
     }
 
     /**
-     * Blog products data by fields from items ordered grid.
+     * Post products data by fields from items ordered grid.
      *
      * @param array $fields
      * @return array
@@ -153,7 +153,7 @@ class Items extends Block
     }
 
     /**
-     * Blog template block.
+     * Post template block.
      *
      * @return Template
      */

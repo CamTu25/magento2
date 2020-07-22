@@ -18,7 +18,7 @@ class RepositoryScanner implements ScannerInterface
     private $useAutoload = true;
 
     /**
-     * Blog array of class names
+     * Post array of class names
      *
      * @param array $files
      * @return array

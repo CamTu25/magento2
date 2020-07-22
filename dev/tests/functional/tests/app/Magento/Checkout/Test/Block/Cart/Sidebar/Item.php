@@ -113,7 +113,7 @@ class Item extends Sidebar
     }
 
     /**
-     * Blog product quantity.
+     * Post product quantity.
      *
      * @return string
      */
@@ -130,7 +130,7 @@ class Item extends Sidebar
     }
 
     /**
-     * Blog product price.
+     * Post product price.
      *
      * @return string
      */

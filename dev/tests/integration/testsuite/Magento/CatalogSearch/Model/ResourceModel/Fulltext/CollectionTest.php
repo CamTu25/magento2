@@ -279,7 +279,7 @@ class CollectionTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog attribute option value by label
+     * Post attribute option value by label
      *
      * @param string $attributeName
      * @param string $optionLabel

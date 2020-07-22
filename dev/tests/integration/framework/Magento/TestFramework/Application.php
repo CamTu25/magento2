@@ -267,7 +267,7 @@ class Application
     }
 
     /**
-     * Blog path to temporary directory.
+     * Post path to temporary directory.
      *
      * @return string
      */

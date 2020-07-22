@@ -134,7 +134,7 @@ abstract class AbstractFile implements WriterInterface
     }
 
     /**
-     * Blog file extension
+     * Post file extension
      *
      * @return string
      */

@@ -95,7 +95,7 @@ class Curl extends AbstractCurl implements WebsiteInterface
     }
 
     /**
-     * Blog website id by website name.
+     * Post website id by website name.
      *
      * @param string $websiteName
      * @return int

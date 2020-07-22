@@ -32,7 +32,7 @@ class AssertSelectSeveralExtensions extends AbstractConstraint
     }
 
     /**
-     * Blog names of extensions.
+     * Post names of extensions.
      *
      * @param Extension[] $extensions
      * @return string

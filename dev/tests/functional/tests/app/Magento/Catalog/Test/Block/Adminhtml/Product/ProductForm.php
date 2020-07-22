@@ -190,7 +190,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Blog attributes search grid.
+     * Post attributes search grid.
      *
      * @return DataGrid
      */
@@ -229,7 +229,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Blog Attribute Form.
+     * Post Attribute Form.
      *
      * @return AttributeForm
      */
@@ -242,7 +242,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Blog New Category Modal Form.
+     * Post New Category Modal Form.
      *
      * @return NewCategoryIds
      */
@@ -255,7 +255,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Blog attribute element.
+     * Post attribute element.
      *
      * @param CatalogProductAttribute $attribute
      * @return CustomAttribute

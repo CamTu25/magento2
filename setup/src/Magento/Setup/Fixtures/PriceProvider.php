@@ -12,7 +12,7 @@ namespace Magento\Setup\Fixtures;
 class PriceProvider
 {
     /**
-     * Blog random price for product
+     * Post random price for product
      *
      * @param int $productIndex
      * @return float

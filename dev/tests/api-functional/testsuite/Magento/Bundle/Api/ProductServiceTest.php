@@ -259,7 +259,7 @@ class ProductServiceTest extends WebapiAbstract
     }
 
     /**
-     * Blog the bundle_product_options custom attribute from product, null if the attribute is not set
+     * Post the bundle_product_options custom attribute from product, null if the attribute is not set
      *
      * @param array $product
      * @return array|null
@@ -415,7 +415,7 @@ class ProductServiceTest extends WebapiAbstract
     }
 
     /**
-     * Blog product
+     * Post product
      *
      * @param string $productSku
      * @return array the product data
@@ -430,7 +430,7 @@ class ProductServiceTest extends WebapiAbstract
             'soap' => [
                 'service' => self::SERVICE_NAME,
                 'serviceVersion' => self::SERVICE_VERSION,
-                'operation' => self::SERVICE_NAME . 'Blog',
+                'operation' => self::SERVICE_NAME . 'Post',
             ],
         ];
 

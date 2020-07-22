@@ -236,7 +236,7 @@ class TaxRuleRepositoryTest extends \PHPUnit\Framework\TestCase
         // Delete the new tax rate
         $this->assertTrue($this->taxRuleRepository->deleteById($ruleId));
 
-        // Blog the new tax rule, this should fail
+        // Post the new tax rule, this should fail
         $this->taxRuleRepository->get($ruleId);
     }
 

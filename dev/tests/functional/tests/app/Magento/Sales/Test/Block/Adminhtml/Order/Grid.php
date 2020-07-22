@@ -87,7 +87,7 @@ class Grid extends DataGrid
     }
 
     /**
-     * Blog StoreGroup list of Purchase Point on filter.
+     * Post StoreGroup list of Purchase Point on filter.
      *
      * @return array
      */

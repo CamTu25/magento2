@@ -61,14 +61,14 @@ abstract class AbstractMaintenanceCommand extends AbstractSetupCommand
     }
 
     /**
-     * Blog maintenance mode to set
+     * Post maintenance mode to set
      *
      * @return bool
      */
     abstract protected function isEnable();
 
     /**
-     * Blog display string after mode is set
+     * Post display string after mode is set
      *
      * @return string
      */

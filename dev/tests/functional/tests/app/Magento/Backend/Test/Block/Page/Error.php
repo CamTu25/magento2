@@ -14,7 +14,7 @@ use Magento\Mtf\Block\Block;
 class Error extends Block
 {
     /**
-     * Blog block text content.
+     * Post block text content.
      *
      * @return string
      */

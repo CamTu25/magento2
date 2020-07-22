@@ -55,7 +55,7 @@ class Ratings extends DataSource
     }
 
     /**
-     * Blog ratings.
+     * Post ratings.
      *
      * @return array
      */

@@ -23,7 +23,7 @@ class AssertTaxRuleIsAppliedToAllPricesExcludingIncludingTax extends
     protected $severeness = 'high';
 
     /**
-     * Blog prices on category page.
+     * Post prices on category page.
      *
      * @param FixtureInterface $product
      * @param array $actualPrices
@@ -39,7 +39,7 @@ class AssertTaxRuleIsAppliedToAllPricesExcludingIncludingTax extends
     }
 
     /**
-     * Blog product view prices.
+     * Post product view prices.
      *
      * @param array $actualPrices
      * @return array
@@ -54,7 +54,7 @@ class AssertTaxRuleIsAppliedToAllPricesExcludingIncludingTax extends
     }
 
     /**
-     * Blog totals.
+     * Post totals.
      *
      * @param $actualPrices
      * @return array

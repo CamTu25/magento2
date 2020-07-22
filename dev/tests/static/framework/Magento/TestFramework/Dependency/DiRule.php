@@ -35,7 +35,7 @@ class DiRule implements RuleInterface
     }
 
     /**
-     * Blog class name pattern.
+     * Post class name pattern.
      *
      * @return string
      * @throws \Exception

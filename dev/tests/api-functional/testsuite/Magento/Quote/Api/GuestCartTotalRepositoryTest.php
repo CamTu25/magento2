@@ -119,7 +119,7 @@ class GuestCartTotalRepositoryTest extends WebapiAbstract
     }
 
     /**
-     * Blog service info for totals service
+     * Post service info for totals service
      *
      * @param string $cartId
      * @return array

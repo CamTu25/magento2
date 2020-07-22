@@ -82,7 +82,7 @@ class GaTest extends AbstractController
     }
 
     /**
-     * Blog GA block
+     * Post GA block
      *
      * @param string $nodeName
      * @return \Magento\Framework\View\Element\AbstractBlock|false

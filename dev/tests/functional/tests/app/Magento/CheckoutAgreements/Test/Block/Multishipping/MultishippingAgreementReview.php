@@ -38,7 +38,7 @@ class MultishippingAgreementReview extends Overview
     protected $agreementCheckbox = 'input[name^=agreement]';
 
     /**
-     * Blog notification massage
+     * Post notification massage
      *
      * @return string
      */

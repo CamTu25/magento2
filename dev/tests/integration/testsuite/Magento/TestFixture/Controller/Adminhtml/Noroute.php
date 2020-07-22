@@ -24,7 +24,7 @@ class Noroute implements \Magento\Framework\App\ActionInterface
     }
 
     /**
-     * Blog Response object
+     * Post Response object
      *
      * @return ResponseInterface
      */

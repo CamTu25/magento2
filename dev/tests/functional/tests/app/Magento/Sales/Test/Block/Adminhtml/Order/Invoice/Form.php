@@ -23,7 +23,7 @@ class Form extends AbstractForm
     protected $items = '#invoice_item_container';
 
     /**
-     * Blog items block
+     * Post items block
      *
      * @return Items
      */

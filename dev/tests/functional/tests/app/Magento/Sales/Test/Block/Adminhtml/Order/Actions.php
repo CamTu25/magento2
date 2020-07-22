@@ -96,7 +96,7 @@ class Actions extends Block
     protected $orderCreditMemo = '#order_creditmemo';
 
     /**
-     * 'Blog Payment Update' button on the order page.
+     * 'Post Payment Update' button on the order page.
      *
      * @var string
      */
@@ -168,7 +168,7 @@ class Actions extends Block
     }
 
     /**
-     * Click 'Blog Payment Update' button to fetch updates from 3rd party payment solution.
+     * Click 'Post Payment Update' button to fetch updates from 3rd party payment solution.
      *
      * @return void
      */

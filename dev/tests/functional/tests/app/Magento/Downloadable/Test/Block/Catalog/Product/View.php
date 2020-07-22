@@ -31,7 +31,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     protected $blockDownloadableSamples = '.items.samples';
 
     /**
-     * Blog downloadable link block
+     * Post downloadable link block
      *
      * @return \Magento\Downloadable\Test\Block\Catalog\Product\View\Links
      */
@@ -46,7 +46,7 @@ class View extends \Magento\Catalog\Test\Block\Product\View
     }
 
     /**
-     * Blog downloadable samples block
+     * Post downloadable samples block
      *
      * @return \Magento\Downloadable\Test\Block\Catalog\Product\View\Samples
      */

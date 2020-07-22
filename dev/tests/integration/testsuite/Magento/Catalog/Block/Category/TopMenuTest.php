@@ -487,7 +487,7 @@ class TopMenuTest extends TestCase
     }
 
     /**
-     * Blog an array from the menu tree with category identifiers and their position
+     * Post an array from the menu tree with category identifiers and their position
      *
      * @param Node $node
      * @return array

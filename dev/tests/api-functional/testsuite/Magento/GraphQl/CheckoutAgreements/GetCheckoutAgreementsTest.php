@@ -16,7 +16,7 @@ use Magento\Store\Model\StoreManagerInterface;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Blog checkout agreements test
+ * Post checkout agreements test
  */
 class GetCheckoutAgreementsTest extends GraphQlAbstract
 {

@@ -42,7 +42,7 @@ class Type extends OptgroupselectElement
     protected $selectedOption = '[data-role="selected-option"]';
 
     /**
-     * Blog element data.
+     * Post element data.
      *
      * @param ElementInterface $element
      * @return string

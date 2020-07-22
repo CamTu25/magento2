@@ -97,7 +97,7 @@ class ProductTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Tests Blog product price model
+     * Tests Post product price model
      *
      * @see \Magento\Catalog\Model\Product::getPriceModel
      * @return void

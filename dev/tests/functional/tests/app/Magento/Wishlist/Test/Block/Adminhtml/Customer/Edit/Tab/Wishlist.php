@@ -24,7 +24,7 @@ class Wishlist extends Tab
     protected $wishlistGrid = '#wishlistGrid';
 
     /**
-     * Blog wishlist grid
+     * Post wishlist grid
      *
      * @return Grid
      */

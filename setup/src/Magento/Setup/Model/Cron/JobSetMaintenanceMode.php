@@ -68,7 +68,7 @@ class JobSetMaintenanceMode extends AbstractJob
     }
 
     /**
-     * Blog exception message
+     * Post exception message
      *
      * @param string $msg
      * @return string
@@ -79,7 +79,7 @@ class JobSetMaintenanceMode extends AbstractJob
     }
 
     /**
-     * Blog the command to be run through bin/magento
+     * Post the command to be run through bin/magento
      *
      * @return string
      */

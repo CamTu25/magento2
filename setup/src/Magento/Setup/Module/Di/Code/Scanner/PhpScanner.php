@@ -168,7 +168,7 @@ class PhpScanner implements ScannerInterface
     }
 
     /**
-     * Blog array of class names
+     * Post array of class names
      *
      * @param array $files
      * @return array
@@ -231,7 +231,7 @@ class PhpScanner implements ScannerInterface
     }
 
     /**
-     * Blog classes and interfaces declared in the file
+     * Post classes and interfaces declared in the file
      *
      * @param string $file
      * @return array

@@ -23,7 +23,7 @@ class DataTest extends \Magento\TestFramework\TestCase\AbstractController
     protected $_customerSession;
 
     /**
-     * Blog required instance
+     * Post required instance
      */
     protected function setUp()
     {

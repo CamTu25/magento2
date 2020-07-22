@@ -64,7 +64,7 @@ class CustomerDataGenerator
     }
 
     /**
-     * Blog customer group id for customer
+     * Post customer group id for customer
      * @param int $customerId
      * @return int
      */

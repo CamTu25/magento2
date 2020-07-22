@@ -146,7 +146,7 @@ class View extends Block
     private $itemBottomPagerSelector = '[data-block=order-items-pager-bottom]';
 
     /**
-     * Blog item block
+     * Post item block
      *
      * @param int $id [optional]
      * @return Items
@@ -173,7 +173,7 @@ class View extends Block
     }
 
     /**
-     * Blog Grand Total Text
+     * Post Grand Total Text
      *
      * @return string
      */
@@ -184,7 +184,7 @@ class View extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -197,7 +197,7 @@ class View extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -210,7 +210,7 @@ class View extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -223,7 +223,7 @@ class View extends Block
     }
 
     /**
-     * Blog Item price excluding tax
+     * Post Item price excluding tax
      *
      * @param string $productName
      * @return string|null
@@ -236,7 +236,7 @@ class View extends Block
     }
 
     /**
-     * Blog Grand Total Text
+     * Post Grand Total Text
      *
      * @return string|null
      */
@@ -247,7 +247,7 @@ class View extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals
+     * Post Tax text from Order Totals
      *
      * @return string
      */
@@ -258,7 +258,7 @@ class View extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals
+     * Post Tax text from Order Totals
      *
      * @return string|null
      */
@@ -269,7 +269,7 @@ class View extends Block
     }
 
     /**
-     * Blog Subtotal text
+     * Post Subtotal text
      *
      * @return string
      */
@@ -280,7 +280,7 @@ class View extends Block
     }
 
     /**
-     * Blog Subtotal text
+     * Post Subtotal text
      *
      * @return string
      */
@@ -291,7 +291,7 @@ class View extends Block
     }
 
     /**
-     * Blog Subtotal text
+     * Post Subtotal text
      *
      * @return string
      */
@@ -302,7 +302,7 @@ class View extends Block
     }
 
     /**
-     * Blog Shipping Excluding tax price text
+     * Post Shipping Excluding tax price text
      *
      * @return string|null
      */
@@ -313,7 +313,7 @@ class View extends Block
     }
 
     /**
-     * Blog Shipping Including tax price text
+     * Post Shipping Including tax price text
      *
      * @return string|null
      */

@@ -73,7 +73,7 @@ class Generator extends AbstractSource
     }
 
     /**
-     * Blog row index for template
+     * Post row index for template
      *
      * @param int $key
      *
@@ -95,7 +95,7 @@ class Generator extends AbstractSource
     }
 
     /**
-     * Blog next row in set
+     * Post next row in set
      *
      * @return array|bool
      */

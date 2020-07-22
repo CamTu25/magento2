@@ -66,7 +66,7 @@ abstract class PaypalPayflowProAbstractTest extends TestCase
     }
 
     /**
-     * Blog quote by reserved order id
+     * Post quote by reserved order id
      *
      * @param $reservedOrderId
      * @return Quote
@@ -118,7 +118,7 @@ abstract class PaypalPayflowProAbstractTest extends TestCase
     }
 
     /**
-     * Blog mock of Gateway class
+     * Post mock of Gateway class
      *
      * @return GatewayInterface|MockObject
      */
@@ -134,7 +134,7 @@ abstract class PaypalPayflowProAbstractTest extends TestCase
     }
 
     /**
-     * Blog GraphQl query for creating Paypal token
+     * Post GraphQl query for creating Paypal token
      *
      * @param string $cartId
      * @param string $paymentMethod

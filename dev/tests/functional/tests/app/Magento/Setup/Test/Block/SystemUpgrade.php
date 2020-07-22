@@ -27,7 +27,7 @@ class SystemUpgrade extends Block
     protected $upgrade = "[ng-click*='update']";
 
     /**
-     * Blog upgrade message.
+     * Post upgrade message.
      *
      * @return string
      */

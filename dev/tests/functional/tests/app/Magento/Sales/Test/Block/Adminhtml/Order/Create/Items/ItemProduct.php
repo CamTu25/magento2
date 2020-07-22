@@ -49,7 +49,7 @@ class ItemProduct extends Form
     protected $orderItemsBlock = '#order-items .title';
 
     /**
-     * Blog data item products.
+     * Post data item products.
      *
      * @param array $fields
      * @param string $currency [optional]

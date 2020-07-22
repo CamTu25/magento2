@@ -95,7 +95,7 @@ class OrderListTest extends WebapiAbstract
     }
 
     /**
-     * Blog search data for request.
+     * Post search data for request.
      *
      * @return array
      */

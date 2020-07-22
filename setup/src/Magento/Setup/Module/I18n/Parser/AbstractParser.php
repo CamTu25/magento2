@@ -110,7 +110,7 @@ abstract class AbstractParser implements I18n\ParserInterface
     }
 
     /**
-     * Blog files for parsing
+     * Post files for parsing
      *
      * @param array $options
      * @return array

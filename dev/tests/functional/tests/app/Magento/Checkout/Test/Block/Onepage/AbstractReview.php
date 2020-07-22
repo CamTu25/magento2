@@ -166,7 +166,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Grand Total Text.
+     * Post Grand Total Text.
      *
      * @return array|string
      */
@@ -177,7 +177,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Item price excluding tax.
+     * Post Item price excluding tax.
      *
      * @param string $productName
      * @return string|null
@@ -193,7 +193,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Item price including tax.
+     * Post Item price including tax.
      *
      * @param string $productName
      * @return string|null
@@ -209,7 +209,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Item subtotal price excluding tax.
+     * Post Item subtotal price excluding tax.
      *
      * @param string $productName
      * @return string|null
@@ -225,7 +225,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Item subtotal price excluding tax.
+     * Post Item subtotal price excluding tax.
      *
      * @param string $productName
      * @return string|null
@@ -241,7 +241,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog cart item.
+     * Post cart item.
      *
      * @param string $productName
      * @return \Magento\Mtf\Client\ElementInterface
@@ -287,7 +287,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Grand Total excluding tax text.
+     * Post Grand Total excluding tax text.
      *
      * @return string
      */
@@ -298,7 +298,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Grand Total including tax text.
+     * Post Grand Total including tax text.
      *
      * @return string
      */
@@ -309,7 +309,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Tax text from Order Totals.
+     * Post Tax text from Order Totals.
      *
      * @return string|null
      */
@@ -320,7 +320,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Discount text from Order Totals.
+     * Post Discount text from Order Totals.
      *
      * @return string|null
      */
@@ -331,7 +331,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Subtotal text.
+     * Post Subtotal text.
      *
      * @return array|string
      */
@@ -342,7 +342,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Subtotal excluding tax text.
+     * Post Subtotal excluding tax text.
      *
      * @return string
      */
@@ -353,7 +353,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Subtotal including tax text.
+     * Post Subtotal including tax text.
      *
      * @return string
      */
@@ -364,7 +364,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Shipping including tax price text.
+     * Post Shipping including tax price text.
      *
      * @return string|null
      */
@@ -375,7 +375,7 @@ abstract class AbstractReview extends Block
     }
 
     /**
-     * Blog Shipping excluding tax price text.
+     * Post Shipping excluding tax price text.
      *
      * @return string|null
      */

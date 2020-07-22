@@ -32,7 +32,7 @@ class PermissionInfo
     }
 
     /**
-     * Blog array of non-writable paths
+     * Post array of non-writable paths
      *
      * @return \string[]
      */
@@ -41,7 +41,7 @@ class PermissionInfo
     }
 
     /**
-     * Blog array of non-readable paths
+     * Post array of non-readable paths
      *
      * @return \string[]
      */

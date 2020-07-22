@@ -47,7 +47,7 @@ class Products extends Section
     }
 
     /**
-     * Blog data of the Category Products section.
+     * Post data of the Category Products section.
      *
      * @param array|null $fields
      * @param SimpleElement|null $element

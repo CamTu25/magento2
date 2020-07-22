@@ -71,7 +71,7 @@ class ConfigurableProductTemplateGenerator implements TemplateEntityGeneratorInt
     }
 
     /**
-     * Blog product template
+     * Post product template
      *
      * @param int $attributeSet
      * @return ProductInterface
@@ -138,7 +138,7 @@ class ConfigurableProductTemplateGenerator implements TemplateEntityGeneratorInt
     }
 
     /**
-     * Blog configurable variation ids. Retrieve first simple product id by sku pattern from DB and generate next values
+     * Post configurable variation ids. Retrieve first simple product id by sku pattern from DB and generate next values
      * for all variations
      *
      * @return array

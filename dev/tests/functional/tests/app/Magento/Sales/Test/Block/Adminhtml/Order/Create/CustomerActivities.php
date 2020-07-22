@@ -82,7 +82,7 @@ class CustomerActivities extends Block
     protected $templateBlock = './ancestor::body';
 
     /**
-     * Blog last ordered items block
+     * Post last ordered items block
      *
      * @return LastOrderedItems
      */
@@ -95,7 +95,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog viewed products block.
+     * Post viewed products block.
      *
      * @return RecentlyViewedItems
      */
@@ -108,7 +108,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog products in comparison block
+     * Post products in comparison block
      *
      * @return ProductsInComparison
      */
@@ -121,7 +121,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog products in comparison block
+     * Post products in comparison block
      *
      * @return RecentlyComparedProducts
      */
@@ -134,7 +134,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog products in view block
+     * Post products in view block
      *
      * @return RecentlyViewedProducts
      */
@@ -147,7 +147,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog shopping Cart items block
+     * Post shopping Cart items block
      *
      * @return ShoppingCartItems
      */
@@ -160,7 +160,7 @@ class CustomerActivities extends Block
     }
 
     /**
-     * Blog backend abstract block
+     * Post backend abstract block
      *
      * @return \Magento\Backend\Test\Block\Template
      */

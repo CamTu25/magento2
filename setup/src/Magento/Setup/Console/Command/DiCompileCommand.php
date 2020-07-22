@@ -275,7 +275,7 @@ class DiCompileCommand extends Command
     }
 
     /**
-     * Blog excluded setup application paths
+     * Post excluded setup application paths
      *
      * @param string $setupPath
      * @return string[]

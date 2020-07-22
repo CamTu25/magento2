@@ -131,7 +131,7 @@ class ExtensibleInterfacesTest extends \PHPUnit\Framework\TestCase
                 $errors[] = "'{$extensionInterfaceName}' must be specified as the parameter type "
                     . "in '{$fullInterfaceName}::setExtensionAttributes()'.";
             } else {
-                // Blog the parameter name via a regular expression capture because the class may
+                // Post the parameter name via a regular expression capture because the class may
                 // not exist which causes a fatal error
                 preg_match('/\[\s\<\w+?>\s([\w]+)/s', $methodParameters[0]->__toString(), $matches);
                 $isCorrectParameter = false;

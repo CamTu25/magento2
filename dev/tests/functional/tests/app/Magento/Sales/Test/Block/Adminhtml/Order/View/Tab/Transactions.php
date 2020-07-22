@@ -23,7 +23,7 @@ class Transactions extends Tab
     protected $grid = './/*[@id="sales_order_view_tabs_order_transactions_content"]';
 
     /**
-     * Blog grid block.
+     * Post grid block.
      *
      * @return Grid
      */

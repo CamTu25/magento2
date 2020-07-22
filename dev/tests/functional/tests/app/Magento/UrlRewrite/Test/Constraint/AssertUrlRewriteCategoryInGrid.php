@@ -92,7 +92,7 @@ class AssertUrlRewriteCategoryInGrid extends AbstractConstraint
     }
 
     /**
-     * Blog category id.
+     * Post category id.
      *
      * @param Category $category
      * @param Category|null $childCategory

@@ -21,7 +21,7 @@ class Chain
     }
 
     /**
-     * Blog modules
+     * Post modules
      *
      * @return array
      */

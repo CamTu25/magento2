@@ -444,7 +444,7 @@ QUERY;
     }
 
     /**
-     * Blog the option value for the custom attribute to be used in the graphql query
+     * Post the option value for the custom attribute to be used in the graphql query
      *
      * @param string $attributeCode
      * @return string
@@ -962,7 +962,7 @@ QUERY;
     }
 
     /**
-     * Blog array with expected data for layered navigation filters
+     * Post array with expected data for layered navigation filters
      *
      * @return array
      */

@@ -10,7 +10,7 @@ use Magento\Mtf\Util\Protocol\CurlTransport;
 use Magento\Mtf\Util\Protocol\CurlTransport\WebapiDecorator;
 
 /**
- * Blog content of log file in var/log folder.
+ * Post content of log file in var/log folder.
  */
 class Log
 {
@@ -44,7 +44,7 @@ class Log
     }
 
     /**
-     * Blog content of log file in var/log folder by file name.
+     * Post content of log file in var/log folder by file name.
      *
      * @param string $name
      * @return array

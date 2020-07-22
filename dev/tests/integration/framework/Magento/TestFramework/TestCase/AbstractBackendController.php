@@ -67,7 +67,7 @@ abstract class AbstractBackendController extends \Magento\TestFramework\TestCase
     }
 
     /**
-     * Blog credentials to login admin user
+     * Post credentials to login admin user
      *
      * @return array
      */

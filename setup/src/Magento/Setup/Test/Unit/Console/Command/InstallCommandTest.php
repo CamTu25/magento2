@@ -171,7 +171,7 @@ class InstallCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of options for deployment configuration
+     * Post list of options for deployment configuration
      *
      * @return array
      */
@@ -202,7 +202,7 @@ class InstallCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of options for user configuration
+     * Post list of options for user configuration
      *
      * @return array
      */
@@ -233,7 +233,7 @@ class InstallCommandTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * Blog list of options for admin user
+     * Post list of options for admin user
      *
      * @return array
      */

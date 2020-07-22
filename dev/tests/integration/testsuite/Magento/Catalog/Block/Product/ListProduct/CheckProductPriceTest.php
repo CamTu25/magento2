@@ -290,7 +290,7 @@ class CheckProductPriceTest extends TestCase
     }
 
     /**
-     * Blog list product block from layout.
+     * Post list product block from layout.
      *
      * @return ListProduct
      */

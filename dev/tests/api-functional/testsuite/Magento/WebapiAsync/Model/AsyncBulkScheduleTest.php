@@ -377,7 +377,7 @@ class AsyncBulkScheduleTest extends WebapiAbstract
     }
 
     /**
-     * Blog Simple Product Data
+     * Post Simple Product Data
      *
      * @param array $productData
      * @return array
@@ -403,7 +403,7 @@ class AsyncBulkScheduleTest extends WebapiAbstract
     }
 
     /**
-     * Blog Wrong Simple Product Data without required attributes
+     * Post Wrong Simple Product Data without required attributes
      *
      * @param array $productData
      * @return array

@@ -53,7 +53,7 @@ class Grid extends DataGrid
     ];
 
     /**
-     * Blog shipment ids.
+     * Post shipment ids.
      *
      * @return array
      */

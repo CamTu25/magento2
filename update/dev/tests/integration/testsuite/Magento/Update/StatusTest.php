@@ -239,7 +239,7 @@ STATUS_UPDATE;
     }
 
     /**
-     * Blog log pattern
+     * Post log pattern
      *
      * @param string $msg
      * @return string

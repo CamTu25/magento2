@@ -29,7 +29,7 @@ class OptgroupselectElement extends SelectElement
     protected $optGroupValue = ".//optgroup[@label = '%s']/option[text() = '%s']";
 
     /**
-     * Blog the value of form element.
+     * Post the value of form element.
      *
      * @return string
      * @throws \Exception
@@ -51,7 +51,7 @@ class OptgroupselectElement extends SelectElement
     }
 
     /**
-     * Blog element data.
+     * Post element data.
      *
      * @param ElementInterface $element
      * @return string

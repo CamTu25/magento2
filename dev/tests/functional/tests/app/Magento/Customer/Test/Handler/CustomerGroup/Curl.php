@@ -53,7 +53,7 @@ class Curl extends AbstractCurl implements CustomerGroupInterface
     }
 
     /**
-     * Blog id after creating Customer Group.
+     * Post id after creating Customer Group.
      *
      * @param array $data
      * @return int|null

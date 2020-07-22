@@ -122,7 +122,7 @@ class ConfigAnalyzer extends \Symfony\Component\Console\Command\Command
     }
 
     /**
-     * Blog array of array keys.
+     * Post array of array keys.
      *
      * @param array $input
      * @return array

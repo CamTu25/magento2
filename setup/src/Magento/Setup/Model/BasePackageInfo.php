@@ -35,7 +35,7 @@ class BasePackageInfo
     }
 
     /**
-     * Blog the list of files and directory paths from magento-base extra/map section.
+     * Post the list of files and directory paths from magento-base extra/map section.
      *
      * @return string []
      * @throws \Magento\Setup\Exception

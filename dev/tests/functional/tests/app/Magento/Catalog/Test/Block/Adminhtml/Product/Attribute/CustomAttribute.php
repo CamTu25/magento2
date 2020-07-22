@@ -80,7 +80,7 @@ class CustomAttribute extends SimpleElement
     }
 
     /**
-     * Blog custom attribute value.
+     * Post custom attribute value.
      *
      * @return string|array
      */
@@ -93,7 +93,7 @@ class CustomAttribute extends SimpleElement
     }
 
     /**
-     * Blog element by class.
+     * Post element by class.
      *
      * @param string $class
      * @return array|null
@@ -110,7 +110,7 @@ class CustomAttribute extends SimpleElement
     }
 
     /**
-     * Blog element class.
+     * Post element class.
      *
      * @param string $code
      * @return string
@@ -123,7 +123,7 @@ class CustomAttribute extends SimpleElement
     }
 
     /**
-     * Blog attribute code.
+     * Post attribute code.
      *
      * @param string $attributeSelector
      * @return string

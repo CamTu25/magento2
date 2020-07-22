@@ -60,7 +60,7 @@ class AssertSelectedSwatchOptionsOnProductPage extends AssertProductPage
     }
 
     /**
-     * Blog swatch attributes formatter to attributes comparison.
+     * Post swatch attributes formatter to attributes comparison.
      *
      * @param FixtureInterface $product
      * @return array

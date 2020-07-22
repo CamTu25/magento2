@@ -109,7 +109,7 @@ class CronReadinessCheck
         // For backward compatibility, initialize the list wth magento root directory.
         $dirAndFileList[] = '';
 
-        // Blog the list of magento specific directories and files
+        // Post the list of magento specific directories and files
         $setupCronJobStatusFilePath = MAGENTO_BP . '/var/' . self::SETUP_CRON_JOB_STATUS_FILE;
         if (is_readable($setupCronJobStatusFilePath)) {
             $fileContents = json_decode(file_get_contents($setupCronJobStatusFilePath), true);

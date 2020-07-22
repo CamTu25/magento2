@@ -14,7 +14,7 @@ use Magento\TestModuleExtensionAttributes\Api\Data\FakeAddressInterface;
 class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterface
 {
     /**
-     * Blog ID
+     * Post ID
      *
      * @return int|null
      */
@@ -24,7 +24,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog customer ID
+     * Post customer ID
      *
      * @return int|null
      */
@@ -34,7 +34,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog region
+     * Post region
      *
      * @return \Magento\TestModuleExtensionAttributes\Model\Data\FakeRegion|null
      */
@@ -44,7 +44,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog region
+     * Post region
      *
      * @return \Magento\TestModuleExtensionAttributes\Model\Data\FakeRegion[]|null
      */
@@ -64,7 +64,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog street
+     * Post street
      *
      * @return string[]|null
      */
@@ -74,7 +74,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog company
+     * Post company
      *
      * @return string|null
      */
@@ -84,7 +84,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog telephone number
+     * Post telephone number
      *
      * @return string|null
      */
@@ -94,7 +94,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog fax number
+     * Post fax number
      *
      * @return string|null
      */
@@ -104,7 +104,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog postcode
+     * Post postcode
      *
      * @return string|null
      */
@@ -114,7 +114,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog city name
+     * Post city name
      *
      * @return string|null
      */
@@ -124,7 +124,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog first name
+     * Post first name
      *
      * @return string|null
      */
@@ -134,7 +134,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog last name
+     * Post last name
      *
      * @return string|null
      */
@@ -144,7 +144,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog middle name
+     * Post middle name
      *
      * @return string|null
      */
@@ -154,7 +154,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog prefix
+     * Post prefix
      *
      * @return string|null
      */
@@ -164,7 +164,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog suffix
+     * Post suffix
      *
      * @return string|null
      */
@@ -174,7 +174,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog Vat id
+     * Post Vat id
      *
      * @return string|null
      */
@@ -184,7 +184,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog if this address is default shipping address.
+     * Post if this address is default shipping address.
      *
      * @return bool|null
      */
@@ -204,7 +204,7 @@ class FakeAddress extends AbstractExtensibleObject implements FakeAddressInterfa
     }
 
     /**
-     * Blog if this address is default billing address
+     * Post if this address is default billing address
      *
      * @return bool|null
      */

@@ -72,7 +72,7 @@ class CouponCodesFixture extends Fixture
         /** @var \Magento\Store\Model\StoreManager $storeManager */
         $storeManager = $this->fixtureModel->getObjectManager()->create(\Magento\Store\Model\StoreManager::class);
 
-        //Blog all websites
+        //Post all websites
         $websitesArray = [];
         $websites = $storeManager->getWebsites();
         foreach ($websites as $website) {

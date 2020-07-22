@@ -89,7 +89,7 @@ class Totals extends \Magento\Sales\Test\Block\Adminhtml\Order\Totals
     }
 
     /**
-     * Blog Refund Shipping input element.
+     * Post Refund Shipping input element.
      *
      * @return \Magento\Mtf\Client\ElementInterface
      */
@@ -99,7 +99,7 @@ class Totals extends \Magento\Sales\Test\Block\Adminhtml\Order\Totals
     }
 
     /**
-     * Blog Adjustment Refund input element.
+     * Post Adjustment Refund input element.
      *
      * @return \Magento\Mtf\Client\ElementInterface
      */
@@ -109,7 +109,7 @@ class Totals extends \Magento\Sales\Test\Block\Adminhtml\Order\Totals
     }
 
     /**
-     * Blog Adjustment Fee input element.
+     * Post Adjustment Fee input element.
      *
      * @return \Magento\Mtf\Client\ElementInterface
      */

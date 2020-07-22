@@ -87,7 +87,7 @@ class Generator
     }
 
     /**
-     * Blog duplicates error
+     * Post duplicates error
      *
      * @param array $duplicates
      * @return string

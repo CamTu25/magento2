@@ -18,7 +18,7 @@ class ExportTest extends \Magento\TestFramework\TestCase\AbstractBackendControll
     protected $_httpXRequestedWith;
 
     /**
-     * Blog possible entity types
+     * Post possible entity types
      *
      * @return array
      */

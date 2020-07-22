@@ -15,7 +15,7 @@ use Magento\Framework\Config\ConfigOptionsListConstants;
 class DriverOptions
 {
     /**
-     * Blog mysql driver options.
+     * Post mysql driver options.
      *
      * @param array $options
      * @return array
