@@ -28,7 +28,7 @@ class Save extends \Magento\Backend\App\Action
      * @param Action\Context $context
      * @param DataPersistorInterface $dataPersistor
      * @param \SecommTraining\Secomm\Model\PostFactory $postFactory
-     * @param \SecommTraining\Secomm\Api\AllnewsRepositoryInterface $allnewsRepository
+     * @param \SecommTraining\Secomm\Api\ContentRepositoryInterface $contentRepository
      */
     public function __construct(
         Action\Context $context,
