@@ -4,7 +4,7 @@ namespace SecommTraining\Secomm\Controller\Adminhtml\Content;
 use Magento\Backend\App\Action;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Framework\Exception\LocalizedException;
-
+use SecommTraining\Secomm\Model\Post\ImageUploader;
 
 /**
  * Class Save
@@ -24,6 +24,11 @@ class Save extends \Magento\Backend\App\Action
     protected $dataPersistor;
 
     /**
+     * @var DataPersistorInterface
+     */
+    protected $imageUploader;
+
+    /**
      * @var \SecommTraining\Secomm\Model\PostRepository
      */
     protected $contentRepository;
@@ -31,14 +36,17 @@ class Save extends \Magento\Backend\App\Action
     /**
      * @param Action\Context $context
      * @param DataPersistorInterface $dataPersistor
+     * @param ImageUploader $imageUploader
      * @param \SecommTraining\Secomm\Model\PostRepository $contentRepository
      */
     public function __construct(
         Action\Context $context,
         DataPersistorInterface $dataPersistor,
+        ImageUploader $imageUploader,
         \SecommTraining\Secomm\Model\PostRepository $contentRepository
     ) {
         $this->dataPersistor    = $dataPersistor;
+        $this->imageUploader = $imageUploader;
         $this->contentRepository  = $contentRepository;
 
         parent::__construct($context);
@@ -55,9 +63,15 @@ class Save extends \Magento\Backend\App\Action
         $data = $this->getRequest()->getPostValue();
         /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
         $resultRedirect = $this->resultRedirectFactory->create();
+
         if ($data) {
             if (empty($data['entity_id'])) {
                 $data['entity_id'] = null;
+            }
+
+            $imageName = '';
+            if (!empty($data['feature_image'])) {
+                $imageName = $data['feature_image'][0]['name'];
             }
 
             /** @var \SecommTraining\Secomm\Model\Post $model */
@@ -72,6 +86,9 @@ class Save extends \Magento\Backend\App\Action
 
             try {
                 $this->contentRepository->save($model);
+                if ($imageName) {
+                    $this->imageUploader->moveFileFromTmp($imageName);
+                }
                 $this->messageManager->addSuccess(__('You saved the thing.'));
                 $this->dataPersistor->clear('secommmenu_content');
                 if ($this->getRequest()->getParam('back')) {

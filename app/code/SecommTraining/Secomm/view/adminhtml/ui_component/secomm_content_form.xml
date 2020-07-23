@@ -72,13 +72,18 @@
         <field name="feature_image">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="source" xsi:type="string">feature_image</item>
                     <item name="label" xsi:type="string" translate="true">Image</item>
-                    <item name="formElement" xsi:type="string">input</item>
-                    <item name="sortOrder" xsi:type="number">20</item>
-                    <item name="dataScope" xsi:type="string">feature_image</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="formElement" xsi:type="string">fileUploader</item>
+                    <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
+                    <item name="previewTmpl" xsi:type="string">Magento_Catalog/image-preview</item>
                     <item name="validation" xsi:type="array">
                         <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                    <item name="uploaderConfig" xsi:type="array">
+                        <item name="url" xsi:type="url" path="secommmenu/content/upload"/>
                     </item>
                 </item>
             </argument>
@@ -97,34 +102,5 @@
                 </item>
             </argument>
         </field>
-
-<!--        <field name="created_at">-->
-<!--            <argument name="data" xsi:type="array">-->
-<!--                <item name="config" xsi:type="array">-->
-<!--                    <item name="dataType" xsi:type="string">text</item>-->
-<!--                    <item name="label" xsi:type="string" translate="true">DateCreate</item>-->
-<!--                    <item name="formElement" xsi:type="string">input</item>-->
-<!--                    <item name="sortOrder" xsi:type="number">20</item>-->
-<!--                    <item name="dataScope" xsi:type="string">created_at</item>-->
-<!--                    <item name="validation" xsi:type="array">-->
-<!--                        <item name="required-entry" xsi:type="boolean">true</item>-->
-<!--                    </item>-->
-<!--                </item>-->
-<!--            </argument>-->
-<!--        </field>-->
-<!--        <field name="update_at">-->
-<!--            <argument name="data" xsi:type="array">-->
-<!--                <item name="config" xsi:type="array">-->
-<!--                    <item name="dataType" xsi:type="string">text</item>-->
-<!--                    <item name="label" xsi:type="string" translate="true">DateModified</item>-->
-<!--                    <item name="formElement" xsi:type="string">input</item>-->
-<!--                    <item name="sortOrder" xsi:type="number">20</item>-->
-<!--                    <item name="dataScope" xsi:type="string">update_at</item>-->
-<!--                    <item name="validation" xsi:type="array">-->
-<!--                        <item name="required-entry" xsi:type="boolean">true</item>-->
-<!--                    </item>-->
-<!--                </item>-->
-<!--            </argument>-->
-<!--        </field>-->
     </fieldset>
 </form>

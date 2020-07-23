@@ -6,10 +6,20 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\DataObject\IdentityInterface;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Model\AbstractModel;
+use SecommTraining\Secomm\Model\Post\FileInfo;
+use Magento\Framework\App\ObjectManager;
+use Magento\Store\Model\StoreManagerInterface;
 
 class Post extends AbstractModel implements ContentInterface, IdentityInterface
     {
     const CACHE_TAG = 'secommtraining_secomm';
+
+    /**
+     * Store manager
+     *
+     * @var \Magento\Store\Model\StoreManagerInterface
+     */
+    protected $_storeManager;
 
     protected function _construct()
     {
@@ -79,6 +89,47 @@ class Post extends AbstractModel implements ContentInterface, IdentityInterface
     public function setUpdatedAt($updated_at)
     {
         return $this->setData(self::UPDATE_AT, $updated_at);
+    }
+
+    /**
+     * Retrieve the Image URL
+     *
+     * @param string $imageName
+     * @return bool|string
+     * @throws \Magento\Framework\Exception\LocalizedException
+     */
+    public function getImageUrl($imageName = null)
+    {
+        $url = '';
+        $image = $imageName;
+        if (!$image) {
+            $image = $this->getData('feature_image');
+        }
+        if ($image) {
+            if (is_string($image)) {
+                $url = $this->_getStoreManager()->getStore()->getBaseUrl(
+                        \Magento\Framework\UrlInterface::URL_TYPE_MEDIA
+                    ).FileInfo::ENTITY_MEDIA_PATH .'/'. $image;
+            } else {
+                throw new \Magento\Framework\Exception\LocalizedException(
+                    __('Something went wrong while getting the image url.')
+                );
+            }
+        }
+        return $url;
+    }
+
+    /**
+     * Get StoreManagerInterface instance
+     *
+     * @return StoreManagerInterface
+     */
+    private function _getStoreManager()
+    {
+        if ($this->_storeManager === null) {
+            $this->_storeManager = ObjectManager::getInstance()->get(StoreManagerInterface::class);
+        }
+        return $this->_storeManager;
     }
 }
 ?>
