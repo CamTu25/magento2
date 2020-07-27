@@ -87,8 +87,8 @@ class ImageUploader
         \Magento\MediaStorage\Model\File\UploaderFactory $uploaderFactory,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         \Psr\Log\LoggerInterface $logger,
-        $baseTmpPath = 'secommtraining/tmp/content',
-        $basePath = 'secommtraining/content',
+        $baseTmpPath = 'secomm/tmp/content',
+        $basePath = 'secomm',
         $allowedExtensions = ['jpg', 'jpeg', 'gif', 'png']
     ) {
         $this->coreFileStorageDatabase = $coreFileStorageDatabase;

@@ -79,12 +79,11 @@
                     <item name="formElement" xsi:type="string">fileUploader</item>
                     <item name="elementTmpl" xsi:type="string">ui/form/element/uploader/uploader</item>
                     <item name="previewTmpl" xsi:type="string">Magento_Catalog/image-preview</item>
-                    <item name="validation" xsi:type="array">
-                        <item name="required-entry" xsi:type="boolean">true</item>
-                    </item>
+                    <item name="required" xsi:type="boolean">false</item>
                     <item name="uploaderConfig" xsi:type="array">
                         <item name="url" xsi:type="url" path="secommmenu/content/upload"/>
                     </item>
+                    <item name="sortOrder" xsi:type="number">10</item>
                 </item>
             </argument>
         </field>

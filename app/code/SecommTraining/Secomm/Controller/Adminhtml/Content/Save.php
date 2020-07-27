@@ -68,10 +68,10 @@ class Save extends \Magento\Backend\App\Action
             if (empty($data['entity_id'])) {
                 $data['entity_id'] = null;
             }
-
             $imageName = '';
             if (!empty($data['feature_image'])) {
                 $imageName = $data['feature_image'][0]['name'];
+                $data['feature_image'] = $imageName;
             }
 
             /** @var \SecommTraining\Secomm\Model\Post $model */
@@ -92,9 +92,9 @@ class Save extends \Magento\Backend\App\Action
                 $this->messageManager->addSuccess(__('You saved the thing.'));
                 $this->dataPersistor->clear('secommmenu_content');
                 if ($this->getRequest()->getParam('back')) {
-                    return $resultRedirect->setPath('*/*/edit', ['entity_id' => $model->getId(), '_current' => true]);
+                    return $resultRedirect->setPath('secommmenu/secommblog/index', ['entity_id' => $model->getId(), '_current' => true]);
                 }
-                return $resultRedirect->setPath('*/*/');
+                return $resultRedirect->setPath('secommmenu/secommblog/index');
             } catch (LocalizedException $e) {
                 $this->messageManager->addError($e->getMessage());
             } catch (\Exception $e) {
@@ -102,8 +102,8 @@ class Save extends \Magento\Backend\App\Action
             }
 
             $this->dataPersistor->set('secommmenu_content', $data);
-            return $resultRedirect->setPath('*/*/edit', ['entity_id' => $this->getRequest()->getParam('entity_id')]);
+            return $resultRedirect->setPath('secommmenu/secommblog/index', ['entity_id' => $this->getRequest()->getParam('entity_id')]);
         }
-        return $resultRedirect->setPath('*/*/');
+        return $resultRedirect->setPath('secommmenu/secommblog/index');
     }
 }

@@ -41,18 +41,18 @@ class Delete extends \Magento\Backend\App\Action
                 // display success message
                 $this->messageManager->addSuccess(__('You have deleted the object.'));
                 // go to grid
-                return $resultRedirect->setPath('*/*/');
+                return $resultRedirect->setPath('secommmenu/secommblog/index');
             } catch (\Exception $e) {
                 // display error message
                 $this->messageManager->addError($e->getMessage());
                 // go back to edit form
-                return $resultRedirect->setPath('*/*/edit', ['entity_id' => $id]);
+                return $resultRedirect->setPath('secommmenu/secommblog/index', ['entity_id' => $id]);
             }
         }
         // display error message
         $this->messageManager->addError(__('We can not find an object to delete.'));
         // go to grid
-        return $resultRedirect->setPath('*/*/');
+        return $resultRedirect->setPath('secommmenu/secommblog/index');
 
     }
 
