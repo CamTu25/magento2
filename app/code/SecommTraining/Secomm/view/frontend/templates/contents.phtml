@@ -24,6 +24,8 @@ $posts = $block->GetContent();
                 </div>
             </div>
         <?php endforeach; ?>
+    </div>
+    <div class="text-right">
         <?php if($block->getPagerHtml()): ?>
             <?php echo $block->getPagerHtml(); ?>
         <?php endif; ?>
