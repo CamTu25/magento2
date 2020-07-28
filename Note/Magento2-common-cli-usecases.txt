@@ -1,0 +1,40 @@
+/**
+* Author: Phuc Nguyen
+* Organization: Secomm
+* Subject: Magento 2 common command line use cases
+* Target: Developer
+**/
+
+Notice:
+Make sure your local environment env.php file is using 'developer' mode:
+Locate app/etc/env.php & find 'MAGE_MODE' =>
+`developer` mode will not need `setup:static-content:deploy`, all css, js, images, phtml, html & other static files are auto
+generated.
+
+
+Which command you should use in a specific case?
+
+** bin/magento setup:upgrade
+- Create a new module
+- Define a new setup / upgrade / patch script or using db_schema.xml
+- Modify .less file
+
+** bin/magento setup:di:compile
+- Adjust __construct function in class files
+- Adjust di.xml files
+We can also run short & quick term of remove generated code by run `rm -rf generated` at root directory of Magento,
+it will remove generated code of dependencies injection. In `developer` mode, dependencies injection will be automated
+generated when application run over. The `setup:di:compile` will generated all dependencies directly.
+
+** bin/magento cache:clean
+- Edit .css, phtml, .html files
+- Change configurations in Admin
+- Edit .php file that being called in templates (because templates are cached by full page cache, other .php files
+won't need to run this.
+
+** bin/magento cache:flush
+- Same as cache:clean but with strong method and may affect other processes using the same cache storage.
+
+** setup:static-content:deploy
+- Edit translate files in i18n folder (usually .csv files)
+

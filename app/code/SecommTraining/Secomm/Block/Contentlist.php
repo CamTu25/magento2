@@ -25,7 +25,7 @@ class Contentlist extends Template
         $blog = $this->postFactory->create()->getCollection();
         $blog->setPageSize($limit);
         $blog->setCurPage($page);
-        //$blog->addAttributeToSort('entity_id', 'desc');
+        $blog->setOrder('entity_id','DESC');
         return $blog;
     }
 

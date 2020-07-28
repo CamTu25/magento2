@@ -1,17 +1,10 @@
 <?php
 
-namespace SecommTraining\Secomm\Controller\Adminhtml\Post;
+namespace SecommTraining\Secomm\Controller\Adminhtml\Content;
 
-
-/**
- * Class Index
- */
 class Index extends \Magento\Backend\App\Action
 {
-    protected $resultPageFactory;
-
-    const ADMIN_RESOURCE = 'Secomm_Helloworld::posts';
-
+    protected $resultPageFactory = false;
 
     public function __construct(
         \Magento\Backend\App\Action\Context $context,
@@ -25,6 +18,10 @@ class Index extends \Magento\Backend\App\Action
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
+        $resultPage->getConfig()->getTitle()->prepend((__('SecommBlog')));
+
         return $resultPage;
     }
+
+
 }

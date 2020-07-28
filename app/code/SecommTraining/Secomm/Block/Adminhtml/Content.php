@@ -11,16 +11,16 @@ class Content extends \Magento\Backend\Block\Widget\Grid\Container
 
         parent::_construct();
 
-        if ($this->_isAllowedAction('SecommTraining_Secomm::save')) {
+        if ($this->_isContentAction('SecommTraining_Secomm::save')) {
             $this->buttonList->update('add', 'label', __('Add Content'));
         } else {
             $this->buttonList->remove('add');
         }
     }
 
-    protected function _isAllowedAction($resourceId)
+    protected function _isContentAction($resourceId)
     {
         return $this->_authorization->isAllowed($resourceId);
     }
 }
-?>s
+?>

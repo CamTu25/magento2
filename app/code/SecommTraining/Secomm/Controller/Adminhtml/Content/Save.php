@@ -92,9 +92,9 @@ class Save extends \Magento\Backend\App\Action
                 $this->messageManager->addSuccess(__('You saved the thing.'));
                 $this->dataPersistor->clear('secommmenu_content');
                 if ($this->getRequest()->getParam('back')) {
-                    return $resultRedirect->setPath('secommmenu/secommblog/index', ['entity_id' => $model->getId(), '_current' => true]);
+                    return $resultRedirect->setPath('*/*/edit', ['entity_id' => $model->getId(), '_current' => true]);
                 }
-                return $resultRedirect->setPath('secommmenu/secommblog/index');
+                return $resultRedirect->setPath('*/*/');
             } catch (LocalizedException $e) {
                 $this->messageManager->addError($e->getMessage());
             } catch (\Exception $e) {
@@ -102,8 +102,8 @@ class Save extends \Magento\Backend\App\Action
             }
 
             $this->dataPersistor->set('secommmenu_content', $data);
-            return $resultRedirect->setPath('secommmenu/secommblog/index', ['entity_id' => $this->getRequest()->getParam('entity_id')]);
+            return $resultRedirect->setPath('*/*/edit', ['entity_id' => $this->getRequest()->getParam('entity_id')]);
         }
-        return $resultRedirect->setPath('secommmenu/secommblog/index');
+        return $resultRedirect->setPath('*/*/');
     }
 }

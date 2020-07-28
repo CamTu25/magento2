@@ -29,7 +29,7 @@ class BackButton extends GenericButton implements ButtonProviderInterface
      */
     public function getBackUrl()
     {
-        return $this->getUrl('secommmenu/secommblog/index/');
+        return $this->getUrl('*/*/');
     }
 }
 ?>
