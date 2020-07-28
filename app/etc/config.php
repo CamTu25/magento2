@@ -261,7 +261,7 @@ return [
         'Klarna_Kp' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
-        'Magetop_Helloworld' => 1,
+        'Magetop_Helloworld' => 0,
         'PulsestormV1_TutorialObjectManagerArguments' => 1,
         'Pulsestorm_TutorialVirtualType' => 1,
         'SecommTraining_Secomm' => 1,

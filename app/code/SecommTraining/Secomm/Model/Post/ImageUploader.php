@@ -9,9 +9,6 @@ use Magento\Framework\App\ObjectManager;
  * Post image uploader
  */
 
-/**
- * Test thử git lần 2 
- */
 class ImageUploader
 {
     /**
@@ -92,7 +89,7 @@ class ImageUploader
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         \Psr\Log\LoggerInterface $logger,
         $baseTmpPath = 'secomm/tmp/content',
-        $basePath = 'secomm',
+        $basePath = 'secomm/',
         $allowedExtensions = ['jpg', 'jpeg', 'gif', 'png']
     ) {
         $this->coreFileStorageDatabase = $coreFileStorageDatabase;

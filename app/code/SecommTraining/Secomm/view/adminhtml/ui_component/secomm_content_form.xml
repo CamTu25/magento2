@@ -27,7 +27,7 @@
             <argument name="requestFieldName" xsi:type="string">entity_id</argument>
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="submit_url" xsi:type="url" path="*/*/save"/>
+                    <item name="submit_url" xsi:type="url" path="secommmenu/content/save"/>
                 </item>
             </argument>
         </argument>
@@ -73,7 +73,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="dataType" xsi:type="string">string</item>
-                    <item name="source" xsi:type="string">feature_image</item>
+                    <item name="source" xsi:type="string">post</item>
                     <item name="label" xsi:type="string" translate="true">Image</item>
                     <item name="visible" xsi:type="boolean">true</item>
                     <item name="formElement" xsi:type="string">fileUploader</item>
