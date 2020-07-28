@@ -10,7 +10,7 @@ use Magento\Framework\App\ObjectManager;
  */
 
 /**
- * Test thử git lần 1 
+ * Test thử git lần 2 
  */
 class ImageUploader
 {
