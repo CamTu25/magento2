@@ -1,0 +1,7 @@
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>CamTu</title> <!-- Tên theme -->
+    <parent>Magento/test</parent> <!-- Theme cha, theme này được xây dựng dựa trên theme blank -->
+    <media>
+        <preview_image>media/preview.jpg</preview_image> <!-- Đường dẫn chứa ảnh minh họa của theme -->
+    </media>
+</theme>
